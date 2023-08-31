@@ -1,24 +1,18 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "Zano Docs",
+  tagline: "Blockchain privacy for mass adoption",
   favicon: "img/favicon.ico",
 
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://zano-docs.pages.dev",
   baseUrl: "/",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
@@ -38,105 +32,147 @@ const config = {
     ],
   ],
 
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
-      navbar: {
-        title: "Zano Documentation",
-        logo: {
-          alt: "Zano Logo",
-          src: "img/logo.svg",
+  themeConfig: {
+    image: "img/zano-social-card.png",
+    navbar: {
+      title: "Zano Docs",
+      logo: {
+        alt: "Zano Logo",
+        src: "img/logo_zano.svg",
+      },
+      items: [
+        {
+          type: "docSidebar",
+          sidebarId: "learnSidebar",
+          position: "left",
+          label: "Learn",
         },
-        items: [
-          {
-            type: "docSidebar",
-            sidebarId: "learnSidebar",
-            position: "left",
-            label: "Learn",
-          },
-          {
-            type: "docSidebar",
-            sidebarId: "useSidebar",
-            position: "left",
-            label: "Use",
-          },
-          {
-            type: "docSidebar",
-            sidebarId: "buildSidebar",
-            position: "left",
-            label: "Build",
-          },
-          {
-            type: "docSidebar",
-            sidebarId: "mineSidebar",
-            position: "left",
-            label: "Mine",
-          },
-          {
-            type: "docSidebar",
-            sidebarId: "stakeSidebar",
-            position: "left",
-            label: "Stake",
-          },
-          {
-            href: "https://github.com/hyle-team/zano",
-            label: "GitHub",
-            position: "right",
-          },
-        ],
-      },
-      footer: {
-        style: "dark",
-        links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Tutorial",
-                to: "/docs/use",
-              },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Zano.org`,
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-    }),
+        {
+          type: "docSidebar",
+          sidebarId: "useSidebar",
+          position: "left",
+          label: "Use",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "buildSidebar",
+          position: "left",
+          label: "Build",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "mineSidebar",
+          position: "left",
+          label: "Mine",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "stakeSidebar",
+          position: "left",
+          label: "Stake",
+        },
+        {
+          href: "https://github.com/hyle-team/zano",
+          label: "GitHub",
+          position: "right",
+        },
+      ],
+    },
+    footer: {
+      style: "dark",
+      links: [
+        {
+          title: "Docs",
+          items: [
+            {
+              label: "Learn",
+              to: "/docs/learn/intro",
+            },
+            {
+              label: "Use",
+              to: "/docs/use/intro",
+            },
+            {
+              label: "Build",
+              to: "/docs/use/intro",
+            },
+            {
+              label: "Mine",
+              to: "/docs/use/intro",
+            },
+            {
+              label: "Stake",
+              to: "/docs/use/intro",
+            },
+          ],
+        },
+        {
+          title: "Zano",
+          items: [
+            {
+              label: "Homepage",
+              to: "https://new.zano.org",
+            },
+            {
+              label: "Downloads",
+              to: "https://new.zano.org/downloads",
+            },
+            {
+              label: "Blog",
+              to: "https://blog.zano.org",
+            },
+            {
+              label: "Wrapped Zano",
+              to: "https://wrapped.zano.org",
+            },
+          ],
+        },
+        {
+          title: "Resources",
+          items: [
+            {
+              label: "Explorer",
+              to: "https://explorer.zano.org",
+            },
+            {
+              label: "Github",
+              to: "https://github.com/hyle-team/zano",
+            },
+          ],
+        },
+        {
+          title: "Community",
+          items: [
+            {
+              label: "Discord",
+              to: "https://discord.gg/wE3rmYY",
+            },
+            {
+              label: "Twitter",
+              to: "https://twitter.com/zano_project",
+            },
+            {
+              label: "Telegram",
+              to: "https://t.me/zanocoin",
+            },
+            {
+              label: "Youtube",
+              to: "https://www.youtube.com/@zanoproject",
+            },
+            {
+              label: "Reddit",
+              to: "https://www.reddit.com/r/Zano",
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} Zano.org`,
+    },
+    prism: {
+      theme: lightCodeTheme,
+      darkTheme: darkCodeTheme,
+    },
+  },
 };
 
 module.exports = config;

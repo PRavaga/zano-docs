@@ -8,11 +8,11 @@ const sidebars = {
     },
   ],
   useSidebar: [
-    "learn/intro",
+    "use/intro",
     {
       type: "category",
-      label: "Introduction",
-      items: ["learn/introduction/what-is-zano"],
+      label: "Getting Started",
+      items: ["use/getting-started/wallet-setup"],
     },
   ],
   buildSidebar: [
