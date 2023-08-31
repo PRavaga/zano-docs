@@ -1,3 +1,5 @@
+Retrieves the current number of blocks in the longest chain known to this node
+
 ### Request
 
 ```json
