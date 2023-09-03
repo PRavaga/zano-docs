@@ -15,6 +15,9 @@ Note: Output is less detailed if ids parameter is empty or omitted.
 	}
 }
 ```
+
+### Request parameters
+
 - ids - list of transaction hash identifiers for which information is requested. All transactions from the pool will be returned if ids is empty or if this parameter is omitted
 
 ---

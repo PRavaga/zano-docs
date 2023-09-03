@@ -18,7 +18,7 @@ Creates a template for the next block
 }
 ```
 
-### Body parameters
+### Request parameters
 
 - wallet_address - miner's address for receiving newly generated coins
 - extra_text - additional text included into miner transaction. Cannot exceed 255 bytes.

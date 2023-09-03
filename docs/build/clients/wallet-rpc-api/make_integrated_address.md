@@ -13,6 +13,8 @@ Creates an integrated address for the wallet by embedding the given payment ID t
 }
 ```
 
+### Request parameters
+
 - payment_id - hex-encoded payment identifier. If empty, random 8-byte payment ID will be generated and used.
 
 ---

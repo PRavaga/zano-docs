@@ -33,7 +33,7 @@ Mark offer as not active
 }
 ```
 
-### Response parameters
+### Response information
 
 - tx_blob_size
 - tx_hash - string; tx hash of the transaction related to the offer being cancelled

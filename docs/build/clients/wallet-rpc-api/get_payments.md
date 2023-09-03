@@ -14,6 +14,8 @@ Gets list of incoming transfers by a given payment ID
 }
 ```
 
+### Request parameters
+
 - payment_id - string; payment id to be searched
 - allow_locked_transactions - include currently locked transactions
 

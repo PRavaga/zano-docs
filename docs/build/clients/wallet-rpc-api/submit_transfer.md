@@ -13,7 +13,7 @@ Broadcasts transaction that was previously signed using sign_transfer call
 }
 ```
 
-### Request information
+### Request parameters
 
 - tx_signed_hex - hex-encoded signed transaction as returned from sign_transfer call.
 

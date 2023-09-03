@@ -16,7 +16,7 @@ Creates atomic swap proposal
 }
 ```
 
-### Body parameters
+### Request parameters
 
 - amount - amount of the coins going into HTLC. Fee for redeem transaction will be withheld from this amount too.
 - counterparty_address - an address of the other part of atomic swap process

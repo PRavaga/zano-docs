@@ -15,7 +15,7 @@ Submits the given block, i.e., adds it to the local blockchain and broadcasts it
 }
 ```
 
-### Body parameters
+### Request parameters
 
 - blocks_blob - array of a single string; block's blob.
 

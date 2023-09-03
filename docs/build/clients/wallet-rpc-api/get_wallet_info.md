@@ -29,7 +29,7 @@ Gets information related to wallet
 }
 ```
 
-### Response parameters
+### Response information
 
 - address - string; address associated with wallet
 - current_height - current block height

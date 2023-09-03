@@ -14,7 +14,7 @@ Redeems atomic swap
 }
 ```
 
-### Body parameters
+### Request parameters
 
 - tx_id - Identify transaction which carry needed HTLC, by this we basically identify HTLC itself. (Theoretically one transaction can carry more then 1 HTLC, but since this unlikely will ever be used, current implementation of the wallet assume it only one HTLC per tx, and we identify HTLC by carrying tx_id. This can be changed in future, if needed, without hardfork).
 - origin_secret_as_hex - Secret for HTLC, encoded in HEX. (sha256 supposed to be calculated from raw secret blob).

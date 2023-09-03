@@ -13,6 +13,8 @@ Creates an integrated address for the wallet by embedding the given payment ID t
 }
 ```
 
+### Request parameters
+
 - integrated_address - integrated or standard address
 
 ---

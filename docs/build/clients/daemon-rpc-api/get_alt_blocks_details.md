@@ -14,6 +14,8 @@ Returns alternative blocks details for a specified range.
 }
 ```
 
+### Request parameters
+
 - offset - starting offset in the global list of alternative blocks
 - count - number of blocks to be requested
 

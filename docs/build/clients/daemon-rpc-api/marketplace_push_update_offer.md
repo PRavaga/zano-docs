@@ -62,7 +62,7 @@ This method update marketplace offer details
 }
 ```
 
-### Response parameters
+### Response information
 
 - tx_blob_size
 - tx_hash - string; tx hash of the transaction related to the offer being pushed

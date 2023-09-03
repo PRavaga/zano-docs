@@ -13,6 +13,8 @@ Returns block details for a specified identifier. Only for blocks in alternative
 }
 ```
 
+### Request parameters
+
 - id - hash identifier for a block.
 
 ---

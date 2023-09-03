@@ -13,7 +13,7 @@ Returns transaction details by specified transaction hash identifier.
 }
 ```
 
-### Body parameters
+### Request parameters
 
 - tx_hash - hash identifier of a transaction
 

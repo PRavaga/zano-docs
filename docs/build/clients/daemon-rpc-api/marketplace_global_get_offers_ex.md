@@ -1,6 +1,6 @@
 General marketplace API which lets read offers related to given wallet
 
-### Request body parameters
+### Request
 
 ```json
 {
@@ -32,6 +32,8 @@ General marketplace API which lets read offers related to given wallet
 	}
 }
 ```
+
+### Request parameters
 
 - amount_low_limit - filter offers selection by field amount of specified currency at lower boundary.
 - amount_up_limit - filter offers selection by field amoun of specified currency t at higher boundary.
@@ -125,7 +127,7 @@ General marketplace API which lets read offers related to given wallet
 }
 ```
 
-### Response parameters
+### Response information
 
 - ap - the amount of the currency specified for use in this offer
 - at - the amount of the items to be sold/bought

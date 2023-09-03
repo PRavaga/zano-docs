@@ -13,7 +13,7 @@ Checks redeemed proposal
 }
 ```
 
-### Body parameters
+### Request parameters
 
 - htlc_tx_id - ID for transaction carrying HTLC.
 

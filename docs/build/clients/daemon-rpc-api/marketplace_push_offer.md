@@ -60,7 +60,7 @@ Broadcasts transaction that was previously signed using sign_transfer call
 }
 ```
 
-### Response parameters
+### Response information
 
 - tx_blob_size
 - tx_hash - string; tx hash of the transaction related to the offer being pushed

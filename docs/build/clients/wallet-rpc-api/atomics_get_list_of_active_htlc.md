@@ -13,6 +13,8 @@ Shows the list of active proposals
 }
 ```
 
+### Request parameters
+
 - income_redeem_only - Shows only incoming HTLCs, ie only those contracts which might be redeemed by this wallet.
 
 ---

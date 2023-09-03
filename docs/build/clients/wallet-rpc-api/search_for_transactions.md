@@ -19,6 +19,8 @@ Gets list of incoming or outgoing transfers by a given payment ID
 }
 ```
 
+### Request parameters
+
 - tx_id - hash of a transaction, if specified then only that tx will be returned (if it passes the filters)in - bool; include incomin txs in response
 - in - if true then incoming transactions will be taken into account
 - out - if true then outgoing transactions will be taken into account

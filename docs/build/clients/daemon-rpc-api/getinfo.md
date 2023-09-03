@@ -143,6 +143,8 @@
 }
 ```
 
+### Response information
+
 - alias_count — unsigned int; number of total aliases registered.
 - alt_blocks_count — unsigned int; number of alternative blocks known to this node.
 - block_reward — unsigned int; base block reward for the next block (excluding fees and txs size penalty). Calculated only if both COMMAND_RPC_GET_INFO_FLAG_POS_DIFFICULTY and COMMAND_RPC_GET_INFO_FLAG_TOTAL_COINS flags are present.

@@ -22,6 +22,8 @@ If you use multiple addresses in destinations field, make sure there are maximum
 }
 ```
 
+### Request parameters
+
 - destinations - list of transfer_destination objects (see below); list of recipients with corresponding amount of coins for each.
 - fee - transaction fee in atomic units. Minimum: 10^10 atomic units.
 - mixin - number of foreign outputs to be mixed in with each input. Increases untraceability. Specify zero for direct and traceable transfers.

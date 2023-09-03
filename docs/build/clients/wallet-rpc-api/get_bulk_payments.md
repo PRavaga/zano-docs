@@ -13,6 +13,9 @@ Gets list of incoming transfers by given payment IDs
 	}
 }
 ```
+
+### Request parameters
+
 - payment_id - payment id of txs to search
 - allow_locked_transactions - include transactions that are currently locked
 

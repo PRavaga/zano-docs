@@ -13,6 +13,8 @@ Returns brief information for transactions currently in the pool.
 }
 ```
 
+### Request parameters
+
 - ids - list of transaction hash identifiers for which information is requested. All transactions from the pool will be returned if ids is empty or if this parameter is omitted
 
 --- 

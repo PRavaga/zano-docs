@@ -13,7 +13,7 @@ Signs a transaction prepared by watch-only wallet (for cold-signing process)
 }
 ```
 
-### Request information
+### Request parameters
 
 - tx_unsigned_hex - hex-encoded unsigned transaction as returned from transfer call.
 
