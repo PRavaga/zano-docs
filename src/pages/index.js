@@ -1,8 +1,7 @@
 import React from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import Intro from "../components/Intro/Intro";
-import Buttons from "../components/Buttons/Buttons";
+import StartPage from "./StartPage/StartPage";
 
 const Home = () => {
   const { siteConfig } = useDocusaurusContext();
@@ -11,10 +10,7 @@ const Home = () => {
       title={`Hello from ${siteConfig.title}`}
       description="Blockchain privacy for mass adoption"
     >
-      <main>
-        <Intro />
-        <Buttons />
-      </main>
+      <StartPage />
     </Layout>
   );
 };
