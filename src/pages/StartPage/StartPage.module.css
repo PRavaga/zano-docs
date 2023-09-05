@@ -1,0 +1,21 @@
+.container {
+  margin: 3% 20% 3% 20%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 3% 10% 3% 10%;
+    width: 80%;
+  }
+}
+
+@media (max-width: 460px) {
+  .container {
+    margin: 3% 5% 3% 5%;
+    width: 90%;
+  }
+}

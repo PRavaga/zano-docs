@@ -86,23 +86,23 @@ const config = {
           items: [
             {
               label: "Learn",
-              to: "/docs/learn/intro",
+              to: "/docs/learn/overview",
             },
             {
               label: "Use",
-              to: "/docs/use/intro",
+              to: "/docs/use/overview",
             },
             {
               label: "Build",
-              to: "/docs/use/intro",
+              to: "/docs/build/overview",
             },
             {
               label: "Mine",
-              to: "/docs/use/intro",
+              to: "/docs/mine/overview",
             },
             {
               label: "Stake",
-              to: "/docs/use/intro",
+              to: "/docs/stake/overview",
             },
           ],
         },
