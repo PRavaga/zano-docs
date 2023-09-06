@@ -3,7 +3,8 @@ import { useColorMode } from "@docusaurus/theme-common";
 import styles from "./Projects.module.css";
 
 function Projects({ projects }) {
-  const { colorMode } = useColorMode();
+  // const { colorMode } = useColorMode();
+  const colorMode = "light";
   return (
     <div>
       <div className={styles.projects}>
