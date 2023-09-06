@@ -1,30 +1,20 @@
 .projects {
-  width: 100%;
   display: flex;
-  flex-direction: column;
-  margin-top: 3%;
+  margin-top: 20px;
+  align-items: center;
+  gap: 20px;
 }
 
-.projects span {
-  font-size: var(--ifm-code-font-size);
-  font-weight: 500;
-}
-
-.projects__images {
-  display: flex;
-  margin-top: 15px;
-}
-
-.projects__images :not(:first-child) {
+.projects :not(:first-child) {
   margin-left: 20px;
 }
 
 @media (max-width: 900px) {
-  .projects__images {
+  .projects {
     display: flex;
     flex-direction: column;
   }
-  .projects__images :not(:first-child) {
+  .projects:not(:first-child) {
     margin-left: 0;
     margin-top: 20px;
   }

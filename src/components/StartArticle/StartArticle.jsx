@@ -18,10 +18,9 @@ function StartArticle({ content }) {
           </span>
         </div>
         {content.map((item) => (
-          <TextBlock content={item} />
+          <TextBlock key={item.title} content={item} />
         ))}
       </article>
-      {/* <BuildedProjects /> */}
     </div>
   );
 }

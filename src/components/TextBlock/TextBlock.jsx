@@ -5,9 +5,9 @@ function TextBlock({ content }) {
   return (
     <div className={styles.container}>
       <h2>{content.title}</h2>
-      {content.items.map((item) => (
+      {content.items.map((item, i) => (
         <TextBlockItem
-          key={item.linkText}
+          key={i}
           textBlockLink={item.link}
           textBlockLinkText={item.linkText}
           textBlockContent={item.content}

@@ -8,7 +8,7 @@ function LearnMore({ links }) {
       <h2>Learn more</h2>
       <div>
         {links.map((link) => (
-          <Button link={link.link} text={link.name} />
+          <Button link={link.link} text={link.name} key={link.name} />
         ))}
       </div>
     </div>

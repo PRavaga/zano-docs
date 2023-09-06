@@ -1,21 +1,23 @@
 import React from "react";
+import { useColorMode } from "@docusaurus/theme-common";
 import styles from "./Projects.module.css";
 
 function Projects({ projects }) {
+  const { colorMode } = useColorMode();
   return (
     <div>
       <div className={styles.projects}>
-        <span>Projects built on Zano</span>
-        <div className={styles.projects__images}>
-          {projects.map((project) => (
+        {projects.map((project) => (
+          <a href={project.link} key={project.name}>
             <img
-              src={project.img}
+              src={
+                colorMode === "light" ? project.logo.light : project.logo.dark
+              }
               alt={project.name}
               width="280px"
-              height="115px"
             />
-          ))}
-        </div>
+          </a>
+        ))}
       </div>
     </div>
   );
