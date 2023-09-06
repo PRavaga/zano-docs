@@ -1,0 +1,72 @@
+.container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.container > h2 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.container > div {
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container > div > :not(:first-child) {
+  margin-left: 20px;
+}
+
+.container > div > a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--ifm-link-color);
+  font-weight: 600;
+  width: 280px;
+  padding: 25px 0px 25px 20px;
+  border-radius: 0.625rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  backdrop-filter: blur(3px);
+}
+
+.container > div > a:hover {
+  transition: border-color var(--ifm-transition-fast)
+    var(--ifm-transition-timing-default);
+  border: 0.0625rem solid var(--ifm-color-primary-lighter);
+}
+
+@media (max-width: 900px) {
+  .container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .container > div > :not(:first-child) {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .container > div > a {
+    width: 220px;
+  }
+
+  .container > div > :not(:first-child) {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+}

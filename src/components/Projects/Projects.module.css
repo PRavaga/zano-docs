@@ -1,0 +1,21 @@
+.projects {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  gap: 20px;
+}
+
+.projects :not(:first-child) {
+  margin-left: 20px;
+}
+
+@media (max-width: 900px) {
+  .projects {
+    display: flex;
+    flex-direction: column;
+  }
+  .projects:not(:first-child) {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
