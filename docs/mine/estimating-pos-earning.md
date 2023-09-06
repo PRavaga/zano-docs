@@ -18,4 +18,4 @@ As you may know, the Zano network emits an average of 1 coin each minute with a 
 
 where `E_daily` is the estimated number of coins you'll earn per day, and `N` is the number of coins you're staking.
 
-Please keep in mind that all the above is an expectation and can vary heavily.
+Please keep in mind that all the above is an expectation and can vary heavily
