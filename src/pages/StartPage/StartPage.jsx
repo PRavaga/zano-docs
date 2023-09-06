@@ -3,11 +3,9 @@ import styles from "./StartPage.module.css";
 import StartArticle from "../../components/StartArticle/StartArticle";
 import LearnMore from "../../components/LearnMore/LearnMore";
 import Projects from "../../components/Projects/Projects";
-import layerLogoDark from "../../../static/img/projects/confidential-bridge_logo_1_dark.png";
-import layerLogo from "../../../static/img/projects/confidential-bridge_logo_1.png";
-import zanoLogo from "../../../static/img/projects/zano_white_theme.png";
-import zanoLogoDark from "../../../static/img/projects/zano_block.png";
-import bazaarLogo from "../../../static/img/projects/bazaar_wordmark.png";
+import zanoTradeLogo from "../../assets/zano-trade_logo.png";
+import clBridgeLogo from "../../assets/confidential_bridge_logo.png";
+import bazaarLogo from "../../assets/bazaar_logo.png";
 
 const content = [
   {
@@ -84,14 +82,14 @@ const projects = [
   {
     name: "Confidential Bridge",
     link: "https://bridge.confidentiallayer.com",
-    logo: { light: layerLogo, dark: layerLogoDark },
+    logo: clBridgeLogo,
   },
   {
     name: "Zano Trade",
     link: "https://trade.zano.org",
-    logo: { light: zanoLogo, dark: zanoLogoDark },
+    logo: zanoTradeLogo,
   },
-  { name: "Bazaar", link: "#", logo: { light: bazaarLogo, dark: bazaarLogo } },
+  { name: "Bazaar", link: "#", logo: bazaarLogo },
 ];
 
 function StartPage() {
