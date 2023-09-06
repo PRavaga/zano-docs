@@ -79,7 +79,7 @@ your wallet again. Your wallet keys is NOT under risk anyway.
 
 Or in GUI wallet:
 
-![alt auditable-wallets-faq-gui-wallet](../../static/img/auditable-wallets-faq-gui-wallet.png "auditable-wallets-faq-gui-wallet")
+![alt auditable-wallets-gui-wallet](../../static/img/auditable-wallets-gui-wallet.png "auditable-wallets-gui-wallet")
 
 ### Are there any restrictions of using auditable wallets?
 
