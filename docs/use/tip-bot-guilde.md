@@ -24,19 +24,19 @@ Welcome to Zano Discord, now that you’re here, you should have something that 
 
 Head to the ‘Bounties’ category and select the ‘tip-bot-settings’ channel, here lies a summary of the tip bots usage.
 
-![alt head-to-tipbot-settings](../../static/img/head-to-tipbot-settings.png "head-to-tipbot-settings")
+![alt head-to-tipbot-settings](../../static/img/use/tip-bot-guide/head-to-tipbot-settings.png "head-to-tipbot-settings")
 
 ### Get tipping!
 
 Let's take a look at the tip bots functionality, the below image shows what we can do with the bot.
 
-![alt welcome-to-tip-bot-zano](../../static/img/welcome-to-zano-tip-bot.png "welcome-to-tip-bot-zano")
+![alt welcome-to-tip-bot-zano](../../static/img/use/tip-bot-guide/welcome-to-zano-tip-bot.png "welcome-to-tip-bot-zano")
 
 #### Deposit
 
 Before we can begin tipping, we must have some Zano in our tip bot wallet, to do this click on ‘Deposit’, get your wallet address and send some Zano to it.
 
-![alt tip-bot-zano-deposit](../../static/img/tip-bot-zano-deposit.png "tip-bot-zano-deposit")
+![alt tip-bot-zano-deposit](../../static/img/use/tip-bot-guide/tip-bot-zano-deposit.png "tip-bot-zano-deposit")
 
 #### Register alias
 
@@ -44,13 +44,13 @@ Before you can withdraw Zano others have tipped you, you must register an alias,
 
 Click ‘register alias’ and enter your alias.
 
-![alt zano-tip-bot-register-alias](../../static/img/zano-tip-bot-register-alias.png "zano-tip-bot-register-alias")
+![alt zano-tip-bot-register-alias](../../static/img/use/tip-bot-guide/zano-tip-bot-register-alias.png "zano-tip-bot-register-alias")
 
 #### How to tip
 
 Tipping users is done with one simple command, to see this command, click ‘how to tip’
 
-![alt how-to-tip-zano](../../static/img/how-to-tip-zano.png "how-to-tip-zano")
+![alt how-to-tip-zano](../../static/img/use/tip-bot-guide/how-to-tip-zano.png "how-to-tip-zano")
 
 :::tip Tip command
 
@@ -60,19 +60,19 @@ $tip
 
 Simply replace and with the values you want to use, a real world example within discord looks something like this
 
-![alt tip-example](../../static/img/tip-example.png "tip-example")
+![alt tip-example](../../static/img/use/tip-bot-guide/tip-example.png "tip-example")
 
 #### Balance
 
 To view how much Zano you have, simply click balance, and the tip bot will show how much Zano is in your wallet.
 
-![alt tip-bot-balance](../../static/img/tip-bot-balance.png "tip-bot-balance")
+![alt tip-bot-balance](../../static/img/use/tip-bot-guide/tip-bot-balance.png "tip-bot-balance")
 
 #### History & simple view
 
 There are 2 history buttons, one designated History, and the other History (simple view).
 
-![alt tip-bot-history](../../static/img/tip-bot-history.png "tip-bot-history")
+![alt tip-bot-history](../../static/img/use/tip-bot-guide/tip-bot-history.png "tip-bot-history")
 
 History is formatted as a table, whereas History (simple) is a simple one-liner.
 
@@ -80,13 +80,13 @@ History is formatted as a table, whereas History (simple) is a simple one-liner.
 
 If you want to know the current price of Zano, click ‘Rate’, to see the current price in $USD.
 
-![alt tip-bot-rate](../../static/img/tip-bot-rate.png "tip-bot-rate")
+![alt tip-bot-rate](../../static/img/use/tip-bot-guide/tip-bot-rate.png "tip-bot-rate")
 
 #### Redeem coupon
 
 If you have a coupon code, the ‘Redeem Coupon’ button allows you to exchange your coupon for Zano coins.
 Simply click the button and enter your coupon code.
 
-![alt tip-bot-redeem-coupon](../../static/img/tip-bot-redeem-coupon.png "tip-bot-redeem-coupon")
+![alt tip-bot-redeem-coupon](../../static/img/use/tip-bot-guide/tip-bot-redeem-coupon.png "tip-bot-redeem-coupon")
 
 

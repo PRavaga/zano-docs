@@ -15,7 +15,7 @@ There are 3 ways to create a wallet in Zano app. From the `Wallets` `Add` sectio
 3. Continue with `Create wallet`
 4. Save shown seed phrase in a secure place and click `Create`
 
-![alt creating-wallets](../../static/img/creating-wallets.png "creating-wallets")*<figcaption style={{textAlign: "center" }} >Create new wallet</figcaption>*
+![alt creating-wallets](../../static/img/use/managing-wallets/creating-wallets.png "creating-wallets")*<figcaption style={{textAlign: "center" }} >Create new wallet</figcaption>*
 
 
 - Open existing wallet
@@ -23,7 +23,7 @@ There are 3 ways to create a wallet in Zano app. From the `Wallets` `Add` sectio
 1. Locate wallet file
 2. Enter password then open wallet
 
-![alt open-existing-wallet](../../static/img/open-existing-wallet.png "open-existing-wallet ")*<figcaption style={{textAlign: "center" }} >Open existing wallet</figcaption>*
+![alt open-existing-wallet](../../static/img/use/managing-wallets/open-existing-wallet.png "open-existing-wallet ")*<figcaption style={{textAlign: "center" }} >Open existing wallet</figcaption>*
 
 - Restore from backup
 
@@ -32,7 +32,7 @@ There are 3 ways to create a wallet in Zano app. From the `Wallets` `Add` sectio
 3. Click `Select wallet location` to choose wallet file location and name
 4. Continue with `Create wallet`
 
-![alt restore-from-backup](../../static/img/restore-from-backup.png "restore-from-backup")*<figcaption style={{textAlign: "center" }} >Restore from backup</figcaption>*
+![alt restore-from-backup](../../static/img/use/managing-wallets/restore-from-backup.png "restore-from-backup")*<figcaption style={{textAlign: "center" }} >Restore from backup</figcaption>*
 
 
 ### Wallet details
@@ -41,7 +41,7 @@ Each Zano wallet can be identified by a custom name assigned on creation. This n
 
 You can remove a wallet from the Zano app by clicking `Close wallet` in the same section. Note that wallet file will remain unaffected and you can import it again anytime if necessary.
 
-![alt wallet-details](../../static/img/wallet-details.png "wallet-details")*<figcaption style={{textAlign: "center" }} >Wallet details</figcaption>*
+![alt wallet-details](../../static/img/use/managing-wallets/wallet-details.png "wallet-details")*<figcaption style={{textAlign: "center" }} >Wallet details</figcaption>*
 
 ### Changing wallet password
 

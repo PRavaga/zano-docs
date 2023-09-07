@@ -16,13 +16,13 @@ Each escrow contract starts with the buyer proposal. Once it's sent the deposit 
 - Time until response - proposal expiration time
 - Payment ID - transaction payment identifier provided by seller
 
-![alt contract-propsal](../../static/img/contract-propsal.png "contract-propsal")*<figcaption style={{textAlign: "center" }} >Contract proposal</figcaption>*
+![alt contract-propsal](../../static/img/use/escrow-contracts/contract-propsal.png "contract-propsal")*<figcaption style={{textAlign: "center" }} >Contract proposal</figcaption>*
 
 ### Confirmation
 
 When the seller accepts the proposal a special multi signature transaction will be sent to the blockchain. Then after 10 confirmations a new contract will be started. The seller can now fulfil contract terms like shipping the item to the buyer.
 
-![alt contract-response](../../static/img/contract-response.png "contract-response")*<figcaption style={{textAlign: "center" }} >Contract response</figcaption>*
+![alt contract-response](../../static/img/use/escrow-contracts/contract-response.png "contract-response")*<figcaption style={{textAlign: "center" }} >Contract response</figcaption>*
 
 The buyers contract window will get three options to continue with: `Cancel and return deposits`, `Terminate and burn deposits` and `Complete and release deposits`.
 
@@ -38,4 +38,4 @@ When parties cannot find mutual agreement on any occasions one can decide to bur
 
 If buyer is satisfied with the delivery or a provided service the contract can be closed. Releasing deposits will return both parties collaterals.
 
-![alt contract-confirmation](../../static/img/contract-confirmation.png "contract-confirmation")*<figcaption style={{textAlign: "center" }} >Contract confirmation</figcaption>*
+![alt contract-confirmation](../../static/img/use/escrow-contracts/contract-confirmation.png "contract-confirmation")*<figcaption style={{textAlign: "center" }} >Contract confirmation</figcaption>*
