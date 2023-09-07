@@ -3,9 +3,9 @@ import styles from "./StartPage.module.css";
 import StartArticle from "../../components/StartArticle/StartArticle";
 import LearnMore from "../../components/LearnMore/LearnMore";
 import Projects from "../../components/Projects/Projects";
-import zanoTradeLogo from "../../assets/zano-trade_logo.png";
-import clBridgeLogo from "../../assets/confidential_bridge_logo.png";
-import bazaarLogo from "../../assets/bazaar_logo.png";
+import zanoTradeLogo from "../../assets/zano-trade_logo_square.png";
+import clBridgeLogo from "../../assets/confidential_bridge_logo_square.png";
+import bazaarLogo from "../../assets/bazaar_logo_square.png";
 
 const content = [
   {
