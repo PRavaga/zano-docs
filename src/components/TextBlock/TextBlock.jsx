@@ -21,7 +21,9 @@ function TextBlockItem(props) {
   return (
     <>
       <span>
-        <a href={props.textBlockLink}>{props.textBlockLinkText + " "}</a>
+        {props.textBlockLinkText && (
+          <a href={props.textBlockLink}>{props.textBlockLinkText + " - "}</a>
+        )}
         {props.textBlockContent}
       </span>
     </>

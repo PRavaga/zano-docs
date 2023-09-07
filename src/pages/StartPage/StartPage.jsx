@@ -6,31 +6,31 @@ import Projects from "../../components/Projects/Projects";
 import zanoTradeLogo from "../../assets/projects/zano-trade_logo_square.png";
 import clBridgeLogo from "../../assets/projects/confidential_bridge_logo_square.png";
 import bazaarLogo from "../../assets/projects/bazaar_logo_square.png";
-import devIcon from "../../assets/icons/developers_ico.png";
-import mineIcon from "../../assets/icons/miners_ico.png";
-import stakeIcon from "../../assets/icons/stakers_ico.png";
-import userIcon from "../../assets/icons/users_ico.png";
+import devIcon from "../../assets/icons/developers_ico.svg";
+import mineIcon from "../../assets/icons/miners_ico.svg";
+import stakeIcon from "../../assets/icons/stakers_ico.svg";
+import userIcon from "../../assets/icons/users_ico.svg";
 
 const content = [
   {
-    title: "Getting started",
+    title: "About Zano",
     items: [
       {
-        link: "#",
-        linkText: "Add link",
+        link: "/docs/learn/what-is-zano",
+        linkText: "What is Zano?",
         content:
-          "At vero eos et accusamus et iusto odio dignissimosducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga",
+          "Begin your exploration into Zano. Discover the vision behind this privacy-centric cryptocurrency platform, understand its core values, and delve into its foundational concepts.",
       },
     ],
   },
   {
-    title: "Start learning",
+    title: "Getting Started",
     items: [
       {
         link: "#",
-        linkText: "Add link",
+        linkText: "Setup local environment",
         content:
-          "At vero eos et accusamus et iusto odio dignissimosducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga",
+          "Kickstart your Zano experience. Start with GUI wallet or get hands-on with the Zano CLI and set up your local development environment. Whether you're a developer or an enthusiast, this is your first step.",
       },
     ],
   },
@@ -39,26 +39,32 @@ const content = [
     items: [
       {
         link: "#",
-        linkText: "Add link",
+        linkText: "Mining Guide",
         content:
-          "At vero eos et accusamus et iusto odio dignissimosducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga",
+          "Venture into Zano's dual earning avenues. Learn how to mine Zano efficiently, ensuring optimal returns and network security.",
+      },
+      {
+        link: "#",
+        linkText: "Staking Guide",
+        content:
+          "Explore the intricacies of staking on the Zano platform. Understand the rewards, risks, and best practices to maximize your stake's potential.",
       },
     ],
   },
   {
-    title: "Build on  Zano",
+    title: "Build on Zano",
     items: [
       {
         link: "#",
-        linkText: "Add link",
+        linkText: "Development APIs",
         content:
-          "At vero eos et accusamus et iusto odio dignissimosducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga",
+          "Harness Zano's powerful suite of APIs. Tailored for developers looking to innovate and integrate with the Zano platform, these comprehensive guides will get you started.",
       },
       {
         link: "#",
-        linkText: "Add link",
+        linkText: "Zano Confidential Assets",
         content:
-          "At vero eos et accusamus et iusto odio dignissimosducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga",
+          "Deploy a tokens with native privacy features. Experiment, test, and deploy Confidential Assets within the Zano network with ease. Perfect for developers new to privacy coins, or those looking to test new concepts.",
       },
     ],
   },
@@ -68,22 +74,22 @@ const links = [
   {
     name: "Developers",
     link: "docs/build/overview",
-    icon: devIcon,
+    Icon: devIcon,
   },
   {
     name: "Users",
     link: "docs/use/overview",
-    icon: userIcon,
+    Icon: userIcon,
   },
   {
     name: "Miners",
     link: "docs/mine/overview",
-    icon: mineIcon,
+    Icon: mineIcon,
   },
   {
     name: "Stakers",
     link: "docs/stake/overview",
-    icon: stakeIcon,
+    Icon: stakeIcon,
   },
 ];
 const projects = [

@@ -2,9 +2,9 @@ import React from "react";
 import Link from "@docusaurus/Link";
 import styles from "./Button.module.css";
 
-const Button = ({ icon, text, link }) => (
+const Button = ({ Icon, text, link }) => (
   <Link className={styles.button} to={link}>
-    <img src={icon} alt={text} />
+    <Icon />
     {text}
   </Link>
 );

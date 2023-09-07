@@ -9,7 +9,7 @@ function LearnMore({ links }) {
       <div>
         {links.map((link) => (
           <Button
-            icon={link.icon}
+            Icon={link.Icon}
             link={link.link}
             text={link.name}
             key={link.name}
