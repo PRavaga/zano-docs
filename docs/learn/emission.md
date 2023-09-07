@@ -49,3 +49,34 @@ The coinSwap resulted in 7.8M swapped coins. The remaining ~6M of the initial su
 
 More information on the concluded coinswap can be found here: https://blog.zano.org/the-coinswap-has-concluded/
 
+
+### Why is the block reward just 1 ₡ZANO?
+
+Zano has a unique consensus system in which in order to perform the classic 51% attack, you need to have at least 51% PoW hashrate AND 51% PoS power (there can also be other ratios like 20%/90% and so on (see the [whitepaper](https://zano.org/downloads/zano_wp.pdf)). This way an attack becomes very expensive, in particular because the purchase of a significant portion of the coins on the market, would dramatically increase the price. If you try to use a small percentage of PoS coins for the attack, then the PoW power necessary for the attack becomes 800% or more. This makes it possible to establish a relatively low block reward and at the same time provide a high security level for the transaction history.
+
+### Premine
+
+Being actively involved into crypto space since 2014, the Zano team has been studying every financial model in the crypto market. Some of them are more sustainable than others but in the end they all come down to burning through reserves if the project doesn’t get picked up before reaching the “mainstream” phase.
+
+Even top tier projects have come across this issue in the past. These financial struggles have either required another round of personal investment, a second ICO, a call for donations, or simply resulted in the end of those projects.
+
+Zano proposes a new solution. By staking our own development fund we will be able to run our operations using the interest gained, giving the team an ongoing source of funding to keep everyone paid and working happily. This also means that the actual development fund will remain intact.
+
+![alt zano-premine-distibution](../../static/img/zano-premine-distibution.png "zano-premine-distibution")
+
+**55% Foundation fund (2029500 ₡ZANO)** Set aside for marketing, partnerships, and ongoing project expenses. This will be transparent and reported.
+
+**30% Founders, team members, and contributors (₡1107000 ZANO)**
+Coins are reserved for incentivizing current and future team members and contributors.
+
+**15% Development loan (₡553500 ZANO)**
+Repayment of the coins loaned by a group of Boolberry shareholders in early 2018 to fund the project development leading up to the coinswap.
+
+The Zano Foundation will issue regular reports on project expenses. The dev fund amount can be tracked live via our [explorer](https://explorer.zano.org/).
+
+**Conclusion**
+
+Most important to us is the long-term security and stability of Zano. This ability to generate income to fund the project continuously is a new and exciting possibility. We’ve spent a great deal of time pouring over the numbers and believe this path forward not only assures success for the team, but also for all holders of Zano coins for years to com
+
+
+

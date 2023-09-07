@@ -17,6 +17,14 @@ There are 3 ways to create a wallet in Zano app. From the `Wallets` `Add` sectio
 
 ![alt creating-wallets](../../static/img/creating-wallets.png "creating-wallets")*<figcaption style={{textAlign: "center" }} >Create new wallet</figcaption>*
 
+
+- Open existing wallet
+
+1. Locate wallet file
+2. Enter password then open wallet
+
+![alt open-existing-wallet](../../static/img/open-existing-wallet.png "open-existing-wallet ")*<figcaption style={{textAlign: "center" }} >Open existing wallet</figcaption>*
+
 - Restore from backup
 
 1. Enter new wallet info

@@ -12,7 +12,7 @@ You can observe your progress in the `Staking` tab of your staking wallet. The a
 
 Sometimes it may be convenient to do PoS mining without the GUI application running. Here are steps to achieve it.
 
-1. Download Zano daemon (zanod executable) and simplewallet or build them following the instructions.
+1. Download Zano daemon (zanod executable) and simplewallet or build them following the [instructions](https://github.com/hyle-team/zano/blob/master/README.md).
 2. Navigate to the Zano folder.
 3. Start zanod daemon (service).
 4. Start simplewallet in RPC mode with PoS mining enabled:

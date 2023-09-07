@@ -1,8 +1,12 @@
 # How to launch a confidential asset
 
-:::tip As of the time of writing, asset creation is only supported by the CLI wallet (simplewallet).
+:::info As of the time of writing, asset creation is only supported by the CLI wallet (simplewallet).
 
 Binaries and support for the GUI wallet is expected soon.
+
+:::
+
+:::tip Feel free to skip to the Creating asset part you're using pre-built binaries available here https://docs.zano.org/docs/testnet-builds
 
 :::
 
@@ -56,11 +60,11 @@ make -j1 daemon simplewallet
 
 ### Windows
 
-Install required prerequisites (Boost, Qt, CMake, OpenSSL)
-Rename `utils/configure_local_paths.cmd.example` to `utils/configure_local_paths.cmd` and edit paths in this file so they correspond to your environment.
-Run one of `utils/configure_win64_msvsNNNN_testnet`.cmd according to your MSVC version.
-Go to the build folder and open generated Zano.sln in MSVC
-Build it.
+Install required prerequisites (Boost, Qt, CMake, OpenSSL)<br/>
+Rename `utils/configure_local_paths.cmd.example` to `utils/configure_local_paths.cmd` and edit paths in this file so they correspond to your environment.<br/>
+Run one of `utils/configure_win64_msvsNNNN_testnet`.cmd according to your MSVC version.<br/>
+Go to the build folder and open generated Zano.sln in MSVC<br/>
+Build it.<br/>
 
 ### MacOS
 

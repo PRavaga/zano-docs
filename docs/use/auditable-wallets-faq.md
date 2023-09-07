@@ -85,8 +85,7 @@ Or in GUI wallet:
 
 Only one: you cannot use mixins when you send coins from an auditable wallet.
 
-***Obsolete***
-
+***Obsolete***<br/>
 The following limitations were effective until hardfork 2:
 
 1. An alias cannot be assigned to an auditable address.
