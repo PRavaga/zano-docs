@@ -4,7 +4,8 @@ import styles from "./Projects.module.css";
 function Projects({ projects }) {
   const colorMode = "light";
   return (
-    <div>
+    <div className={styles.container}>
+      <h2>Projects built on Zano:</h2>
       <div className={styles.projects}>
         {projects.map((project) => (
           <a href={project.link} key={project.name}>

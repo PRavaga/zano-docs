@@ -22,25 +22,6 @@
   margin-left: 20px;
 }
 
-.container > div > a {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: var(--ifm-link-color);
-  font-weight: 600;
-  width: 280px;
-  padding: 25px 0px 25px 20px;
-  border-radius: 0.625rem;
-  border: 1px solid var(--ifm-color-emphasis-300);
-  backdrop-filter: blur(3px);
-}
-
-.container > div > a:hover {
-  transition: border-color var(--ifm-transition-fast)
-    var(--ifm-transition-timing-default);
-  border: 0.0625rem solid var(--ifm-color-primary-lighter);
-}
-
 @media (max-width: 900px) {
   .container > div {
     display: flex;

@@ -3,9 +3,13 @@ import styles from "./StartPage.module.css";
 import StartArticle from "../../components/StartArticle/StartArticle";
 import LearnMore from "../../components/LearnMore/LearnMore";
 import Projects from "../../components/Projects/Projects";
-import zanoTradeLogo from "../../assets/zano-trade_logo_square.png";
-import clBridgeLogo from "../../assets/confidential_bridge_logo_square.png";
-import bazaarLogo from "../../assets/bazaar_logo_square.png";
+import zanoTradeLogo from "../../assets/projects/zano-trade_logo_square.png";
+import clBridgeLogo from "../../assets/projects/confidential_bridge_logo_square.png";
+import bazaarLogo from "../../assets/projects/bazaar_logo_square.png";
+import devIcon from "../../assets/icons/developers_ico.png";
+import mineIcon from "../../assets/icons/miners_ico.png";
+import stakeIcon from "../../assets/icons/stakers_ico.png";
+import userIcon from "../../assets/icons/users_ico.png";
 
 const content = [
   {
@@ -63,31 +67,35 @@ const content = [
 const links = [
   {
     name: "Developers",
-    link: "#",
+    link: "docs/build/overview",
+    icon: devIcon,
   },
   {
     name: "Users",
-    link: "#",
+    link: "docs/use/overview",
+    icon: userIcon,
   },
   {
     name: "Miners",
-    link: "#",
+    link: "docs/mine/overview",
+    icon: mineIcon,
   },
   {
     name: "Stakers",
-    link: "#",
+    link: "docs/stake/overview",
+    icon: stakeIcon,
   },
 ];
 const projects = [
   {
-    name: "Confidential Bridge",
-    link: "https://bridge.confidentiallayer.com",
-    logo: clBridgeLogo,
-  },
-  {
     name: "Zano Trade",
     link: "https://trade.zano.org",
     logo: zanoTradeLogo,
+  },
+  {
+    name: "Confidential Bridge",
+    link: "https://bridge.confidentiallayer.com",
+    logo: clBridgeLogo,
   },
   { name: "Bazaar", link: "#", logo: bazaarLogo },
 ];

@@ -1,0 +1,21 @@
+.button {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--ifm-link-color);
+  font-weight: 600;
+  width: 280px;
+  padding: 2em;
+  border-radius: 0.625rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  backdrop-filter: blur(3px);
+}
+
+.button:hover {
+  text-decoration: none;
+  transition: border-color var(--ifm-transition-fast)
+    var(--ifm-transition-timing-default);
+  border: 0.0625rem solid var(--ifm-color-primary-lighter);
+}
