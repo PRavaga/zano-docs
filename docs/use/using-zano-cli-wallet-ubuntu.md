@@ -18,7 +18,7 @@ Enter your password, when prompted. Notice that the wallet displays your receive
 
 You are now ready to get yourself some ZANO! Two exchanges to consider:
 
-Trade Ogre: https://tradeogre.com.
+Trade Ogre: https://tradeogre.com <br/>
 Stex: https://www.stex.com/
 
 P.S. Zanod (your node) can be left running, if you’ll be transferring funds to your wallet soon. If not, close your wallet by giving the command:
@@ -37,12 +37,16 @@ Now let’s send some ZANO to a friend!
 
 The command for sending ZANO consists of four important bits of information:
 
-`. the command itself
+1. the command itself
 2. the number of UTXOs with which to mix yours (between 10-50/maximum available)
 3. the receiving address
 4. the amount of ZANO you wish to send
-For example:
+
+
+<br/>
+For example:<br/>
 (1) (2) (3) (4)
+
 
 ![alt using-zano-ubuntu-send-bits-example](../../static/img/using-zano-ubuntu-send-bits-example.png "using-zano-ubuntu-send-bits-example")
 

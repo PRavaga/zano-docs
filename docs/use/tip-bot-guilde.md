@@ -6,14 +6,14 @@ Using Zano’s Discord TipBot is fairly straightforward and intuitive, but here 
 
 #### Get Discord
 
-In order to use the Discord TipBot, we must first have Discord installed, head over to their website (or your package manager) and get signed up!
+In order to use the Discord TipBot, we must first have Discord installed, head over to their website (or your package manager) and get signed up!<br/>
 https://discord.com/download/
 
 #### Join Zano’s Discord Channel
 
 Now that we have Discord, head over to our discord
 channel and join the rest of the community! Simply click
-the link below.
+the link below.<br/>
 https://discord.gg/wE3rmYY
 
 ### The Tip Bot

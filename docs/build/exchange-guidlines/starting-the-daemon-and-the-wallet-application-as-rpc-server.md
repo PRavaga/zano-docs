@@ -24,6 +24,6 @@ where:
 **DEAMON_ADDR:DAEMON_PORT** — daemon address and port (may be omitted if the daemon is running on the same machine with the default settings);<br/>
 **LOG_FILE_NAME** — path and filename of simplewallet log file.<br/>
 
-Examples in List of Wallet RPCs are given with assumption that the wallet application is running in RPC server mode and listening at 127.0.0.1:12233.
+Examples in [List of Wallet RPCs](https://docs.zano.org/docs/api-reference-1) are given with assumption that the wallet application is running in RPC server mode and listening at 127.0.0.1:12233.
 
 All amounts and balances are represented as unsigned integers and measured in atomic units — the smallest fraction of a coin. One coin equals 10^12 atomic units.
