@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # What is Zano
 
 ### Secure & Truly Anonymous

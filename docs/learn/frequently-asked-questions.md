@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Frequently Asked Questions
 
 ### What is Zano?
