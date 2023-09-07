@@ -43,7 +43,7 @@ Zano total supply increases slightly over time while the inflation percentage de
 
 The chart below visually displays the emission (shown in blue) of the number of coins (on the vertical access) and the time duration (in 6 month timestamps) of the total supply.
 
-![alt emission-motiovation](../../static/img/emission-motivation.png "emission-motiovation")
+![alt emission-motiovation](../../static/img/learn/emission/emission-motivation.png "emission-motiovation")
 
 ### Why was there a coinswap with Boolberry?
 
@@ -65,7 +65,7 @@ Even top tier projects have come across this issue in the past. These financial 
 
 Zano proposes a new solution. By staking our own development fund we will be able to run our operations using the interest gained, giving the team an ongoing source of funding to keep everyone paid and working happily. This also means that the actual development fund will remain intact.
 
-![alt zano-premine-distibution](../../static/img/zano-premine-distibution.png "zano-premine-distibution")
+![alt zano-premine-distibution](../../static/img/learn/emission/zano-premine-distibution.png "zano-premine-distibution")
 
 **55% Foundation fund (2029500 ZANO)** Set aside for marketing, partnerships, and ongoing project expenses. This will be transparent and reported.
 

@@ -101,7 +101,7 @@ deploy_new_asset <asset specs file location>
 
 You should see a confirmation message upon successful execution
 
-![alt launch-asset-confirmation-message](../../../static/img/launch-asset-confirmation-message.png "launch-asset-confirmation-message")
+![alt launch-asset-confirmation-message](../../../static/img/build/testnet-resources/how-to-launch-confidential-asset/launch-asset-confirmation-message.png "launch-asset-confirmation-message")
 
 
 
@@ -141,7 +141,7 @@ To check the balance, use the following command:
 balance
 ```
 
-![alt lauch-asset-check-balance](../../../static/img/lauch-asset-check-balance.png "lauch-asset-check-balance")
+![alt lauch-asset-check-balance](../../../static/img/build/testnet-resources/how-to-launch-confidential-asset/lauch-asset-check-balance.png "lauch-asset-check-balance")
 
 However, the wallet will not automatically refresh. To see any updates or changes to your balance, you'll need to manually refresh the wallet with the following command:
 

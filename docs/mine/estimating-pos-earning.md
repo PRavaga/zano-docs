@@ -8,13 +8,13 @@ Second, we again divide it by `288`. This operation lets us take the PoS mining 
 
 Now we have an estimation of how many coins participate in PoS mining currently as `Coins_in_PoS = PoS_difficulty / 1000000000000 / 288` or: 
 
-![alt coins-in-pos](../../static/img/coins-in-pos.png "coins-in-pos")
+![alt coins-in-pos](../../static/img/mine/estimating-pos-earning/coins-in-pos.png "coins-in-pos")
 
 where `C` is the total amount of coins participating in PoS mining, and `D_PoS` is the current PoS difficulty.
 
 As you may know, the Zano network emits an average of 1 coin each minute with a 50-50 spread between PoS and PoW. That makes it `720` potential PoS reward coins per day. So if you owned all the coins in PoS, that could be your total day earnings. And if you divide `C` by `720`, you will get the number of coins you need to mine 1 Zano coin a day. Now, you can estimate the number of coins you will earn as `your_PoS_earnings = 720 * your_staking_coins / C` or, in other words:
 
-![alt pos-earnings](../../static/img/pos-earnings.png "pos-earnings")
+![alt pos-earnings](../../static/img/mine/estimating-pos-earning/pos-earnings.png "pos-earnings")
 
 where `E_daily` is the estimated number of coins you'll earn per day, and `N` is the number of coins you're staking.
 

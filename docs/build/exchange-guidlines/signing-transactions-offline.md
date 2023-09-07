@@ -4,7 +4,7 @@
 
 In order to provide more security it's possible to sign transactions offline using a dedicated wallet application instance e.g. running in a secure environment.
 
-![alt signing-transactions-offline-introduction](../../../static/img/signing-transactions-offline-introduction.png "signing-transactions-offline-introduction")
+![alt signing-transactions-offline-introduction](../../../static/img/build/exchange-guidlines/signing-transactions-offline/signing-transactions-offline-introduction.png "signing-transactions-offline-introduction")
 
 Zano as a CryptoNote coin uses two key pairs (4 keys) per wallet: view key (secret+public) and spend key (secret+public)
 
