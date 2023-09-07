@@ -85,7 +85,7 @@ const config = {
           items: [
             {
               label: "Learn",
-              to: "/docs/learn/overview",
+              to: "/docs/learn/what-is-zano",
             },
             {
               label: "Use",
