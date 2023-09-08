@@ -8,7 +8,9 @@ Welcome to the Zano API documentation! As a digital currency enthusiast, develop
 
 Our aim with this documentation is to help you harness the full potential of Zano's feature-rich platform, allowing you to integrate, innovate, and build on top of Zano's powerful privacy-oriented blockchain.
 
-Read more on the JSON-RPC 2.0 Specification [HERE](https://www.jsonrpc.org/specification)
+:::info
+Read more on the [JSON-RPC 2.0 Specification](https://www.jsonrpc.org/specification)
+:::
 
 ## Formatting example
 
@@ -41,15 +43,23 @@ Additionally, endpoints will be grouped according to whether they call the Daemo
 
 ---
 
-## Running Daemon and Wallet in RPC mode
+## Running Daemon and Wallet in RPC mode (brief guide)
 
-In order to send JSON requests, both the Zano Daemon and Wallet must be ran in RPC mode, for additional info on how to do this, for wallet visit [Here](https://docs.zano.org/docs/json-rpc-busy-response-2), and for the Daemon visit [Here](https://docs.zano.org/docs/how-to-connect-daemon-rpc-api). But we'll give a quick HOWTO below:
+:::info
+All examples below are based on the assumption that the daemon is listening for RPC at 127.0.0.1:11211
+:::
 
-> 🚧 All examples below are based on the assumption that the daemon is listening for RPC at 127.0.0.1:11211
+In order to send JSON requests, both the Zano Daemon and Wallet must be ran in RPC mode
+
+:::tip
+For additional info on RPC mode, for wallet visit [Wallet RPC Mode](wallet-rpc), and [Daemon RPC Mode](daemon-rpc)
+:::
 
 ### How to run Daemon in RPC mode
 
-> 📘 In order to interact with the Marketplace API, you must include the following flag: '--enable-offers-service'
+:::info
+In order to interact with the Marketplace API, you must include the following flag: '--enable-offers-service'
+:::
 
 ```Text console
 ./zanod --rpc-bind-ip 127.0.0.1 --rpc-bind-port 11211 --enable-offers-service
