@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # Deeplinks
 
 Based on materials of Matthew Reichardt me@matthewreichardt.com (https://github.com/hyle-team/zano/issues/269)
@@ -51,6 +55,7 @@ Example of **escrow** command:
 **zano:action=escrow&description='Some Description'&seller_address='ZxCXALhZRodKmqRCWUPNAUCXqprJBNKv4eFsjzcMooAGVM6J2U2vSyTNpxNybwBnvzGWLtSWpBiddSZhph8HNfBn1bVE3c6ix'&amount='10'&my_deposit='5'&seller_deposit='5'&comment='Some comment if needed'**
 
 **Escrow parameters:**
+
 - description – Escrow description
 - seller_address – Address of the wallet that have to accept/reject this offer
 - amount – Total amount of the deal (not include security deposits)

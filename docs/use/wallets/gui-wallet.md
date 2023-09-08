@@ -1,8 +1,8 @@
-# Getting started
+---
+sidebar_position: 2
+---
 
-Those few steps will make you more familiar with Zano features and capabilities.
-
-### Download and install Zano app
+# GUI Wallet
 
 Zano app is available for Windows, Linux and MacOS. It can be downloaded here.
 

@@ -7,7 +7,7 @@ function StartArticle({ content }) {
     <div className={styles.intro}>
       <article>
         <div className={styles.welcome}>
-          <h1>Zano Documentation</h1>
+          <h1>Zano Docs</h1>
           <span>
             Welcome to Zano's comprehensive documentation, your gateway to
             understanding and engaging with our unique cryptocurrency ecosystem.

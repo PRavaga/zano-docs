@@ -1,3 +1,7 @@
+---
+sidebar_position: 7
+---
+
 # Locked balance
 
 On occasion, you may notice that part of your wallet balance is temporarily locked. The reason behind it is complex, but let us offer a simplified explanation here. For more details, please refer to the [whitepaper](https://docs.zano.org/docs/whitepaper).
@@ -11,4 +15,3 @@ Transaction of 100 coins creates in the blockchain
 ```
 
 Zano architecture demands 10 confirmations for this change transaction and that amount gets locked in the wallet. Therefore, lock time is 10 blocks behind or approximately 10 minutes.
-

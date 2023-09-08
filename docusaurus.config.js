@@ -32,7 +32,7 @@ const config = {
   ],
 
   themeConfig: {
-    image: "img/zano-social-card.png",
+    image: "img/zano_dev_meta.png",
     navbar: {
       title: "Zano Docs",
       logo: {

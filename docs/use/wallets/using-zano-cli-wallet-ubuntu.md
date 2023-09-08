@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # Using a Zano CLI Wallet (Ubuntu)
 
 Open a terminal in the directory with Zanod. Start your node, by giving the command:
@@ -14,12 +18,7 @@ Open another terminal in the same directory (with simplewallet). Start your wall
 
 Enter your password, when prompted. Notice that the wallet displays your receive address after “Opened wallet.” You will use this to fund your new wallet.
 
-![alt using-zano-ubuntu-enter-password](../../static/img/use/using-zano-cli-wallet-ubuntu/using-zano-ubuntu-enter-password.png "using-zano-ubuntu-enter-password")
-
-You are now ready to get yourself some ZANO! Two exchanges to consider:
-
-Trade Ogre: https://tradeogre.com <br/>
-Stex: https://www.stex.com/
+![alt using-zano-ubuntu-enter-password](../../../static/img/use/using-zano-cli-wallet-ubuntu/using-zano-ubuntu-enter-password.png "using-zano-ubuntu-enter-password")
 
 P.S. Zanod (your node) can be left running, if you’ll be transferring funds to your wallet soon. If not, close your wallet by giving the command:
 
@@ -42,13 +41,11 @@ The command for sending ZANO consists of four important bits of information:
 3. the receiving address
 4. the amount of ZANO you wish to send
 
-
 <br/>
 For example:<br/>
 (1) (2) (3) (4)
 
-
-![alt using-zano-ubuntu-send-bits-example](../../static/img/use/using-zano-cli-wallet-ubuntu/using-zano-ubuntu-send-bits-example.png "using-zano-ubuntu-send-bits-example")
+![alt using-zano-ubuntu-send-bits-example](../../../static/img/use/using-zano-cli-wallet-ubuntu/using-zano-ubuntu-send-bits-example.png "using-zano-ubuntu-send-bits-example")
 
 ### Creating an Auditable CLI Wallet
 
@@ -66,7 +63,7 @@ Give the following command, substituting "name":
 
 When prompted, enter your new password, preferably generated from a password generator.
 
-![alt using-zano-ubuntu-enter-new-password](../../static/img/use/using-zano-cli-wallet-ubuntu/using-zano-ubuntu-enter-new-password.png "using-zano-ubuntu-enter-new-password")
+![alt using-zano-ubuntu-enter-new-password](../../../static/img/use/using-zano-cli-wallet-ubuntu/using-zano-ubuntu-enter-new-password.png "using-zano-ubuntu-enter-new-password")
 
 You now have an auditable CLI. Anyone to whom you provide the tracking seed will be able to see the wallet's balance and transaction history.
 
@@ -76,7 +73,7 @@ If you ever need to retrieve the tracking seed, simply open the wallet and give 
 tracking_seed
 ```
 
-![alt using-zano-ubuntu-tracking-seed](../../static/img/use/using-zano-cli-wallet-ubuntu/using-zano-ubuntu-tracking-seed.png "using-zano-ubuntu-tracking-seed")
+![alt using-zano-ubuntu-tracking-seed](../../../static/img/use/using-zano-cli-wallet-ubuntu/using-zano-ubuntu-tracking-seed.png "using-zano-ubuntu-tracking-seed")
 
 Now, we must get our seed phrase, in case we ever need to restore our auditable CLI wallet. Within the wallet, give the command:
 
@@ -86,7 +83,7 @@ show_seed
 
 Again, when prompted, supply and confirm another password, specific to the seed itself.
 
-![alt using-zano-ubuntu-show-seed](../../static/img/use/using-zano-cli-wallet-ubuntu/using-zano-ubuntu-show-seed.png "using-zano-ubuntu-show-seed")
+![alt using-zano-ubuntu-show-seed](../../../static/img/use/using-zano-cli-wallet-ubuntu/using-zano-ubuntu-show-seed.png "using-zano-ubuntu-show-seed")
 
 Lastly, note that the address of an auditable wallet always begins with an initial "a", in contrast to a standard wallet, which always begins with "Zx":
 
@@ -106,7 +103,7 @@ After starting zanod, open another terminal in the simple-wallet directory. Give
 
 You will then be asked to reenter the seedphrase, enter the password specific to that seedphrase, and then enter your restored wallet's password.
 
-![alt using-zano-ubuntu-restore-wallet](../../static/img/use/using-zano-cli-wallet-ubuntu/using-zano-ubuntu-restore-wallet.png "using-zano-ubuntu-restore-wallet")
+![alt using-zano-ubuntu-restore-wallet](../../../static/img/use/using-zano-cli-wallet-ubuntu/using-zano-ubuntu-restore-wallet.png "using-zano-ubuntu-restore-wallet")
 
 ### Creating a Watch-Only CLI Wallet
 
@@ -116,7 +113,7 @@ If you wish to allow someone to merely view your wallet, without being able to s
 save_watch_only new_name.wallet password_for_wallet
 ```
 
-![alt using-zano-ubuntu-watch-only](../../static/img/use/using-zano-cli-wallet-ubuntu/using-zano-ubuntu-watch-only.png "using-zano-ubuntu-watch-only")
+![alt using-zano-ubuntu-watch-only](../../../static/img/use/using-zano-cli-wallet-ubuntu/using-zano-ubuntu-watch-only.png "using-zano-ubuntu-watch-only")
 
 ### Other Useful in-Terminal Flags
 

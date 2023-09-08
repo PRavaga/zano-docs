@@ -1,3 +1,7 @@
+---
+sidebar_position: 8
+---
+
 # Tip Bot Guide
 
 A simple guide on how to get tipping Zano on Discord
@@ -88,5 +92,3 @@ If you have a coupon code, the ‘Redeem Coupon’ button allows you to exchange
 Simply click the button and enter your coupon code.
 
 ![alt tip-bot-redeem-coupon](../../static/img/use/tip-bot-guide/tip-bot-redeem-coupon.png "tip-bot-redeem-coupon")
-
-

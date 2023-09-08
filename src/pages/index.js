@@ -7,7 +7,7 @@ const Home = () => {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`Welcome to ${siteConfig.title}`}
       description="Blockchain privacy for mass adoption"
     >
       <StartPage />

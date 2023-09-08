@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Auditable wallets FAQ
 
 ### What is an auditable wallet?
@@ -85,7 +89,7 @@ Or in GUI wallet:
 
 Only one: you cannot use mixins when you send coins from an auditable wallet.
 
-***Obsolete***<br/>
+**_Obsolete_**<br/>
 The following limitations were effective until hardfork 2:
 
 1. An alias cannot be assigned to an auditable address.
