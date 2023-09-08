@@ -88,7 +88,7 @@ const links = [
   },
   {
     name: "Stakers",
-    link: "docs/stake/overview",
+    link: "docs/stake/proof-of-stake-mining",
     Icon: stakeIcon,
   },
 ];
