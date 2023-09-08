@@ -27,8 +27,8 @@ const content = [
     title: "Getting Started",
     items: [
       {
-        link: "#",
-        linkText: "Setup local environment",
+        link: "docs/use/overview",
+        linkText: "Setup your environment",
         content:
           "Kickstart your Zano experience. Start with GUI wallet or get hands-on with the Zano CLI and set up your local development environment. Whether you're a developer or an enthusiast, this is your first step.",
       },
@@ -38,13 +38,13 @@ const content = [
     title: "Mine and Stake",
     items: [
       {
-        link: "#",
+        link: "docs/mine/overview",
         linkText: "Mining Guide",
         content:
           "Venture into Zano's dual earning avenues. Learn how to mine Zano efficiently, ensuring optimal returns and network security.",
       },
       {
-        link: "#",
+        link: "docs/stake/overview",
         linkText: "Staking Guide",
         content:
           "Explore the intricacies of staking on the Zano platform. Understand the rewards, risks, and best practices to maximize your stake's potential.",
@@ -55,13 +55,13 @@ const content = [
     title: "Build on Zano",
     items: [
       {
-        link: "#",
+        link: "docs/build/rpc-api/overview",
         linkText: "Development APIs",
         content:
           "Harness Zano's powerful suite of APIs. Tailored for developers looking to innovate and integrate with the Zano platform, these comprehensive guides will get you started.",
       },
       {
-        link: "#",
+        link: "docs/build/confidential-assets/overview",
         linkText: "Zano Confidential Assets",
         content:
           "Deploy a tokens with native privacy features. Experiment, test, and deploy Confidential Assets within the Zano network with ease. Perfect for developers new to privacy coins, or those looking to test new concepts.",

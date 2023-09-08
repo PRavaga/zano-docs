@@ -22,4 +22,4 @@ Available on the [Zano Website](https://new.zano.org/downloads) and [Github](htt
 
 ### Testnet builds and resources
 
-For development purposes we provide a pre-built Testnet apps available [Testnet Resources](https://docs-zano.pages.dev) section
+For development purposes we provide a pre-built Testnet apps available [Testnet Resources](https://docs-zano.pages.dev/docs/build/testnet-resources/testnet-builds) section
