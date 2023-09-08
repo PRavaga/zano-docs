@@ -4,34 +4,20 @@ sidebar_position: 1
 
 # What is Zano
 
-### Secure & Truly Anonymous
+In today's digital landscape, where the value of privacy is ever-increasing, Zano stands out by offering a dedicated platform focused on confidentiality and security. As an open-source cryptocurrency and ecosystem, Zano blends enterprise-grade privacy with top-tier security and scalability. Crafted for mass adoption, Zano is not just another name in the blockchain space but a robust foundation for the next generation of confidential assets and decentralized applications.
 
-Zano project is a development of a stable and secure coin, designed to use in e-commerce. The technology behind our blockchain provides reliability, security, and flexibility, making it a perfect option for P2P and e-commerce transactions.
+**Privacy Pioneers**: Originating from the Cryptonote protocol, Zano is its advanced evolution, emphasizing unparalleled privacy.
 
-Zano is built on a foundation of performance and stability. The network is powered by key code design features like forward and backward compatibility, component-based modular structure, and asynchronous core architecture. While the extensive testing our system has undergone minimizes, all the issues often encountered in the early days of any project.
+**Hybrid PoW/PoS Consensus**: By uniting the strengths of both Proof of Work and Proof of Stake processes, Zano delivers enhanced security, curbing double-spend vulnerabilities.
 
-### Privacy
+**Core Performance**: Zano's asynchronous core is a testament to computational efficiency, ensuring forward/backward compatibility and a modular approach ready for the crypto realm's challenges.
 
-- The transactions between Zano network members are made untraceable with ring signatures and stealth addresses. Also, the way transaction data is stored on the blockchain allows access by authorized parties only, and none of the private data is ever publicly published.
+**Zarcanum**: A hallmark of Zano, introducing the world's first hidden amounts Proof of Stake scheme, shaping a novel benchmark in blockchain consensus.
 
-- The confidentiality of all Zano transactions is hard-coded into the core. By concealing all sending and receiving addresses as we have maximized the level of privacy every Zano user has.
+**Confidential Assets**: Beyond the Zano coin, our platform enables tokens that carry the weight of complete privacy, mirroring all the functionalities of the Zano coin itself.
 
-### P2P
+**Ionic Swaps**: In Zano's ecosystem, users can smoothly switch between different crypto assets, all while maintaining the essence of privacy.
 
-- Multi-signature, or simply multisig, is the key mechanism which allows two or more users to control a single wallet. This is mostly used in the escrow service. However, multisig can also be used to create a two-factor authentication mechanism.
+Additionally, with features like the dynamic [Marketplace API](https://zano-docs.pages.dev/docs/build/marketplace/marketplace-api-guide), adaptable Escrow/P2P Contracts, and an array of projects nurtured on Zano's foundation, our platform offers diverse opportunities for developers, traders, and all who value privacy in the digital age.
 
-- With our escrow service, users can create fully customizable contracts, which are essentially a mechanism that allows for any agreement conditions to be followed by all parties in a trustless way. When using the Zano network, a deposit is required from all parties as a financial incentive to alleviate any malicious activity.
-
-- All Zano network members can have aliases, for example, @username. These aliases can be linked to a payment address, which makes our network more user-friendly. In the long run, aliases will be used in a dedicated messenger, a user reputation service, and an alias-based authentication system.
-
-- API’s and plugins are what makes escrow and other features of our network easy to use for anyone. With this functionality, users are not required to have any coding knowledge to create contracts and implement them in any e-commerce related ventures.
-
-### The Wallet
-
-- The new Zano wallet is designed to bring ease of use to highly secure, highly anonymous cryptocurrency transactions. Our goal is to reinvent wallet design, making CryptoNote transactions available to everyone. With this single cross-platform wallet, untraceable financial transactions become as easy as a banking app.
-
-### Where to buy
-
-Zano is available on following exchanges:
-
-https://coinmarketcap.com/currencies/zano/markets/
+Discover Zano, where digital privacy isn't just an idea but a tangible reality.
