@@ -1,5 +1,4 @@
 .container {
-  font-size: var(--ifm-code-font-size);
   margin-top: 20px;
   display: flex;
   flex-direction: column;
@@ -11,12 +10,10 @@
 }
 
 .container > span {
-  font-size: var(--ifm-code-font-size);
   margin-top: 15px;
 }
 
 .container > span > a {
-  font-size: var(--ifm-code-font-size);
   color: var(--ifm-color-primary-lighter);
   text-decoration: none;
 }
