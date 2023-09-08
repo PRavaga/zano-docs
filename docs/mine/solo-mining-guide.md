@@ -1,4 +1,4 @@
-# Solo mining guide
+# Solo Mining Guide
 
 The Zano daemon features an internal stratum-like server that can serve miner clients via the ethProxy protocol. It works like a very light and simple pool that mines to a single address.
 
@@ -22,7 +22,7 @@ First, install the Zano app, [create](https://docs.zano.org/docs/getting-started
 
 In order to mine, Zano must be started with the stratum server activated. Open a `cmd` console window and navigate to the Zano folder (`C:\Program Files\Zano by default`):
 
-```text 
+```text
 cd C:\Program Files\Zano
 ```
 

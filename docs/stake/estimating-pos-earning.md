@@ -1,4 +1,8 @@
-# Estimating PoS earnings
+---
+sidebar_position: 2
+---
+
+# Estimating Rewards
 
 Proof-of-stake earnings depend on current PoS difficulty and the number of coins you have locked for staking. The more coins you stake, the better chance you have to “win” the right to sign the next PoS block. Of course, it’s important to estimate your chances and predict how much you can earn in some way. Here is the most straightforward way to do so.
 
@@ -6,7 +10,7 @@ First, we need to get the current PoS difficulty, which can be found in the [blo
 
 Second, we again divide it by `288`. This operation lets us take the PoS mining timestamp frame into account. Without further details, this factor provides hash variety in PoS mining and can be somewhere between 256 and 320. It’s reasonable to use the value of 288 here.
 
-Now we have an estimation of how many coins participate in PoS mining currently as `Coins_in_PoS = PoS_difficulty / 1000000000000 / 288` or: 
+Now we have an estimation of how many coins participate in PoS mining currently as `Coins_in_PoS = PoS_difficulty / 1000000000000 / 288` or:
 
 ![alt coins-in-pos](../../static/img/mine/estimating-pos-earning/coins-in-pos.png "coins-in-pos")
 

@@ -1,1 +1,3 @@
-# Mine overview
+# Mining Zano
+
+### Mining Software
