@@ -18,7 +18,7 @@ Once all started the miner should connect to the daemon and receive a job from i
 
 ### Windows quick guide
 
-First, install the Zano app, [create](https://docs.zano.org/docs/getting-started-1) a Zano wallet and wait until blockchain syncing is complete. When syncing is complete close the app.
+First, install the Zano app, a wallet and wait until blockchain syncing is complete. When syncing is complete close the app.
 
 In order to mine, Zano must be started with the stratum server activated. Open a `cmd` console window and navigate to the Zano folder (`C:\Program Files\Zano by default`):
 
@@ -32,7 +32,7 @@ Then
 zanod.exe --stratum --stratum-miner-address=<YOUR WALLET ADDRESS> --log-level=0 --stratum-bind-port=11555
 ```
 
-Get the latest [mining software](https://zano.org/downloads) for Windows. To make it simple, if you use an Nvidia graphic card choose Cuda miner, for AMD go for OpenCL.
+Get the latest [mining software](overview) for Windows. To make it simple, if you use an Nvidia graphic card choose Cuda miner, for AMD go for OpenCL.
 
 :::info Nvidia/CUDA cards
 
