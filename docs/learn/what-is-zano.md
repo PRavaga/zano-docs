@@ -18,6 +18,6 @@ In today's digital landscape, where the value of privacy is ever-increasing, Zan
 
 **Ionic Swaps**: In Zano's ecosystem, users can smoothly switch between different crypto assets, all while maintaining the essence of privacy.
 
-Additionally, with features like the dynamic [Marketplace API](https://zano-docs.pages.dev/docs/build/marketplace/marketplace-api-guide), adaptable Escrow/P2P Contracts, and an array of projects nurtured on Zano's foundation, our platform offers diverse opportunities for developers, traders, and all who value privacy in the digital age.
+Additionally, with features like the dynamic [Marketplace API](https://docs.zano.org/docs/build/marketplace/marketplace-api-guide), adaptable Escrow/P2P Contracts, and an array of projects nurtured on Zano's foundation, our platform offers diverse opportunities for developers, traders, and all who value privacy in the digital age.
 
 Discover Zano, where digital privacy isn't just an idea but a tangible reality.
