@@ -111,7 +111,7 @@ function StartPage() {
     <>
       <main className={styles.container}>
         <StartArticle content={content} />
-        <Projects projects={projects} />
+        {/* <Projects projects={projects} /> */}
         <LearnMore links={links} />
       </main>
     </>
