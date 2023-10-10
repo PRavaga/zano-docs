@@ -31,7 +31,7 @@ ZxDAcbaxXkyWRgYbeARBpngfmFat5TjDjjQA5NAbouB9eytwGWJqA5shAVYeCAHWPo254DF2o2X1td79
    11738.97                                   ZANO     d6329b5b....51a6498a
 ```
 
-Initiator is planning to offer Finalizer to exchange 2 coins of the CT token that she possesses (but Finalizer does not) for 10 native coins of ZANO (which Finalizer has). To do this, she generates a proposal through an API call [ionic_swap_generate_proposal](https://docs.zano.org/v2.0/reference/ionic_swap_generate_proposal) in her wallet with the following parameters:
+Initiator is planning to offer Finalizer to exchange 2 coins of the CT token that she possesses (but Finalizer does not) for 10 native coins of ZANO (which Finalizer has). To do this, she generates a proposal through an API call [ionic_swap_generate_proposal](https://docs.zano.org/docs/build/rpc-api/wallet-rpc-api/ionic_swap_generate_proposal) in her wallet with the following parameters:
 
 ```json json
 {
@@ -85,7 +85,7 @@ As a result of this API call Initiator receive proposal in raw hex format:
 
 After **Initiator** got this response, she sends **hex_raw_proposal** to Finalizer by messenger/email or any other available channel.
 
-After **Finalizer** receives the raw proposal from **Initiator**, his first step is to analyze the proposal and ensure that the transaction entails the conditions that suit him. To do this, he calls the API [ionic_swap_get_proposal_info](https://docs.zano.org/v2.0/reference/ionic_swap_get_proposal_info) from his wallet and obtains the proposal details that are validated by his wallet using his keys. In our case request and response supposed to look like this:
+After **Finalizer** receives the raw proposal from **Initiator**, his first step is to analyze the proposal and ensure that the transaction entails the conditions that suit him. To do this, he calls the API [ionic_swap_get_proposal_info](https://docs.zano.org/docs/build/rpc-api/wallet-rpc-api/ionic_swap_get_proposal_info) from his wallet and obtains the proposal details that are validated by his wallet using his keys. In our case request and response supposed to look like this:
 
 Request:
 
@@ -132,7 +132,7 @@ Response:
 >
 > It is critically important for **Finalizer** to analyze this structure and **ensure** that the conditions described therein perfectly reflect his intentions regarding the upcoming swap transaction.
 
-After Finalizer reviewed structure of the proposal, he call API [ionic_swap_accept_proposal](https://docs.zano.org/v2.0/reference/ionic_swap_accept_proposal) and by calling this he execute the swap operation.
+After Finalizer reviewed structure of the proposal, he call API [ionic_swap_accept_proposal](https://docs.zano.org/docs/build/rpc-api/wallet-rpc-api/ionic_swap_accept_proposal) and by calling this he execute the swap operation.
 
 Request:
 
