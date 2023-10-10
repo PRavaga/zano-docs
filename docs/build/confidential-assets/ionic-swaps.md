@@ -8,13 +8,13 @@ This example illustrates and explains the usage of a technology we call **IonicS
 
 Such a transaction is created collaboratively by two users using a secure trustless mechanism (see [whitepaper](https://github.com/hyle-team/docs/blob/master/zano/Zano_WP_1.1.pdf) "Consolidated Transactions"). Initially, one user creates one part of the transaction, and then the second user adds the second part necessary for the transaction to become valid. Afterward, the transaction is sent to the network.
 
-Traditionally, we will use the commonly used cryptographic designations for the parties involved - **Alice** and **Bob**. Alice will act as the initiator, creating the **Ionic Swap Proposal** and sending it to Bob, who will then make a decision whether to accept it or not.
+Traditionally, we will use the commonly used cryptographic designations for the parties involved - **Initiator** and **Finalizer**. Initiator will act as the initiator, creating the **Ionic Swap Proposal** and sending it to Finalizer, who will then make a decision whether to accept it or not.
 
 Let's assume that the native token **Zano** is circulating in the network with an asset_id of "d6329b5b1f7c0805b5c345f4957554002a2f557845f64d7645dae0e051a6498a".
 
 Additionally, let's assume that there is a token called **CT** with an asset_id of "e03a140b8447d2895290022b25c06bdabea514e2475ae56ce5bcbc554ab9865c".
 
-Let's assume **Alice** has the following address and balance in her wallet:
+Let's assume **Initiator** has the following address and balance in her wallet:
 
 ```
 ZxD4VNFRSHwMK3DY2Ka66C4SxGiAesSfrcC7vn1u6PSpjMq5v54Pt4wiW4FfGWtrJ55WuvoXtCCYeAL6mEvYU7na1xQioGffJ
@@ -23,7 +23,7 @@ balance unlocked     / [balance total]       ticker   asset id
 14.0                                          CT       e03a140b....4ab9865c
 ```
 
-And **Bob** has a wallet with the following address and balance:
+And **Finalizer** has a wallet with the following address and balance:
 
 ```
 ZxDAcbaxXkyWRgYbeARBpngfmFat5TjDjjQA5NAbouB9eytwGWJqA5shAVYeCAHWPo254DF2o2X1td79PNvRr2Yc1b9Ep67ff
@@ -31,7 +31,7 @@ ZxDAcbaxXkyWRgYbeARBpngfmFat5TjDjjQA5NAbouB9eytwGWJqA5shAVYeCAHWPo254DF2o2X1td79
    11738.97                                   ZANO     d6329b5b....51a6498a
 ```
 
-Alice is planning to offer Bob to exchange 2 coins of the CT token that she possesses (but Bob does not) for 10 native coins of ZANO (which Bob has). To do this, she generates a proposal through an API call [ionic_swap_generate_proposal](https://docs.zano.org/v2.0/reference/ionic_swap_generate_proposal) in her wallet with the following parameters:
+Initiator is planning to offer Finalizer to exchange 2 coins of the CT token that she possesses (but Finalizer does not) for 10 native coins of ZANO (which Finalizer has). To do this, she generates a proposal through an API call [ionic_swap_generate_proposal](https://docs.zano.org/v2.0/reference/ionic_swap_generate_proposal) in her wallet with the following parameters:
 
 ```json json
 {
@@ -40,13 +40,13 @@ Alice is planning to offer Bob to exchange 2 coins of the CT token that she poss
   "method": "ionic_swap_generate_proposal",
   "params": {
     "proposal": {
-      "to_bob": [
+      "to_finalizer": [
         {
           "asset_id": "e03a140b8447d2895290022b25c06bdabea514e2475ae56ce5bcbc554ab9865c",
           "amount": 2000000000000
         }
       ],
-      "to_alice": [
+      "to_initiator": [
         {
           "asset_id": "d6329b5b1f7c0805b5c345f4957554002a2f557845f64d7645dae0e051a6498a",
           "amount": 10000000000000
@@ -61,15 +61,15 @@ Alice is planning to offer Bob to exchange 2 coins of the CT token that she poss
 }
 ```
 
-As **destination_address** she set a Bob's wallet address, to make sure that he'll be able to decrypt payload data, that needed to finalise transaction and properly read it's details.
+As **destination_address** she set a Finalizer's wallet address, to make sure that he'll be able to decrypt payload data, that needed to finalise transaction and properly read it's details.
 
-In **fee_paid_by_a** she specifies how much fee of this transaction Alice willing to pay. If fee is not enough, Bob supposed to add more fee to fulfil network requirements
+In **fee_paid_by_a** she specifies how much fee of this transaction Initiator willing to pay. If fee is not enough, Finalizer supposed to add more fee to fulfil network requirements
 
-In a **to_bob** entry Alice put list of assets that she wants to transfer to Bob, in our case it's only asset "CT" with asset_id "e03a140b8447d2895290022b25c06bdabea514e2475ae56ce5bcbc554ab9865c".
+In a **to_finalizer** entry Initiator put list of assets that she wants to transfer to Finalizer, in our case it's only asset "CT" with asset_id "e03a140b8447d2895290022b25c06bdabea514e2475ae56ce5bcbc554ab9865c".
 
-In a **to_alice**entry Alic put list of assets that she expect to get in exchange, in our case it's 10 coins of Zano (native asset_id "d6329b5b1f7c0805b5c345f4957554002a2f557845f64d7645dae0e051a6498a")
+In a **to_initiator**entry Alic put list of assets that she expect to get in exchange, in our case it's 10 coins of Zano (native asset_id "d6329b5b1f7c0805b5c345f4957554002a2f557845f64d7645dae0e051a6498a")
 
-As a result of this API call Alice receive proposal in raw hex format:
+As a result of this API call Initiator receive proposal in raw hex format:
 
 ```json
 {
@@ -81,11 +81,11 @@ As a result of this API call Alice receive proposal in raw hex format:
 }
 ```
 
-**hex_raw_proposal** contains proposal transaction template(half-creted transaction) and additional encrypted data, that would be needed by Bob if he'll be accepting this swap operation.
+**hex_raw_proposal** contains proposal transaction template(half-creted transaction) and additional encrypted data, that would be needed by Finalizer if he'll be accepting this swap operation.
 
-After **Alice** got this response, she sends **hex_raw_proposal** to Bob by messenger/email or any other available channel.
+After **Initiator** got this response, she sends **hex_raw_proposal** to Finalizer by messenger/email or any other available channel.
 
-After **Bob** receives the raw proposal from **Alice**, his first step is to analyze the proposal and ensure that the transaction entails the conditions that suit him. To do this, he calls the API [ionic_swap_get_proposal_info](https://docs.zano.org/v2.0/reference/ionic_swap_get_proposal_info) from his wallet and obtains the proposal details that are validated by his wallet using his keys. In our case request and response supposed to look like this:
+After **Finalizer** receives the raw proposal from **Initiator**, his first step is to analyze the proposal and ensure that the transaction entails the conditions that suit him. To do this, he calls the API [ionic_swap_get_proposal_info](https://docs.zano.org/v2.0/reference/ionic_swap_get_proposal_info) from his wallet and obtains the proposal details that are validated by his wallet using his keys. In our case request and response supposed to look like this:
 
 Request:
 
@@ -111,13 +111,13 @@ Response:
       "expiration_time": 0,
       "fee_paid_by_a": 10000000000,
       "mixins": 10,
-      "to_alice": [
+      "to_initiator": [
         {
           "amount": 10000000000000,
           "asset_id": "d6329b5b1f7c0805b5c345f4957554002a2f557845f64d7645dae0e051a6498a"
         }
       ],
-      "to_bob": [
+      "to_finalizer": [
         {
           "amount": 2000000000000,
           "asset_id": "e03a140b8447d2895290022b25c06bdabea514e2475ae56ce5bcbc554ab9865c"
@@ -130,9 +130,9 @@ Response:
 
 > 🚧 IMPORTANT
 >
-> It is critically important for **Bob** to analyze this structure and **ensure** that the conditions described therein perfectly reflect his intentions regarding the upcoming swap transaction.
+> It is critically important for **Finalizer** to analyze this structure and **ensure** that the conditions described therein perfectly reflect his intentions regarding the upcoming swap transaction.
 
-After Bob reviewed structure of the proposal, he call API [ionic_swap_accept_proposal](https://docs.zano.org/v2.0/reference/ionic_swap_accept_proposal) and by calling this he execute the swap operation.
+After Finalizer reviewed structure of the proposal, he call API [ionic_swap_accept_proposal](https://docs.zano.org/v2.0/reference/ionic_swap_accept_proposal) and by calling this he execute the swap operation.
 
 Request:
 
@@ -161,7 +161,7 @@ Response:
 
 This operation is **irreversible**. Upon confirmation, the balances of both parties should be updated according to the swap structure.
 
-After swap tx got confirmed,**Alice** balance change would look like this:
+After swap tx got confirmed,**Initiator** balance change would look like this:
 
 ```
 height 42712, tx c08522c94355524cc8a1fa1514419814e99989ba503382256cbffc39a733a186
@@ -173,9 +173,9 @@ Refresh done, blocks received: 42775
  12.0                                          CT       e03a140b....4ab9865c
 ```
 
-Pay attention to transaction c08522c94355524cc8a1fa1514419814e99989ba503382256cbffc39a733a186. For Alice's wallet, this transaction simultaneously sends the CT token and receives ZANO (the amount minus the transaction fee).
+Pay attention to transaction c08522c94355524cc8a1fa1514419814e99989ba503382256cbffc39a733a186. For Initiator's wallet, this transaction simultaneously sends the CT token and receives ZANO (the amount minus the transaction fee).
 
-For Bob balance change would look like that:
+For **Finalizer** balance change would look like that:
 
 ```
 height 42712, tx c08522c94355524cc8a1fa1514419814e99989ba503382256cbffc39a733a186
@@ -188,4 +188,4 @@ Refresh done, blocks received: 42776
 
 ```
 
-From Bob's wallet perspective same transaction c08522c94355524cc8a1fa1514419814e99989ba503382256cbffc39a733a186 sends 10 Zano and receives 2 CT tokens.
+From Finalizer's wallet perspective same transaction c08522c94355524cc8a1fa1514419814e99989ba503382256cbffc39a733a186 sends 10 Zano and receives 2 CT tokens.
