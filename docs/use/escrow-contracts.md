@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Escrow contracts
 
-Zano provides the framework for a secure and private transaction without the need for a trusted third party. Our Escrow system, as proposed, will require participants to make additional deposits, which they will forfeit if there is any attempt to act maliciously, or in a way that is contemptuous toward their counter party. For more information please refer to the "Escrow" section of the [whitepaper](https://docs.zano.org/docs/whitepaper).
+Zano provides the framework for a secure and private transaction without the need for a trusted third party. Our Escrow system, as proposed, will require participants to make additional deposits, which they will forfeit if there is any attempt to act maliciously, or in a way that is contemptuous toward their counter party. For more information please refer to the "Escrow" section of the [whitepaper](https://docs.zano.org/docs/learn/whitepaper/).
 
 ### Propsal
 
