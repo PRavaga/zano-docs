@@ -1,13 +1,13 @@
-Returns alias details by alias address.
-
 ### Request
 
 ```json
 {
-    "jsonrpc": "2.0",
-    "id": 0,
-    "method": "get_alias_by_address",
-    "params": "ZxDNaMeZjwCjnHuU5gUNyrP1pM3U5vckbakzzV6dEHyDYeCpW8XGLBFTshcaY8LkG9RQn7FsQx8w2JeJzJwPwuDm2NfixPAXf"
+  "jsonrpc": "2.0",
+  "id": 0,
+  "method": "get_alias_by_address",
+  "params": {
+    "address": "ZxDNaMeZjwCjnHuU5gUNyrP1pM3U5vckbakzzV6dEHyDYeCpW8XGLBFTshcaY8LkG9RQn7FsQx8w2JeJzJwPwuDm2NfixPAXf"
+  }
 }
 ```
 
@@ -17,10 +17,17 @@ Returns alias details by alias address.
 
 ```json
 {
-    "jsonrpc": "2.0",
-    "id": 0,
-    "method": "get_alias_by_address",
-    "params": "ZxDNaMeZjwCjnHuU5gUNyrP1pM3U5vckbakzzV6dEHyDYeCpW8XGLBFTshcaY8LkG9RQn7FsQx8w2JeJzJwPwuDm2NfixPAXf"
+  "id": 0,
+  "jsonrpc": "2.0",
+  "result": {
+    "alias_info": {
+      "address": "ZxDkdqs5U14QJBwtx2MLsxT5xHHKQ4XSwjEXVd7QVZoD4ntEVsS8MVZ9ZnKbEn5iKQ3UepcauqRU5gYU5qo2Ujxw2rseDaUdU",
+      "alias": "crypto",
+      "comment": "",
+      "tracking_key": ""
+    },
+    "status": "OK"
+  }
 }
 ```
 
