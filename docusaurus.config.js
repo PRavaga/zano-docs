@@ -185,6 +185,12 @@ const config = {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
     },
+
+    algolia: {
+      appId: 'GZR5BV1JNU',
+      apiKey: 'aa52f5e09870e3882638cccd64c79ad0',
+      indexName: 'zano',
+    }
   },
 };
 
