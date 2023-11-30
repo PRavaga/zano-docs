@@ -8,7 +8,8 @@ Gets list of incoming transfers by given payment IDs
   "id": 0,
   "method": "get_bulk_payments",
   "params": {
-    "payment_id": "",
+    "payment_ids": ["00000000ff00ff00, 00000000ff00ff01"],
+    "min_block_height": 2000000,
     "allow_locked_transactions": false
   }
 }
@@ -16,8 +17,9 @@ Gets list of incoming transfers by given payment IDs
 
 ### Request parameters
 
-- payment_id - payment id of txs to search
-- allow_locked_transactions - include transactions that are currently locked
+- payment_ids - array of strings; payment ids of txs to search
+- min_block_height - unsigned int; height of the block to start looking for payments from
+- allow_locked_transactions - bool; include transactions that are currently locked
 
 ---
 
