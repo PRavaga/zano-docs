@@ -4,13 +4,13 @@ Gets list of incoming transfers by given payment IDs
 
 ```json
 {
-	"jsonrpc": "2.0",
-	"id": 0,
-	"method": "get_payments",
-	"params": {
-		"payment_id": "",
-		"allow_locked_transactions": false
-	}
+  "jsonrpc": "2.0",
+  "id": 0,
+  "method": "get_bulk_payments",
+  "params": {
+    "payment_id": "",
+    "allow_locked_transactions": false
+  }
 }
 ```
 
