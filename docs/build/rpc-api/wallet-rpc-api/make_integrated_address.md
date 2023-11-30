@@ -4,12 +4,12 @@ Creates an integrated address for the wallet by embedding the given payment ID t
 
 ```json
 {
-	"jsonrpc": "2.0",
-	"id": 0,
-	"method": "make_integrated_address",
-	"params": {
-		"payment_id": ""
-	}
+  "jsonrpc": "2.0",
+  "id": 0,
+  "method": "make_integrated_address",
+  "params": {
+    "payment_id": "00000000ff00ff00"
+  }
 }
 ```
 
