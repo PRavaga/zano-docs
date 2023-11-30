@@ -32,9 +32,17 @@ Gets list of incoming transfers by given payment IDs
   "result": {
     "payments": [
       {
+        "payment_id": "00000000ff00ff00",
         "amount": 100000000,
         "block_height": 202556,
         "tx_hash": "01220e8304d46b940a86e383d55ca5887b34f158a7365bbcdd17c5a305814a93",
+        "unlock_time": 0
+      },
+      {
+        "payment_id": "00000000ff00ff01",
+        "amount": 100000000,
+        "block_height": 202556,
+        "tx_hash": "0b5eb9685c0c11db77e2cdd9879c8d3b815523c6e4bf03dcee62c583b7e1f772",
         "unlock_time": 0
       }
     ]
