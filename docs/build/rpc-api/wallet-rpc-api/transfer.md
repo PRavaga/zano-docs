@@ -1,24 +1,27 @@
 Creates a transaction and broadcasts it to the network
 
-### Request 
+### Request
 
 :::caution ㅤ
 If you use multiple addresses in destinations field, make sure there are maximum 1 integrated address involved, or, if "payment id" parameter was specified, then integrated addresses are not allowed.
 :::
 
-
 ```json
 {
-	"jsonrpc": "2.0",
-	"id": 0,
-	"method": "transfer",
-	"params": {
-		"destinations": "",
-		"fee": 0,
-		"mixin": 10,
-		"payment_id": "",
-		"comment": ""
-	}
+  "jsonrpc": "2.0",
+  "id": 0,
+  "method": "transfer",
+  "params": {
+    "destinations": [
+      {
+        "amount": 1000000000,
+        "address": "ZxCkEgHf3ci8hgBfboZeCENaYrHBYZ1bLFi5cgWvn4WJLaxfgs4kqG6cJi9ai2zrXWSCpsvRXit14gKjeijx6YPC1zT8rneEf"
+      }
+    ],
+    "fee": 1000000000000,
+    "mixin": 10,
+    "comment": ""
+  }
 }
 ```
 
@@ -33,7 +36,6 @@ If you use multiple addresses in destinations field, make sure there are maximum
 ---
 
 ### Response
-
 
 ```json
 {
