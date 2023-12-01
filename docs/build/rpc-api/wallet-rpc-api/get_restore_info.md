@@ -13,8 +13,6 @@
 
 seed_password - string; password for seed phrase, is the optional parameter that is used to encrypt the seed phrase. If you're using it make sure to save it, otherwise you will not be able to restore your wallet.
 
----
-
 ### Response
 
 ```json
