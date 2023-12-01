@@ -34,7 +34,7 @@ An overview of Zano integration process, highlighting its features and relevance
 - **Public API Endpoint**: [Zano Explorer API](https://explorer.zano.org/zano_api)
 - **Account and Transaction Management**:
   - Integrated Addresses: [Guide](https://docs.zano.org/docs/build/exchange-guidlines/integrated-addresses-for-exchanges)
-  - Creating Accounts: Detailed instructions [here](https://docs.zano.org/docs/build/exchange-guidlines/starting-the-daemon-and-the-wallet-application-as-rpc-server)
+  - Creating Wallet: Detailed instructions [here](https://docs.zano.org/docs/build/exchange-guidlines/starting-the-daemon-and-the-wallet-application-as-rpc-server)
   - RPC/SDK Documentation: Available [here](https://docs.zano.org/docs/build/rpc-api/overview)
 
 ### Detailed API Instructions
@@ -47,10 +47,15 @@ An overview of Zano integration process, highlighting its features and relevance
 * **Retrieving Blockchain Height**: Use [get_wallet_info](https://docs.zano.org/docs/build/rpc-api/wallet-rpc-api/get_wallet_info) API for the current blockchain height.
 * **Checking Wallet Balance**: Total wallet balance available via [getbalance](https://docs.zano.org/docs/build/rpc-api/wallet-rpc-api/getbalance) API.
 
+### Address Management
+
+- **Handling User Accounts**: In Zano, custody is managed through one wallet with different accounts inside it, using payment IDs. For each user, generate data up to 128 bytes (8 bytes recommended) and link it to the user.
+- **Creating Integrated Addresses**: Use the [make_integrated_address](https://docs.zano.org/docs/build/rpc-api/wallet-rpc-api/make_integrated_address) API to generate an integrated address that contains the encoded payment_id, serving as the user's deposit address.
+- **Retrieving Transfer History**: For multiple payment IDs, use the [get_bulk_payments](https://docs.zano.org/docs/build/rpc-api/wallet-rpc-api/get_bulk_payments) API. For single payment_id history, use [get_payments](https://docs.zano.org/docs/build/rpc-api/wallet-rpc-api/get_payments).
+
 ### Transaction Details
 
 - **Transaction Lookup**: Use [search_for_transactions](https://docs.zano.org/docs/build/rpc-api/wallet-rpc-api/search_for_transactions) and [get_recent_txs_and_info](https://docs.zano.org/docs/build/rpc-api/wallet-rpc-api/get_recent_txs_and_info) for transaction details.
-- **Transaction History**: Use [get_bulk_payments](https://docs.zano.org/docs/build/rpc-api/wallet-rpc-api/get_bulk_payments) for transaction history.
 - **Transaction Legitimacy**: Avoid accepting locked funds; never set "allow_locked_transactions" to true. This is crucial for preventing fraudulent recharge attempts.
 - **Transaction Execution**: Steps detailed [here](https://docs.zano.org/docs/build/rpc-api/wallet-rpc-api/transfer/).
 - **Offline Transaction Signing** Refere to the guide [here](http://localhost:3000/docs/build/exchange-guidlines/signing-transactions-offline)
