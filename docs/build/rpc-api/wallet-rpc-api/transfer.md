@@ -18,9 +18,13 @@ If you use multiple addresses in destinations field, make sure there are maximum
         "address": "ZxCkEgHf3ci8hgBfboZeCENaYrHBYZ1bLFi5cgWvn4WJLaxfgs4kqG6cJi9ai2zrXWSCpsvRXit14gKjeijx6YPC1zT8rneEf"
       }
     ],
+    "push_payer": true,
+    "hide_receiver": false,
+    "service_entries_permanent": false,
     "fee": 1000000000000,
     "mixin": 10,
-    "comment": ""
+    "comment": "",
+    "service_entries": []
   }
 }
 ```
@@ -32,7 +36,8 @@ If you use multiple addresses in destinations field, make sure there are maximum
 - mixin - number of foreign outputs to be mixed in with each input. Increases untraceability. Specify zero for direct and traceable transfers.
 - payment_id - hex-encoded payment id. Can be empty if payment ID is not required for this transfer.
 - comment - text commentary which follow the transaction in encrypted form and is visible only to the sender and the receiver.
-
+- push_payer - add sender information into transaction, so it will be available for receiver
+- hide_receiver - hide receiver information in transaction, if false - it will be available both for sender and receiver to see destinations
 ---
 
 ### Response
