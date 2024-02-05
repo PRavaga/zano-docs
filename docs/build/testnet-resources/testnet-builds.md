@@ -12,6 +12,12 @@ ZIP: https://build.zano.org/builds/zano-win-x64-develop-testnet-v2.0.0.252[3be48
 
 sha256: 40d62ddbba5c4613b8533535a4efa5d37ffbb835c51410caf38091513b4802de
 
+### MacOs
+
+https://build.zano.org/builds/zano-macos-x64-develop-testnet-v2.0.0.252[01adc50].dmg
+
+sha256: e8f74b3c295cbcb5e50acaade6a4082476473f4b72f2600304733ca7d57d64a4
+
 ### Linux
 
 https://build.zano.org/builds/zano-linux-x64-develop-testnet-devtools-v2.0.0.252[3be4876].AppImage
