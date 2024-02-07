@@ -27,3 +27,7 @@ sha256: 66b4032d11e9331dfd47f9d5ed79d57b13d0906d3f87b6f1ddbc88657100d7e5
 ### Chrome extension
 
 https://api.zano.org/downloads/companion/build.zip
+
+```
+updated at 2024-02-07 12:00:00
+```
