@@ -29,5 +29,5 @@ sha256: e2d2619ffa9fa786a0d1725d20c4657ce21277495d039aabc7836df440f25560
 https://api.zano.org/downloads/companion/build.zip
 
 ```
-updated at 2024-02-14 12:00:00
+updated at 2024-02-20 12:00:00
 ```
