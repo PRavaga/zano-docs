@@ -4,25 +4,25 @@ A list of wallet builds for Zano testnet (Zarcanum update)
 
 ### Windows
 
-INST: https://build.zano.org/builds/zano-win-x64-develop-testnet-v2.0.0.256[300b82b]-installer.exe
+INST: https://build.zano.org/builds/zano-win-x64-develop-testnet-v2.0.0.261[7fb4331]-installer.exe
 
-sha256: fae5aa24af8bd1472f4c107c7f5b39c894cc2c227519161c9898e22099c3d162
+sha256: 4e1e06521ebade5beb039f0bd90fbb56c0df0899b389a5f030b888e7a8f07b82
 
-ZIP: https://build.zano.org/builds/zano-win-x64-develop-testnet-v2.0.0.256[300b82b].zip
+ZIP: https://build.zano.org/builds/zano-win-x64-develop-testnet-v2.0.0.261[7fb4331].zip
 
-sha256: 11412645c7e193ddfe054ce6c085465d4375cef57f6ff428957894d27d0deff7
+sha256: 9befa84696473300a55c4fb9a9afad830ac23deb5b858167b04c0a2c0de9dae4
 
 ### MacOs
 
-https://build.zano.org/builds/zano-macos-x64-develop-testnet-v2.0.0.256[300b82b].dmg
+https://build.zano.org/builds/zano-macos-x64-develop-testnet-v2.0.0.261[7fb4331].dmg
 
-sha256: 27b3e7d23d0ba7856fce98c145ee335ee1d6192254f82b8173ad75954a6e81a3
+sha256: ca15f3632ba4f4f1948d849d98b55c1f2bb04535f22f853a1cccd5c4a3e2f9b4
 
 ### Linux
 
-https://build.zano.org/builds/zano-linux-x64-develop-testnet-devtools-v2.0.0.256[300b82b].AppImage
+https://build.zano.org/builds/zano-linux-x64-develop-testnet-devtools-v2.0.0.261[7fb4331].AppImage
 
-sha256: 055a4a82ccf8c69c29e8c4f4d8381dea8024a5cd29fa6a766fb4f935842c46bb
+sha256: e2d2619ffa9fa786a0d1725d20c4657ce21277495d039aabc7836df440f25560
 
 ### Chrome extension
 
