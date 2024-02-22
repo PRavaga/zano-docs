@@ -29,6 +29,18 @@ Introducing a solution that allows users to issue tokens that work inside Zano
 blockchain, which have the same properties as transactions with a native token—namely hidden amounts and hidden addresses, as well as auditable wallets  
 <https://raw.githubusercontent.com/hyle-team/docs/master/zano/Zano_tokenization_platform.pdf>
 
+**Zano: Confidential Assets Scheme for RingCT and Zarcanum (2024)**
+In this paper, we describe a practical way of implementing confidential assets (a.k.a. tokens or colored
+coins) in Zano with unlimited decoy mixing capability and hidden amounts, as an extension to the Ring
+Confidential Transactions scheme. Our approach preserves public verifiability that no transaction either
+creates or destroys coins. We further extend this approach to show how it can be combined with
+Zarcanum, a Proof-of-Stake scheme for transaction with hidden amounts
+<https://hyle-team.github.io/docs/zano/CA_paper/Zano_CA_for_RingCT_and_Zarcanum_v1.1.pdf>
+
+**dv-CLSAG-extension (2024)**
+Extension for Concise Linkable Spontaneous Anonymous Group Signatures
+<https://hyle-team.github.io/docs/zano/dv-CLSAG-extension/dv-CLSAG-extension.pdf>
+
 **Additional research papers**  
 The following papers represent research toward a novel logarithmic-sized linkable ring signature scheme.
 
