@@ -5,5 +5,5 @@ Mint more coins for the asset, possible only if current wallet is a maintainer f
 ### Command
 
 ```
-emmit_asset <asset_id> <amount>
+emit_asset <asset_id> <amount>
 ```
