@@ -40,16 +40,8 @@ make install
 
 ### Checkout Zano from github
 
-Mainnet:
-
 ```
 git clone --recursive https://github.com/hyle-team/zano.git
-```
-
-Testnet:
-
-```
-git clone --recursive https://github.com/hyle-team/zano.git -b cryptoassets
 ```
 
 ### Set environment variables
