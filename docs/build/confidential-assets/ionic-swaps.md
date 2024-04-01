@@ -6,7 +6,7 @@ sidebar_position: 2
 
 This example illustrates and explains the usage of a technology we call **IonicSwap**, which involves exchanging one asset for another within a single transaction.
 
-Such a transaction is created collaboratively by two users using a secure trustless mechanism (see [whitepaper](https://github.com/hyle-team/docs/blob/master/zano/Zano_WP_1.1.pdf) "Consolidated Transactions"). Initially, one user creates one part of the transaction, and then the second user adds the second part necessary for the transaction to become valid. Afterward, the transaction is sent to the network.
+Such a transaction is created collaboratively by two users using a secure trustless mechanism (see section 2.4 in [whitepaper](https://hyle-team.github.io/docs/zano/Zano_tokenization_platform.pdf) "Consolidated Transactions"). Initially, one user creates one part of the transaction, and then the second user adds the second part necessary for the transaction to become valid. Afterward, the transaction is sent to the network.
 
 Traditionally, we will use the commonly used cryptographic designations for the parties involved - **Initiator** and **Finalizer**. Initiator will act as the initiator, creating the **Ionic Swap Proposal** and sending it to Finalizer, who will then make a decision whether to accept it or not.
 
