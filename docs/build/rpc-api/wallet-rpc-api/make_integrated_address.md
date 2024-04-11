@@ -1,38 +1,37 @@
-Creates an integrated address for the wallet by embedding the given payment ID together with the wallet's public address.
+Generate integrated address
 
-### Request
-
+URL: ```http:://127.0.0.1:11211/json_rpc```
+### Request: 
 ```json
 {
-  "jsonrpc": "2.0",
   "id": 0,
-  "method": "make_integrated_address",
+  "jsonrpc": "",
+  "method": "",
   "params": {
-    "payment_id": "00000000ff00ff00"
-  }
+    "payment_id": "1dfe5a88ff9effb3"
+}
 }
 ```
+### Request description: 
+```
+    "payment_id": Hex-encoded Payment ID to be associated with the this address. If empty then wallet would generate new payment id using system random library
 
-### Request parameters
-
-- payment_id - hex-encoded payment identifier. If empty, random 8-byte payment ID will be generated and used.
-
----
-
-### Response
-
+```
+### Response: 
 ```json
 {
   "id": 0,
-  "jsonrpc": "2.0",
-  "result": {
-    "integrated_address": "ZxBvJDuQjMG9R2j4WnYUhBYNrwZPwuyXrC7FHdVmWqaESgowDvgfWtiXeNGu8Px9B24pkmjsA39fzSSiEQG1ekB225ZnrMTBp",
-    "payment_id": "00000000ff00ff00"
-  }
+  "jsonrpc": "",
+  "method": "",
+  "params": {
+    "integrated_address": "iZ2EMyPD7g28hgBfboZeCENaYrHBYZ1bLFi5cgWvn4WJLaxfgs4kqG6cJi9ai2zrXWSCpsvRXit14gKjeijx6YPCLJEv6Fx4rVm1hdAGQFis",
+    "payment_id": "1dfe5a88ff9effb3"
+}
 }
 ```
+### Response description: 
+```
+    "integrated_address": Integrated address combining a standard address and payment ID, if applicable.
+    "payment_id": Payment ID associated with the this address.
 
-### Response inforamtion
-
-- integrated_address - string; the result.
-- payment_id - string; hex-encoded payment ID, that was used (useful if an empty payment_id was given as an input).
+```

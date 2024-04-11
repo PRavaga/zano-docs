@@ -1,26 +1,35 @@
-### Request
+Return wallet seed, which could be password-protected(seed secured with passphrase) or open(unsecured seed). If no password provided it returns open (unsecured) seed. 
 
+URL: ```http:://127.0.0.1:11211/json_rpc```
+### Request: 
 ```json
 {
-  "jsonrpc": "2.0",
   "id": 0,
-  "method": "get_restore_info",
+  "jsonrpc": "",
+  "method": "",
   "params": {
-    "seed_password": "12345"
-  }
+    "seed_password": "010101012"
+}
 }
 ```
+### Request description: 
+```
+    "seed_password": Password to secure wallet's seed
 
-seed_password - string; password for seed phrase, is the optional parameter that is used to encrypt the seed phrase. If you're using it make sure to save it, otherwise you will not be able to restore your wallet.
-
-### Response
-
+```
+### Response: 
 ```json
 {
   "id": 0,
-  "jsonrpc": "2.0",
-  "result": {
-    "seed_phrase": "word1 word2 word3.....word25"
-  }
+  "jsonrpc": "",
+  "method": "",
+  "params": {
+    "seed_phrase": "girlfriend unlike offer mutter tightly social silent expect constant bid nowhere reach flower bite salt becomeconversation dog rush quietly become usually lightning midnight each secret class"
 }
+}
+```
+### Response description: 
+```
+    "seed_phrase": Wallet's seed(secured with password if it was provided in argument)
+
 ```

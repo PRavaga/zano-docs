@@ -1,38 +1,37 @@
-Signs a transaction prepared by watch-only wallet (for cold-signing process)
+Sign transaction with the wallet's keys
 
-### Request
-
-```json
-{
-	"jsonrpc": "2.0",
-	"id": 0,
-	"method": "sign_transfer",
-	"params": {
-		"tx_unsigned_hex": ""
-	}
-}
-```
-
-### Request parameters
-
-- tx_unsigned_hex - hex-encoded unsigned transaction as returned from transfer call.
-
----
-
-### Response
-
+URL: ```http:://127.0.0.1:11211/json_rpc```
+### Request: 
 ```json
 {
   "id": 0,
-  "jsonrpc": "2.0",
-  "result": {
-    "tx_hash": "855ae466c59b24295152740e84d7f823eaf3c91adfb1ba7b4ff1dc6085b79e63",
-    "tx_signed_hex": "00_LONG_HEX_00"
-  }
+  "jsonrpc": "",
+  "method": "",
+  "params": {
+    "tx_unsigned_hex": "8304d46b940a86e383d55ca5887b34f158a7365bbcdd17c5a305814a9334f158a7368304d46b940a86e383d55ca5887b34f158a7365bbcdd17c5a305814a9334f158a736"
+}
 }
 ```
+### Request description: 
+```
+    "tx_unsigned_hex": Unsigned transaction hex-encoded blob.
 
-### Response information
+```
+### Response: 
+```json
+{
+  "id": 0,
+  "jsonrpc": "",
+  "method": "",
+  "params": {
+    "tx_hash": "01220e8304d46b940a86e383d55ca5887b34f158a7365bbcdd17c5a305814a93",
+    "tx_signed_hex": "8304d46b940a86e383d55ca5887b34f158a7365bbcdd17c5a305814a9334f158a7368304d46b940a86e383d55ca5887b34f158a7365bbcdd17c5a305814a9334f158a7368304d46b940a86e383d55ca5887b34f158a7365bbcdd17c5a305814a9334f158a7368304d46b940a86e383d55ca5887b34f158a7365bbcdd17c5a305814a9334f158a736"
+}
+}
+```
+### Response description: 
+```
+    "tx_hash": Signed transaction hash.
+    "tx_signed_hex": Signed transaction hex-encoded blob.
 
-- tx_hash - string; hash identifier of signed transaction.
-- tx_signed_hex - string; hex-encoded signed transaction.
+```

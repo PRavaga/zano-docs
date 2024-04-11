@@ -1,31 +1,35 @@
-[Multiassets] Selects active wallet for further RPC calls
+Select curent active wallet, after that all wallet RPC call would be addressed to this wallet
 
-### Request
-
-```json
-curl -i -X POST \
-   -H "Content-Type:application/json" \
-   -d \
-'{
-  "jsonrpc": "2.0",
-  "id": 0,
-  "method": "mw_select_wallet",
-  "params": {"wallet_id": 0}
-  }
-}' \
- 'http://127.0.0.1:12111/json_rpc'
-```
-
----
-
-### Response 
-
+URL: ```http:://127.0.0.1:11211/json_rpc```
+### Request: 
 ```json
 {
-    "id": 0,
-    "jsonrpc": "2.0",
-    "result": {
-        "status": "OK"
-    }
+  "id": 0,
+  "jsonrpc": "",
+  "method": "",
+  "params": {
+    "wallet_id": 2
 }
+}
+```
+### Request description: 
+```
+    "wallet_id": Wallet id
+
+```
+### Response: 
+```json
+{
+  "id": 0,
+  "jsonrpc": "",
+  "method": "",
+  "params": {
+    "status": "OK"
+}
+}
+```
+### Response description: 
+```
+    "status": Result (OK if success)
+
 ```

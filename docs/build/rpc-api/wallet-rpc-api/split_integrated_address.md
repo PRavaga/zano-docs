@@ -1,38 +1,37 @@
-Creates an integrated address for the wallet by embedding the given payment ID together with the wallet's public address.
+Decode integrated address
 
-### Request
-
-```json
-{
-	"jsonrpc": "2.0",
-	"id": 0,
-	"method": "split_integrated_address",
-	"params": {
-		"integrated_address": ""
-	}
-}
-```
-
-### Request parameters
-
-- integrated_address - integrated or standard address
-
----
-
-### Response
-
+URL: ```http:://127.0.0.1:11211/json_rpc```
+### Request: 
 ```json
 {
   "id": 0,
-  "jsonrpc": "2.0",
-  "result": {
-    "payment_id": "",
-    "standard_address": "ZxBvJDuQjMG9R2j4WnYUhBYNrwZPwuyXrC7FHdVmWqaESgowDvgfWtiXeNGu8Px9B24pkmjsA39fzSSiEQG1ekB225ZnrMTBp"
-  }
+  "jsonrpc": "",
+  "method": "",
+  "params": {
+    "integrated_address": "iZ2EMyPD7g28hgBfboZeCENaYrHBYZ1bLFi5cgWvn4WJLaxfgs4kqG6cJi9ai2zrXWSCpsvRXit14gKjeijx6YPCLJEv6Fx4rVm1hdAGQFis"
+}
 }
 ```
+### Request description: 
+```
+    "integrated_address": Integrated address combining a standard address and payment ID, if applicable.
 
-### Response information
+```
+### Response: 
+```json
+{
+  "id": 0,
+  "jsonrpc": "",
+  "method": "",
+  "params": {
+    "payment_id": "1dfe5a88ff9effb3",
+    "standard_address": "ZxBvJDuQjMG9R2j4WnYUhBYNrwZPwuyXrC7FHdVmWqaESgowDvgfWtiXeNGu8Px9B24pkmjsA39fzSSiEQG1ekB225ZnrMTBp"
+}
+}
+```
+### Response description: 
+```
+    "payment_id": Hex-encoded payment id
+    "standard_address": Standart address.
 
-- payment_id - string; hex-encoded payment ID, extracted from the given integrated address. Can be empty. Will be empty when a standard address is given as an input.
-- standard_address - string; standard address with no payment ID attached.
+```
