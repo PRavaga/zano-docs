@@ -1,37 +1,37 @@
-Returns approximate block height for requested timestamp
+Give an estimation of block height by the given date.
 
-### Request
-
+URL: ```http:://127.0.0.1:11211/json_rpc```
+### Request: 
 ```json
 {
-	"jsonrpc": "2.0",
-	"id": 0,
-	"method": "get_est_height_from_date",
-	"params": {
-		"date": ""
-	}
+  "id": 0,
+  "jsonrpc": "",
+  "method": "",
+  "params": {
+    "timestamp": 1711021795
+}
 }
 ```
+### Request description: 
+```
+    "timestamp": Linux timestamp for the required date.
 
-### Request parameters
-
-- date - unix timestamp
-
----
-
-### Response
-
+```
+### Response: 
 ```json
 {
-	"id": 0,
-	"jsonrpc": "2.0",
-	"result": {
-		"h": 0,
-		"status": "OK"
-	}
+  "id": 0,
+  "jsonrpc": "",
+  "method": "",
+  "params": {
+    "h": 2555000,
+    "status": "OK"
+}
 }
 ```
+### Response description: 
+```
+    "h": Estimated height of a block.
+    "status": Status of the call.
 
-### Response parameters
-
-- h - block height approximation
+```

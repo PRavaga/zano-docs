@@ -1,53 +1,37 @@
-Returns alternative blocks details for a specified range.
+Retrieves details of alternative blocks in the blockchain, allowing for pagination through large datasets.
 
-### Request
-
-```json
-{
-	"jsonrpc": "2.0",
-	"id": 0,
-	"method": "get_alt_blocks_details",
-	"params": {
-		"offset": 1,
-		"count": 1
-	}
-}
-```
-
-### Request parameters
-
-- offset - starting offset in the global list of alternative blocks
-- count - number of blocks to be requested
-
----
-
-### Response
-
+URL: ```http:://127.0.0.1:11211/json_rpc```
+### Request: 
 ```json
 {
   "id": 0,
-  "jsonrpc": "2.0",
-  "result": {
-    "blocks": [{
-      "actual_timestamp": 1537462404,
-      "already_generated_coins": 0,
-      "base_reward": 0,
-      "blob": "",
-      "block_cumulative_size": 0,
-      ....
-    },{
-      "actual_timestamp": 1537462619,
-      "already_generated_coins": 0,
-      "base_reward": 0,
-      "blob": "",
-      "block_cumulative_size": 0,
-      ....
-    }],
-    "status": "OK"
-  }
+  "jsonrpc": "",
+  "method": "",
+  "params": {
+    "count": 0,
+    "offset": 0
+}
 }
 ```
+### Request description: 
+```
+    "count": The number of alternative blocks to retrieve from the specified offset.
+    "offset": The offset in the list of alternative blocks from which to start retrieval.
 
-### Response information
+```
+### Response: 
+```json
+{
+  "id": 0,
+  "jsonrpc": "",
+  "method": "",
+  "params": {
+    "status": "OK"
+}
+}
+```
+### Response description: 
+```
+    "status": Status of the call.
 
-- see get_blocks_details method for more details.
+```

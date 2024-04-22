@@ -1,33 +1,33 @@
-Returns IDs for all txs in the pool.
+Retrieves a list of all transaction IDs currently in the transaction pool.
 
-### Request
-
-```json
-{
-	"jsonrpc": "2.0",
-	"id": 0,
-	"method": "get_all_pool_tx_list"
-}
-```
-
----
-
-### Response 
-
+URL: ```http:://127.0.0.1:11211/json_rpc```
+### Request: 
 ```json
 {
   "id": 0,
-  "jsonrpc": "2.0",
-  "result": {
-    "ids": [
-      "07af9af51abace52c6c9f5e96eac1f4123e56d8d2b2e1ac2ba5c6d68be94680f",
-      "968d44f9443b067debc4a467174ad5b640690e165a2f8d45b2904d082bc1312e"
-    ],
-    "status": "OK"
-  }
+  "jsonrpc": "",
+  "method": "",
+  "params": {
+}
 }
 ```
+### Request description: 
+```
 
-### Response information
+```
+### Response: 
+```json
+{
+  "id": 0,
+  "jsonrpc": "",
+  "method": "",
+  "params": {
+    "status": "OK"
+}
+}
+```
+### Response description: 
+```
+    "status": Status of the call.
 
-- ids - array of strings; list of hash identifiers for all transactions that are currently in the pool.
+```

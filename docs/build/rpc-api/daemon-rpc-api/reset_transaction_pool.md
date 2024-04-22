@@ -1,25 +1,33 @@
-Clears the transaction pool.
+Clears transaction pool.
 
-### Request
-
+URL: ```http:://127.0.0.1:11211/json_rpc```
+### Request: 
 ```json
 {
-	"jsonrpc": "2.0",
-	"id": 0,
-	"method": "reset_transaction_pool"
+  "id": 0,
+  "jsonrpc": "",
+  "method": "",
+  "params": {
+}
 }
 ```
+### Request description: 
+```
 
----
-
-### Response
-
+```
+### Response: 
 ```json
 {
-	"id": 0,
-	"jsonrpc": "2.0",
-	"result": {
-		"status": "OK"
-	}
+  "id": 0,
+  "jsonrpc": "",
+  "method": "",
+  "params": {
+    "status": "OK"
 }
+}
+```
+### Response description: 
+```
+    "status": Status of the call.
+
 ```
