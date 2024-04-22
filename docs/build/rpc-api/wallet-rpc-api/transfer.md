@@ -5,8 +5,8 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
 ```json
 {
   "id": 0,
-  "jsonrpc": "",
-  "method": "",
+  "jsonrpc": "2.0",
+  "method": "transfer",
   "params": {
     "comment": "Thanks for the coffe",
     "destinations": [{
@@ -55,9 +55,8 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
 ```json
 {
   "id": 0,
-  "jsonrpc": "",
-  "method": "",
-  "params": {
+  "jsonrpc": "2.0",
+  "result": {
     "tx_hash": "",
     "tx_size": 0,
     "tx_unsigned_hex": ""

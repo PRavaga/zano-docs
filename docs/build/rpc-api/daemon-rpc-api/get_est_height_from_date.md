@@ -5,8 +5,8 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
 ```json
 {
   "id": 0,
-  "jsonrpc": "",
-  "method": "",
+  "jsonrpc": "2.0",
+  "method": "get_est_height_from_date",
   "params": {
     "timestamp": 1711021795
 }
@@ -21,9 +21,8 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
 ```json
 {
   "id": 0,
-  "jsonrpc": "",
-  "method": "",
-  "params": {
+  "jsonrpc": "2.0",
+  "result": {
     "h": 2555000,
     "status": "OK"
 }

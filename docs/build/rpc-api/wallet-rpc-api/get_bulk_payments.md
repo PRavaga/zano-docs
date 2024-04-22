@@ -5,8 +5,8 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
 ```json
 {
   "id": 0,
-  "jsonrpc": "",
-  "method": "",
+  "jsonrpc": "2.0",
+  "method": "get_bulk_payments",
   "params": {
     "allow_locked_transactions": false,
     "min_block_height": 0,
@@ -25,9 +25,8 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
 ```json
 {
   "id": 0,
-  "jsonrpc": "",
-  "method": "",
-  "params": {
+  "jsonrpc": "2.0",
+  "result": {
     "payments": [{
       "amount": 100000000000,
       "block_height": 12321,

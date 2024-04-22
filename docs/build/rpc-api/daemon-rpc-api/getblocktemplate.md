@@ -5,8 +5,8 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
 ```json
 {
   "id": 0,
-  "jsonrpc": "",
-  "method": "",
+  "jsonrpc": "2.0",
+  "method": "getblocktemplate",
   "params": {
     "explicit_transaction": "",
     "extra_text": "",
@@ -39,9 +39,8 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
 ```json
 {
   "id": 0,
-  "jsonrpc": "",
-  "method": "",
-  "params": {
+  "jsonrpc": "2.0",
+  "result": {
     "block_reward": 0,
     "block_reward_without_fee": 0,
     "blocktemplate_blob": "",

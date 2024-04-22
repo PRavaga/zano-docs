@@ -5,8 +5,8 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
 ```json
 {
   "id": 0,
-  "jsonrpc": "",
-  "method": "",
+  "jsonrpc": "2.0",
+  "method": "store",
   "params": {
 }
 }
@@ -19,9 +19,8 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
 ```json
 {
   "id": 0,
-  "jsonrpc": "",
-  "method": "",
-  "params": {
+  "jsonrpc": "2.0",
+  "result": {
     "wallet_file_size": 232243
 }
 }

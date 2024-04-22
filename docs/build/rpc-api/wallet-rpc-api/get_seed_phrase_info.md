@@ -5,8 +5,8 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
 ```json
 {
   "id": 0,
-  "jsonrpc": "",
-  "method": "",
+  "jsonrpc": "2.0",
+  "method": "get_seed_phrase_info",
   "params": {
     "seed_password": "0101010103",
     "seed_phrase": "girlfriend unlike mutter tightly social silent expect constant bid nowhere reach flower bite salt lightning conversation dog rush quietly become usually midnight each secret offer class"
@@ -23,9 +23,8 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
 ```json
 {
   "id": 0,
-  "jsonrpc": "",
-  "method": "",
-  "params": {
+  "jsonrpc": "2.0",
+  "result": {
     "hash_sum_matched": true,
     "require_password": true,
     "syntax_correct": true,

@@ -5,8 +5,8 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
 ```json
 {
   "id": 0,
-  "jsonrpc": "",
-  "method": "",
+  "jsonrpc": "2.0",
+  "method": "get_restore_info",
   "params": {
     "seed_password": "010101012"
 }
@@ -21,9 +21,8 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
 ```json
 {
   "id": 0,
-  "jsonrpc": "",
-  "method": "",
-  "params": {
+  "jsonrpc": "2.0",
+  "result": {
     "seed_phrase": "girlfriend unlike offer mutter tightly social silent expect constant bid nowhere reach flower bite salt becomeconversation dog rush quietly become usually lightning midnight each secret class"
 }
 }

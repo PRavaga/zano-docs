@@ -5,8 +5,9 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
 ```json
 {
   "id": 0,
-  "jsonrpc": "",
-  "method": ""
+  "jsonrpc": "2.0",
+  "method": "getlastblockheader",
+  "params": [""]
 }
 ```
 ### Request description: 
@@ -17,9 +18,8 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
 ```json
 {
   "id": 0,
-  "jsonrpc": "",
-  "method": "",
-  "params": {
+  "jsonrpc": "2.0",
+  "result": {
     "block_header": {
       "depth": 0,
       "difficulty": "",
