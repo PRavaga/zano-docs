@@ -55,6 +55,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     "offers_count": 0,
     "outgoing_connections_count": 0,
     "outs_stat": {
+      "amount_0": 0,
       "amount_0_001": 0,
       "amount_0_01": 0,
       "amount_0_1": 0,

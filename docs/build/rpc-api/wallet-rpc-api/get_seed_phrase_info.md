@@ -25,6 +25,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "id": 0,
   "jsonrpc": "2.0",
   "result": {
+    "address": "ZxDNaMeZjwCjnHuU5gUNyrP1pM3U5vckbakzzV6dEHyDYeCpW8XGLBFTshcaY8LkG9RQn7FsQx8w2JeJzJwPwuDm2NfixPAXf",
     "hash_sum_matched": true,
     "require_password": true,
     "syntax_correct": true,
@@ -34,6 +35,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
 ```
 ### Response description: 
 ```
+    "address": Return address of the seed phrase.
     "hash_sum_matched": Indicates whether the hash sum matches.
     "require_password": Indicates whether a password is required.
     "syntax_correct": Indicates whether the syntax is correct.
