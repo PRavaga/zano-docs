@@ -1,0 +1,53 @@
+Add given asset id to local whitelist. This whitelist is stored with the wallet file and reset in case of wallet resync or restoring wallet from seed phrase.
+
+URL: ```http:://127.0.0.1:11211/json_rpc```
+### Request: 
+```json
+{
+  "id": 0,
+  "jsonrpc": "2.0",
+  "method": "assets_whitelist_add",
+  "params": {
+    "asset_id": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8"
+}
+}
+```
+### Request description: 
+```
+    "asset_id": Asset id that needed to be added to local whitelist, asset_id must exist in the network
+
+```
+### Response: 
+```json
+{
+  "id": 0,
+  "jsonrpc": "2.0",
+  "result": {
+    "asset_descriptor": {
+      "current_supply": 500000000000000000,
+      "decimal_point": 12,
+      "full_name": "Zano wrapped USD",
+      "hidden_supply": false,
+      "meta_info": "Stable and private",
+      "owner": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8",
+      "ticker": "ZUSD",
+      "total_max_supply": 1000000000000000000
+},
+    "status": "OK"
+}
+}
+```
+### Response description: 
+```
+    "asset_descriptor": Details of the asset, recieved from node
+      "current_supply": Currently emitted supply for given asset
+      "decimal_point": Decimal point
+      "full_name": Full name of the asset
+      "hidden_supply": This one reserved for future use, will be documented later
+      "meta_info": Any other information assetiaded with asset in a free form
+      "owner": Owner's key, used to validate any operations on the asset altering, could be changed in case of transfer ownership
+      "ticker": Ticker associated with asset
+      "total_max_supply": Maximum possible supply for given asset, can't be changed after deployment
+    "status": Status of the asset
+
+```
