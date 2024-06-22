@@ -8,19 +8,11 @@ sidebar_position: 6
 
 Zano has a hybrid PoW/PoS consensus algorithm to secure the network and therefore emission is generated from two distinct sources:
 
-Proof of Work (PoW) mining. PoW mining creates new ZANO coins to reward miners for completing the calculation and therefore contributing to the network. 100% of the block reward goes to miners.
+Proof of Work (PoW) mining. PoW mining creates new ZANO coins to reward miners for completing the calculation and therefore contributing to the network.
 
-Proof of Stake (PoS) staking. PoS staking also creates new ZANO coins to reward stakers for staking their funds and therefore contributing to the network. 100% of the block reward goes to stakers.
+Proof of Stake (PoS) staking. PoS staking also creates new ZANO coins to reward stakers for staking their funds and therefore contributing to the network.
 
-**
-
-### Where does the emission come from?
-
-Zano has a hybrid PoW/PoS consensus algorithm to secure the network and therefore emission is generated from two distinct sources:
-
-Proof of Work (PoW) mining. PoW mining creates new ZANO coins to reward miners for completing the calculation and therefore contributing to the network. 100% of the block reward goes to miners.
-
-Proof of Stake (PoS) staking. PoS staking also creates new ZANO coins to reward stakers for staking their funds and therefore contributing to the network.. 100% of the block reward goes to stakers.
+100% of the block reward goes to the miner or staker that found the block.
 
 | Emission specifications​ |                                               |
 | ------------------------ | --------------------------------------------- |
@@ -43,7 +35,7 @@ This combination of small, minimalistic daily emission, together with daily burn
 
 ### Is the block reward enough to secure the network?
 
-Zano has a unique consensus system in which in order to perform the classic 51% attack, you need to have at least 51% PoW hashrate AND 51% PoS power (there can also be other ratios like 20%/90% and so on (see the [whitepaper](https://zano.org/downloads/zano_wp.pdf)).
+Zano has a unique consensus system in which in order to perform the classic 51% attack, you need to have at least 51% PoW hashrate AND 51% PoS power (there can also be other ratios like 20%/90% and so on (see the [whitepaper](https://github.com/hyle-team/docs/blob/master/zano/Zano_WP_1.1.pdf)).
 
 This way an attack becomes very expensive, in particular because the purchase of a significant portion of the coins on the market would dramatically increase the price. If you try to use a small percentage of PoS coins for the attack, then the PoW power necessary for the attack becomes 800% or more. This makes it possible to establish a relatively low block reward and at the same time provide a high security level for the transaction history.
 
@@ -60,5 +52,3 @@ As of June 2024, considering what has already been spent for development, our de
 You can track the amount of the dev fund via our [explorer](https://explorer.zano.org/) or by importing its tracking seed into your wallet:
 
 aZxat4HAWriVQ3enkGcVsrZRdMseAJswG3CSEwTqZS246VsFQ53w26eZstYsu1jWE74Atz9ajLxFnBsVTafncWNH5SMv4zHFaTS:1780c4d5dd7e97cc4a75ea8baa7977d12ef948b9a6dddc2a9a37e5e22ac7180e:1599495055
-
-**
