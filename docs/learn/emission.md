@@ -29,7 +29,7 @@ Zano decided to set the block reward relatively low to avoid unnecessary selling
 
 On Zano, all network fees are being burned. With enough network usage, the daily fee burning could surpass the emission from block rewards, resulting in supply becoming deflationary over time.
 
-![](https://lh7-us.googleusercontent.com/docsz/AD_4nXcM6FMZnbJSrfGOpxrOA6v7Jv4W-DqK2V-dKpED2O5DEBgV9-AEQriH0COJuT42jslNqGshmHEXZE-vLlLyNjrfP2b-CVAexn6wm6Gk21Sk41T4_Bze0Ftxq6Y1VJwsK53fi8iWo0ZY4RYFVhrPIkBn1S5E?key=wCwv72eQdn6ocfq5yu_CgQ)
+![](static/img/learn/emission/deflationary-0.01.png)
 
 This combination of small, minimalistic daily emission, together with daily burns, results in little to no sell pressure on the exchanges.
 
@@ -47,8 +47,8 @@ Our decision to do a premine allowed us to keep our core team full-time since la
 
 The premine consisted of 3.6M ZANO, it was set aside for marketing, partnerships, ongoing project expenses, as well as to pay a loan to fund initial development back in 2018.
 
-As of June 2024, considering what has already been spent for development, our dev-fund sits at ~6% of the total ZANO supply.
+As of June 2024, considering what has already been spent for development, our dev-fund sits at \~6% of the total ZANO supply.
 
 You can track the amount of the dev fund via our [explorer](https://explorer.zano.org/) or by importing its tracking seed into your wallet:
 
-aZxat4HAWriVQ3enkGcVsrZRdMseAJswG3CSEwTqZS246VsFQ53w26eZstYsu1jWE74Atz9ajLxFnBsVTafncWNH5SMv4zHFaTS:1780c4d5dd7e97cc4a75ea8baa7977d12ef948b9a6dddc2a9a37e5e22ac7180e:1599495055
+`aZxat4HAWriVQ3enkGcVsrZRdMseAJswG3CSEwTqZS246VsFQ53w26eZstYsu1jWE74Atz9ajLxFnBsVTafncWNH5SMv4zHFaTS:1780c4d5dd7e97cc4a75ea8baa7977d12ef948b9a6dddc2a9a37e5e22ac7180e:1599495055`
