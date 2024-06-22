@@ -8,9 +8,9 @@ sidebar_position: 6
 
 Zano has a hybrid PoW/PoS consensus algorithm to secure the network and therefore emission is generated from two distinct sources:
 
-Proof of Work (PoW) mining. PoW mining creates new ZANO coins to reward miners for completing the calculation and therefore contributing to the network.
+Proof of Work (PoW) mining, which creates new ZANO coins to reward miners for completing the calculations and therefore contributing to the network.
 
-Proof of Stake (PoS) staking. PoS staking also creates new ZANO coins to reward stakers for staking their funds and therefore contributing to the network.
+Proof of Stake (PoS) staking, which also creates new ZANO coins to reward users who stake their funds and therefore also contributing to the network's security.
 
 100% of the block reward goes to the miner or staker that found the block.
 
@@ -47,8 +47,8 @@ Our decision to do a premine allowed us to keep our core team full-time since la
 
 The premine consisted of 3.6M ZANO, it was set aside for marketing, partnerships, ongoing project expenses, as well as to pay a loan to fund initial development back in 2018.
 
-As of June 2024, considering what has already been spent for development, our dev-fund sits at \~6% of the total ZANO supply.
+As of June 2024, considering what has already been spent for development, our foundation fund sits at **just \~6%** of the total ZANO supply.
 
-You can track the amount of the dev fund via our [explorer](https://explorer.zano.org/) or by importing its tracking seed into your wallet:
+You can track the amount of the foundation fund via our [explorer](https://explorer.zano.org/) or by importing its tracking seed into your wallet:
 
 `aZxat4HAWriVQ3enkGcVsrZRdMseAJswG3CSEwTqZS246VsFQ53w26eZstYsu1jWE74Atz9ajLxFnBsVTafncWNH5SMv4zHFaTS:1780c4d5dd7e97cc4a75ea8baa7977d12ef948b9a6dddc2a9a37e5e22ac7180e:1599495055`
