@@ -14,12 +14,11 @@ Zano leverages the proven and time-tested cryptographic primitives that were fir
 
 Our implementation boils down to:
 
-\
-\- **d/v-CLSAG** **Ring Signatures** that hide the sender.
+- &#x20;**d/v-CLSAG** **Ring Signatures** that hide the sender.
 
-\- **Stealth addresses** that hide the receiver and asset type being transacted.
+- **Stealth addresses** that hide the receiver and asset type being transacted.
 
-\- **RingCT** which hides amounts/balances, even when staking thanks to **Zarcanum.**
+- **RingCT** which hides amounts/balances, even when staking thanks to **Zarcanum.**
 
 This makes sure that **by default,** transaction data being stored on the blockchain is **only** accessible by parties who authorized the transactions, none of it is ever publicly published.
 
