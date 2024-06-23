@@ -28,9 +28,9 @@ It's your gateway to the broader Zano ecosystem!
 
 7. To connect to a Zano web application, simply click on its "Connect Wallet" button and select Zano Extension if asked.
 
-![](/img/use/companion/connect_wallet.png)
+   ![](/img/use/companion/connect_wallet.png)
 
-1. A popup will appear on the Companion to authorize the connection, you will only need to this on the first time.
+8. A popup will appear on the Companion to authorize the connection, you will only need to this on the first time.
 
 ![](/img/use/companion/sign_request.png)
 

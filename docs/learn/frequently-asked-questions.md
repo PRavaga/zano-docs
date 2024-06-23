@@ -12,7 +12,9 @@ Zano is an open-source cryptocurrency (layer-1) and ecosystem with enterprise-gr
 
 Zano leverages the proven and time-tested cryptographic primitives that were first introduced with CryptoNote, a protocol of which one of our founders was a lead-dev for, origin for over 300 forks and used by the biggest private cryptocurrencies.
 
-Our implementation boils down to:\
+Our implementation boils down to:
+
+\
 \- **d/v-CLSAG** **Ring Signatures** that hide the sender.
 
 \- **Stealth addresses** that hide the receiver and asset type being transacted.
@@ -61,7 +63,7 @@ You can mine coins and stake them to increase your balance or trade coins on cry
 
 ### **Where can I store my Zano?**
 
-[Wallets where Zano is available](https://docs.zano.org/docs/learn/frequently-asked-questions/#what-is-zano) (Mobile & Desktop)
+[Wallets where Zano is available](https://zano.org/downloads) (Mobile & Desktop)
 
 ### **Where can I spend Zano?**
 
