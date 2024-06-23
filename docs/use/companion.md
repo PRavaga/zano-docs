@@ -22,16 +22,16 @@ It's your gateway to the broader Zano ecosystem!
 
 5. Click on the extension, and paste the secret you copied in the appropiate field, as well as the password that you will use to login into the Companion.
 
-6. You can now register an [alias](https://app.dhub.dev/c/goncativas-projects/zano-docs/docs/use/aliases.md) if you haven't done so already, this will be displayed as your identity when using the Zano ecosystem.
+6. You can now register an [alias](https://docs.zano.org/docs/use/aliases) if you haven't done so already, this will be displayed as your identity when using the Zano ecosystem.
 
    ![](/img/use/companion/companion.png)
 
-To connect to a Zano web application, simply click on its "Connect Wallet" button and select Zano Extension if asked.
+7. To connect to a Zano web application, simply click on its "Connect Wallet" button and select Zano Extension if asked.
 
 ![](/img/use/companion/connect_wallet.png)
 
-A popup will appear on the Companion to authorize the connection, you will only need to this on the first time.
+1. A popup will appear on the Companion to authorize the connection, you will only need to this on the first time.
 
 ![](/img/use/companion/sign_request.png)
 
-And that's it! Welcome to the Zano Ecosystem!
+**And that's it! Welcome to the Zano Ecosystem!**
