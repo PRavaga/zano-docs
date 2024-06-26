@@ -49,6 +49,17 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "timestamp": 0,
       "total_fee": 0,
       "total_txs_size": 0,
+      "transactions_details": [{
+        "amount": 0,
+        "blob": "",
+        "blob_size": 0,
+        "fee": 0,
+        "id": "",
+        "keeper_block": 0,
+        "object_in_json": "",
+        "pub_key": "",
+        "timestamp": 0
+}],
       "type": 0
 }],
     "status": "OK"
@@ -78,6 +89,16 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "timestamp": Timestamp when the block was created, in PoS blocks used for mining.
       "total_fee": Total transaction fees included in the block.
       "total_txs_size": Total size of all transactions included in the block.
+      "transactions_details": Detailed information about each transaction included in the block.
+        "amount": Total output amount of the transaction (legacy, for pre-Zarcanum txs).
+        "blob": Serialized form of the transaction, encoded in Base64.
+        "blob_size": Size of the serialized transaction in bytes.
+        "fee": Transaction fee in the smallest currency unit.
+        "id": Hash of the transaction.
+        "keeper_block": Block height where the transaction is confirmed, or -1 if it is unconfirmed.
+        "object_in_json": Serialized transaction represented in JSON, encoded in Base64.
+        "pub_key": Public key associated with the transaction.
+        "timestamp": Timestamp when the transaction was created.
       "type": Type of the block.
     "status": Status of the call.
 
