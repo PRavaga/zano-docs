@@ -28,37 +28,31 @@ A decentralized exchange to trade native Zano and all the Confidential Assets la
 
 5. Now you can either post a buy/sell order or take an existing one.
 
-   ### Create an order
+### Create an order
 
-   For this example, we will be buying "ZNOPP" tokens:
+For this example, we will be buying "ZNOPP" tokens:
 
-   **Price:** How much of the base pair (in this case, ZANO) do we want to pay per unit of ZNOOP?
+_Price:_ How much of the base pair (in this case, ZANO) do we want to pay per unit of ZNOOP?
 
-   **Amount:** How many tokens do we want to acquire at this price?
+_Amount:_ How many tokens do we want to acquire at this price?
 
-   Click "Buy" to post the order.
+Click "Buy" to post the order.
 
-   <figure style={{textAlign: 'center'}}>
-     <img src={require('/img/use/zano-trade/new_order1.png').default} />
-   </figure>
+![](/img/use/zano-trade/new_order1.png)
 
-   ### Take an order
+### Take an order
 
-   For this example, we'll be selling "ZNOOP" tokens:
+For this example, we'll be selling "ZNOOP" tokens:
 
-   Scroll down to see the order book
+Scroll down to see the order book.
 
-   Since we are happy with receiving 0.01 ZANO per token, we'll proceed to click "Take Order"
+Since we are happy with receiving 0.01 ZANO per token, we'll proceed to click "Take Order".
 
-   <figure style={{textAlign: 'center'}}>
-     <img src={require('/img/use/zano-trade/order_book2.png').default} />
-   </figure>
+![](/img/use/zano-trade/order_book2.png)
 
 This will take us back above and automatically set the fields for our sell order, simply click "Sell".
 
-<figure style={{textAlign: 'center'}}>
-  <img src={require('/img/use/zano-trade/new_order2.png').default} />
-</figure>
+![](/img/use/zano-trade/new_order2.png)
 
 ### Complete the trade
 

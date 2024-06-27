@@ -12,14 +12,14 @@ Proof of Work (PoW) mining, which creates new ZANO coins to reward miners for co
 
 Proof of Stake (PoS) staking, which also creates new ZANO coins to reward users who stake their funds and therefore also contributing to the network's security.
 
-100% of the block reward goes to the miner or staker that found the block.
+100% of the block reward goes to the miner or staker who found the block.
 
 | Emission specifications​ |                                               |
 | ------------------------ | --------------------------------------------- |
 | Block Time               | 1 minute                                      |
 | Block Reward             | 1 ZANO (fixed amount)                         |
 | Maximum Supply           | Uncapped                                      |
-| Yearly Inflation         | Ever decreasing trend towards 0% (asymptotic) |
+| Yearly Inflation         | Ever-decreasing trend towards 0% (asymptotic) |
 | Fee on TXs (flat fee)    | 0.01 ZANO                                     |
 | Fee burn                 | 100% (all fees are burned)                    |
 
@@ -27,11 +27,15 @@ Proof of Stake (PoS) staking, which also creates new ZANO coins to reward users 
 
 Zano decided to set the block reward relatively low to avoid unnecessary selling price pressure while keeping the chain safe from flood attacks. We have an uncapped max supply because the assumption that only the TX fees would be enough to cover miners' appetite might not be accurate and Bitcoin might become a sad example of this. A fixed emission ensures that stakers and miners will always secure the network.
 
-On Zano, all network fees are being burned. With enough network usage, the daily fee burning could surpass the emission from block rewards, resulting in supply becoming deflationary over time.
+On Zano, **all network fees are being burned**, meaning that with enough network usage, the daily fee burning could surpass the emission from block rewards, resulting in supply becoming deflationary over time.
 
-![](static/img/learn/emission/deflationary-0.01.png)
+![](/img/learn/emission/supply-inflation-with-burning.png)
 
-This combination of small, minimalistic daily emission, together with daily burns, results in little to no sell pressure on the exchanges.
+![](/img/learn/emission/zano-supply-progression2024.png)
+
+> For practical purposes these charts assume a fixed fee, in reality, as Zano's price goes up (and the dynamic fee mechanism is implemented) fees will likely go down in Zano-denominated terms, slightly reducing the total burned over time, still, these graphs are useful to showcase the different trends the total supply can take based on network usage.
+
+This combination of small, minimalistic daily emissions, together with daily burns, results in **little to no sell pressure on exchanges.**
 
 ### Is the block reward enough to secure the network?
 
