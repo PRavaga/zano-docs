@@ -12,7 +12,7 @@ In order to start the wallet in RPC server mode, a user needs the following:
 
 2. Run simplewallet with the following options:
 
-```shell shell
+```shell
 simplewallet --wallet-file PATH_TO_WALLET_FILE --password PASSWORD --rpc-bind-ip RPC_IP --rpc-bind-port RPC_PORT --daemon-address DEAMON_ADDR:DAEMON_PORT
 ```
 
@@ -22,9 +22,9 @@ simplewallet --wallet-file PATH_TO_WALLET_FILE --password PASSWORD --rpc-bind-ip
 - PASSWORD — wallet’s password;
 - RPC_IP — IP address to bind RPC server to (127.0.0.1 will be used if not specified);
 - RPC_PORT — TCP port for RPC server;
-- DEAMON_ADDR:DAEMON_PORT — daemon address and port (may be omitted if the daemon is running on the same machine with the default settings);
+- DEAMON_ADDR\:DAEMON_PORT &#x20;— daemon address and port (may be omitted if the daemon is running on the same machine with the default settings);
 
 All examples below are given in assumption that the wallet application is running in RPC server mode and listening at 127.0.0.1:12233.
 
-All amounts and balances are represented as unsigned integers and measured in atomic units — the smallest fraction of a coin.  
+All amounts and balances are represented as unsigned integers and measured in atomic units — the smallest fraction of a coin.\
 1 coin is equal to 10^12 atomic units.

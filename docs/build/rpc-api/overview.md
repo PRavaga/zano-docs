@@ -9,7 +9,9 @@ Welcome to the Zano API documentation! As a digital currency enthusiast, develop
 Our aim with this documentation is to help you harness the full potential of Zano's feature-rich platform, allowing you to integrate, innovate, and build on top of Zano's powerful privacy-oriented blockchain.
 
 :::info
+
 Read more on the [JSON-RPC 2.0 Specification](https://www.jsonrpc.org/specification)
+
 :::
 
 ## Formatting example
@@ -46,22 +48,28 @@ Additionally, endpoints will be grouped according to whether they call the Daemo
 ## Running Daemon and Wallet in RPC mode (brief guide)
 
 :::info
+
 All examples below are based on the assumption that the daemon is listening for RPC at 127.0.0.1:11211
+
 :::
 
 In order to send JSON requests, both the Zano Daemon and Wallet must be ran in RPC mode
 
 :::tip
+
 For additional info on RPC mode, for wallet visit [Wallet RPC Mode](wallet-rpc), and [Daemon RPC Mode](daemon-rpc)
+
 :::
 
 ### How to run Daemon in RPC mode
 
 :::info
+
 In order to interact with the Marketplace API, you must include the following flag: '--enable-offers-service'
+
 :::
 
-```Text console
+```Text
 ./zanod --rpc-bind-ip 127.0.0.1 --rpc-bind-port 11211 --enable-offers-service
 ```
 
@@ -74,7 +82,7 @@ In order to interact with the Marketplace API, you must include the following fl
 
 ### How to run Wallet in RPC mode
 
-```Text console
+```Text
 ./simplewallet --wallet-file example.wallet --password password --rpc-bind-ip 127.0.0.1 --rpc-bind-port 11212 --daemon-address 127.0.0.1:11211
 ```
 
