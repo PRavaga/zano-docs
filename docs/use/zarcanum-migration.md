@@ -12,7 +12,8 @@ Auto Migration is an automated process within the Zano wallet that takes pre-Zar
 
 **Collection**: The wallet automatically gathers all old outputs in your Zano wallet that were created before the Zarcanum hardfork.
 
-**Consolidation**: These outputs are then consolidated into a few transactions. This step is crucial because it reduces the complexity and size of your wallet, making it more efficient.
+**Consolidation**: These outputs are then consolidated into a few transactions. This step is crucial because it reduces the complexity and size of your wallet, making it more
+efficient.
 
 **Recreation**: The consolidated funds are sent to your own wallet address. This step recreates the outputs in the post-Zarcanum format, making your funds compatible with the new network rules.
 
@@ -24,7 +25,7 @@ Using the Auto Migration feature is simple, thanks to the new wallet interface. 
 
 **Look for the Migration Button**: When you open your updated Zano wallet, look for the 'Migrate wallet to Zarcanum' button, typically located at the top of the screen.
 
-![alt migration-button](../../static/img/use/zarcanum-migration/button.png 'migration button')<figcaption style={{textAlign: "center" }}>Migration button</figcaption>
+![alt migration-button](../../static/img/use/zarcanum-migration/button.png "migration button")<figcaption style={{textAlign: "center" }} >Migration button</figcaption>
 
 **Initiate Migration**: If your wallet detects pre-Zarcanum outputs, a popup will appear informing you of the number of outputs and the total ZANO amount they represent. For example, "There are 112 outputs with a total amount of 24 ZANO".
 
@@ -34,7 +35,7 @@ Using the Auto Migration feature is simple, thanks to the new wallet interface. 
 
 **Confirm Migration**: By clicking the 'Migrate' button, the wallet will consolidate your outputs and recreate them in the post-Zarcanum format.
 
-![alt migration-popup](../../static/img/use/zarcanum-migration/popup.png 'migration popup')<figcaption style={{textAlign: "center" }}>Migration popup</figcaption>
+![alt migration-popup](../../static/img/use/zarcanum-migration/popup.png "migration popup")<figcaption style={{textAlign: "center" }} >Migration popup</figcaption>
 
 **Complete the Process**: The migration transaction will be sent. It require 10 blocks time to get confirmed, just like any other transaction.
 

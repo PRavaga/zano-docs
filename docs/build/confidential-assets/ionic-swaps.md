@@ -33,7 +33,7 @@ ZxDAcbaxXkyWRgYbeARBpngfmFat5TjDjjQA5NAbouB9eytwGWJqA5shAVYeCAHWPo254DF2o2X1td79
 
 Initiator is planning to offer Finalizer to exchange 2 coins of the CT token that she possesses (but Finalizer does not) for 10 native coins of ZANO (which Finalizer has). To do this, she generates a proposal through an API call [ionic_swap_generate_proposal](https://docs.zano.org/docs/build/rpc-api/wallet-rpc-api/ionic_swap_generate_proposal) in her wallet with the following parameters:
 
-```json
+```json json
 {
   "jsonrpc": "2.0",
   "id": "0",

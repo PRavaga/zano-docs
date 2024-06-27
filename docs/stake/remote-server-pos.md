@@ -5,37 +5,29 @@ sidebar_position: 2
 # Server/Console mode POS mining
 
 In certain situations, performing PoS mining without the GUI application may be necessary. The following steps provide guidance on how to accomplish this:
-
 1. Download [Zano daemon (zanod executable)](https://zano.org/downloads) and simplewallet or build them following the [instructions](https://docs.zano.org/docs/build/building-from-sources).
 2. Ensure that no other instance of Zano is running at the moment; close it if necessary.
 3. Navigate to the Zano folder.
 4. For the next steps, you will need to launch two processes (node and wallet) and keep them running. The method differs based on your operating system. For desktop OS such as MacOS, Windows, or Ubuntu Desktop, launch a terminal window instance for both the node and wallet, and leave it running. In this case, **you can skip this step and proceed with the subsequent steps.** If you're connecting to a remote server or using a Unix-like system or MacOS, consider using virtual session managers like the screen command. Here's an example of creating a new virtual console with it:
-
 ```
 screen -S session_name
 ```
-
-Learn more about using **screen** [here](https://www.gnu.org/software/screen/manual/screen.html).\
-6\. Next, start the node daemon **zanod** with the following console command:
-
+Learn more about using **screen** [here](https://www.gnu.org/software/screen/manual/screen.html).  
+6. Next, start the node daemon **zanod** with the following console command:
 ```
 zano_install_path\zanod
 ```
-
 NOTE: For MacOS bundle binary (both zanod and simplewallet) located in /Applications/**Zano.app/Contents/MacOS/** folder, ensure you use the correct path to launch the binary.
 
-It's better to wait until the daemon is synchronized. You'll know this has happened when you see the following string in the console output: :
-
+It's better to wait until the daemon is synchronized. You'll know this has happened when you see the following string in the console output:
+:
 ```
 Synchronized set to TRUE
 ```
-
-1. Start simplewallet with PoS mining enabled:
-
+8. Start simplewallet with PoS mining enabled:
 ```
-./simplewallet --wallet-file=PATH_TO_WALLET_FILE --rpc-bind-port=RPC_PORT_NUMBER --do-pos-mining --deaf
+./simplewallet --wallet-file=PATH_TO_WALLET_FILE --rpc-bind-port=RPC_PORT_NUMBER --do-pos-mining --deaf 
 ```
-
 NOTE: RPC_PORT_NUMBER should be any port number not in use by your system. It will be used by the RPC server. The --deaf option puts the server in a mode where no other programs can perform any RPC requests to the wallet service, which is recommended for security concerns.
 
 Some of the parameters are required, and some are optional. Here's what they mean:
