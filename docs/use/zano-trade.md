@@ -82,6 +82,4 @@ Now we wait for @Timmy03 to apply our order in the same way we just did.
   <img src={require('/img/use/zano-trade/completed_trade.png').default} />
 </figure>
 
-And that's it!
-
-We just completed a peer-to-peer trade, made possible by Zano's Ionic Swaps, preserving our privacy across the whole process.
+And that's it! We just completed a peer-to-peer trade, made possible by Zano's Ionic Swaps, preserving our privacy across the whole process.
