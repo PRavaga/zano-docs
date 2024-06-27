@@ -33,7 +33,7 @@ On Zano, **all network fees are being burned**, meaning that with enough network
 
 ![](/img/learn/emission/zano-supply-progression2024.png)
 
-> For practical purposes these charts assume a fixed fee, in reality, as Zano's price goes up, fees will likely go down in Zano-denominated terms, slightly reducing the total burned over time, still, these graphs are useful to showcase the different trends the total supply can take based on network usage.
+> For practical purposes these charts assume a fixed fee, in reality, as Zano's price goes up (and the dynamic fee mechanism is implemented) fees will likely go down in Zano-denominated terms, slightly reducing the total burned over time, still, these graphs are useful to showcase the different trends the total supply can take based on network usage.
 
 This combination of small, minimalistic daily emissions, together with daily burns, results in **little to no sell pressure on exchanges.**
 
