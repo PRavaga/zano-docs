@@ -28,20 +28,25 @@ A decentralized exchange to trade native Zano and all the Confidential Assets la
 
 5. Now you can either post a buy/sell order or take an existing one.
 
-### **Create an order**
+### Create an order
 
-For this example, we will be buying "ZNOPP" tokens:\
-**Price:** How much of the base pair (in this case, ZANO) do we want to pay per unit of ZNOOP?\
-**Amount:** How many tokens do we want to acquire at this price?\
+For this example, we will be buying "ZNOPP" tokens:
+
+_Price:_ How much of the base pair (in this case, ZANO) do we want to pay per unit of ZNOOP?
+
+_Amount:_ How many tokens do we want to acquire at this price?
+
 Click "Buy" to post the order.\
 
 ![](/img/use/zano-trade/new_order1.png)
 
 ### Take an order
 
-For this example, we'll be selling "ZNOOP" tokens:\
-Scroll down to see the order book\
-Since we are happy with receiving 0.01 ZANO per token, we'll proceed to click "Take Order"\
+For this example, we'll be selling "ZNOOP" tokens:
+
+Scroll down to see the order book.
+
+Since we are happy with receiving 0.01 ZANO per token, we'll proceed to click "Take Order".\
 
 ![](/img/use/zano-trade/order_book2.png)
 
