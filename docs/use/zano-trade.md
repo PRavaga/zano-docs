@@ -36,7 +36,7 @@ _Price:_ How much of the base pair (in this case, ZANO) do we want to pay per un
 
 _Amount:_ How many tokens do we want to acquire at this price?
 
-Click "Buy" to post the order.\
+Click "Buy" to post the order.
 
 ![](/img/use/zano-trade/new_order1.png)
 
@@ -46,7 +46,7 @@ For this example, we'll be selling "ZNOOP" tokens:
 
 Scroll down to see the order book.
 
-Since we are happy with receiving 0.01 ZANO per token, we'll proceed to click "Take Order".\
+Since we are happy with receiving 0.01 ZANO per token, we'll proceed to click "Take Order".
 
 ![](/img/use/zano-trade/order_book2.png)
 
