@@ -14,35 +14,29 @@ A decentralized exchange to trade native Zano and all the Confidential Assets la
 
 3. On the first time, a popup will appear on the Companion to authorize the connection, click "Accept".
 
-   <figure style={{textAlign: 'center'}}>
-     <img src={require('/img/use/companion/sign_request.png').default} />
-   </figure>
+   ![](/img/use/companion/sign_request.png)
 
 4. To do a trade, search and select the desired trading pair.&#x20;
 
-   If multiple tokens under the same/similar name exist, make sure to check their unique Asset ID.
+   If multiple tokens under the same/similar name exist, make sure to check the unique Asset ID.
 
-   <figure style={{textAlign: 'center'}}>
-     <img src={require('/img/use/zano-trade/trading-pairs.png').default} />
-   </figure>
+   ![](/img/use/zano-trade/trading-pairs.png)
 
 5. Now you can either post a buy/sell order or take an existing one.
 
-   ### Create an order
+   #### Create an order
 
    For this example, we will be buying "ZNOPP" tokens:
 
-   **Price:** How much of the base pair (in this case, ZANO) do we want to pay per unit of ZNOOP?
+   Price: How much of the base pair (in this case, ZANO) do we want to pay per unit of ZNOOP?
 
-   **Amount:** How many tokens do we want to acquire at this price?
+   Amount: How many tokens do we want to acquire at this price?
 
    Click "Buy" to post the order.
 
-   <figure style={{textAlign: 'center'}}>
-     <img src={require('/img/use/zano-trade/new_order1.png').default} />
-   </figure>
+   ![](/img/use/zano-trade/new_order1.png)
 
-   ### Take an order
+   #### Take an order
 
    For this example, we'll be selling "ZNOOP" tokens:
 
@@ -50,36 +44,26 @@ A decentralized exchange to trade native Zano and all the Confidential Assets la
 
    Since we are happy with receiving 0.01 ZANO per token, we'll proceed to click "Take Order"
 
-   <figure style={{textAlign: 'center'}}>
-     <img src={require('/img/use/zano-trade/order_book2.png').default} />
-   </figure>
+   ![](/img/use/zano-trade/order_book1.png)
 
 This will take us back above and automatically set the fields for our sell order, simply click "Sell".
 
-<figure style={{textAlign: 'center'}}>
-  <img src={require('/img/use/zano-trade/new_order2.png').default} />
-</figure>
+![](/img/use/zano-trade/new_order2.png)
 
-### Complete the trade
+#### Complete the trade
 
 Scroll down to see your list of pending orders.
 
-<figure style={{textAlign: 'center'}}>
-  <img src={require('/img/use/zano-trade/my_orders.png').default} />
-</figure>
+![](/img/use/zano-trade/my_orders.png)
 
-Since our order matches the one from @Timmy03, all that is left to do is click "Apply".
+Since our order matches the one from Timmy03, all that is left to do is click "Apply".
 
 This will open Zano Companion, prompting us to confirm the trade.
 
-<figure style={{textAlign: 'center'}}>
-  <img src={require('/img/use/zano-trade/ionic_swap1.png').default} />
-</figure>
+![](/img/use/zano-trade/ionic_swap1.png)
 
-Now we wait for @Timmy03 to apply our order in the same way we just did.
+Now we wait for Timmy03 to apply our order in the same way we just did.
 
-<figure style={{textAlign: 'center'}}>
-  <img src={require('/img/use/zano-trade/completed_trade.png').default} />
-</figure>
+![](/img/use/zano-trade/completed_trade.png)
 
-And that's it! We just completed a peer-to-peer trade, made possible by Zano's Ionic Swaps, preserving our privacy across the whole process.
+And that's it! We just completed a peer-to-peer trade made possible by Zano's Ionic Swaps, preserving our privacy across the whole process.
