@@ -46,7 +46,7 @@ git clone --recursive https://github.com/hyle-team/zano.git
 
 ### Set environment variables
 
-For instance, by adding the following lines to ~/.bashrc
+For instance, by adding the following lines to \~/.bashrc
 
 Server version
 
@@ -90,14 +90,12 @@ utils/build_script_linux.sh
 
 ## Windows
 
-Install required prerequisites (Boost, Qt, CMake, OpenSSL)  
+Install required prerequisites (Boost, Qt, CMake, OpenSSL)\
 Rename `utils/configure_local_paths.cmd.example` to `utils/configure_local_paths.cmd` and edit paths in this file so they correspond to your environment.
 
-Mainnet:
-Run one of `utils/configure_win64_msvsNNNN_gui.cmd` according to your MSVC version.
+Mainnet: Run one of `utils/configure_win64_msvsNNNN_gui.cmd` according to your MSVC version.
 
-Testnet:
-Run one of `utils/configure_win64_msvsNNNN_testnet.cmd` according to your MSVC version.
+Testnet: Run one of `utils/configure_win64_msvsNNNN_testnet.cmd` according to your MSVC version.
 
 Go to the build folder and open generated Zano.sln in MSVC and build it.
 
@@ -105,14 +103,11 @@ Go to the build folder and open generated Zano.sln in MSVC and build it.
 
 In order to correctly deploy Qt GUI application, you also need to do the following:
 
-Copy Zano.exe to a folder (e.g. `depoy`).
-Run `PATH_TO_QT\bin\windeployqt.exe deploy\Zano.exe`.
-Copy folder `\src\gui\qt-daemon\html` to `deploy\html`.
-Now you can run `Zano.exe`
+Copy Zano.exe to a folder (e.g. `depoy`). Run `PATH_TO_QT\bin\windeployqt.exe deploy\Zano.exe`. Copy folder `\src\gui\qt-daemon\html` to `deploy\html`. Now you can run `Zano.exe`
 
 ## MacOS
 
-Install required prerequisites.  
+Install required prerequisites.\
 Set environment variables as stated in `utils/macosx_build_config.command`
 
 ```

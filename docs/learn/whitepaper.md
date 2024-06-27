@@ -43,11 +43,7 @@ blockchain, which have the same properties as transactions with a native tokenâ€
 
 ### Zano: Confidential Assets Scheme for RingCT and Zarcanum (2024)
 
-In this paper, we describe a practical way of implementing confidential assets (a.k.a. tokens or colored
-coins) in Zano with unlimited decoy mixing capability and hidden amounts, as an extension to the Ring
-Confidential Transactions scheme. Our approach preserves public verifiability that no transaction either
-creates or destroys coins. We further extend this approach to show how it can be combined with
-Zarcanum, a Proof-of-Stake scheme for transaction with hidden amounts
+In this paper, we describe a practical way of implementing confidential assets (a.k.a. tokens or colored coins) in Zano with unlimited decoy mixing capability and hidden amounts, as an extension to the Ring Confidential Transactions scheme. Our approach preserves public verifiability that no transaction either creates or destroys coins. We further extend this approach to show how it can be combined with Zarcanum, a Proof-of-Stake scheme for transaction with hidden amounts
 
 <https://hyle-team.github.io/docs/zano/CA_paper/Zano_CA_for_RingCT_and_Zarcanum_v1.1.pdf>
 

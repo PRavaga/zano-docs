@@ -7,7 +7,9 @@ sidebar_position: 1
 Confidential Assets are privacy tokens with all the features of native Zano coin
 
 :::info
+
 Currently asset creation is only supported on Zano Testnet and will be brought to mainnet with upcoming Zarcanum hardfork
+
 :::
 
 Confidential Assets Commands are availabe trough CLI interface (simplewallet)
@@ -39,4 +41,4 @@ deploy_new_asset <asset specs file location>
 
 You should see a confirmation message upon successful execution
 
-![alt launch-asset-confirmation-message](../../../static/img/build/testnet-resources/how-to-launch-confidential-asset/launch-asset-confirmation-message.png "launch-asset-confirmation-message")
+![alt launch-asset-confirmation-message](../../../static/img/build/testnet-resources/how-to-launch-confidential-asset/launch-asset-confirmation-message.png 'launch-asset-confirmation-message')
