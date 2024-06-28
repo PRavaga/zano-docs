@@ -8,8 +8,8 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "jsonrpc": "2.0",
   "method": "getblocktemplate",
   "params": {
-    "explicit_transaction": "",
-    "extra_text": "",
+    "explicit_transaction": "5fa8eaaf231a305053260ff91d69c6ef1ecbd0f5",
+    "extra_text": "OMG, you can't just ask people why they're PoW-maxi",
     "pe": {
       "amount": 0,
       "block_timestamp": 0,
@@ -21,7 +21,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
 },
     "pos_block": false,
     "stakeholder_address": "",
-    "wallet_address": ""
+    "wallet_address": "ZxCSpsGGeJsS8fwvQ4HktDU3qBeauoJTR6j73jAWWZxFXdF7XTbGm4YfS2kXJmAP4Rf5BVsSQ9iZ45XANXEYsrLN2L2W77dH7"
 }
 }
 ```
@@ -41,11 +41,11 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "id": 0,
   "jsonrpc": "2.0",
   "result": {
-    "block_reward": 0,
-    "block_reward_without_fee": 0,
-    "blocktemplate_blob": "",
-    "difficulty": "",
-    "height": 0,
+    "block_reward": 1000000000000,
+    "block_reward_without_fee": 1000000000000,
+    "blocktemplate_blob": "030000000000000000ae73338b792......6258a2b5ee340700",
+    "difficulty": "12936195379842",
+    "height": 2555002,
     "miner_tx_tgc": {
       "amount_blinding_masks": "",
       "amount_blinding_masks_sum": "0000000000000000000000000000000000000000000000000000000000000000",
@@ -70,8 +70,8 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "tx_key": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
       "tx_pub_key_p": "00000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
 },
-    "prev_hash": "",
-    "seed": "",
+    "prev_hash": "ae73338b7927df71b6ed477937625c230172219306750ba97995fb5109dda703",
+    "seed": "0518e1373ff88ccabb28493cac10cb0731313135d880dae0d846be6016ab9acf",
     "status": "OK",
     "txs_fee": 0
 }

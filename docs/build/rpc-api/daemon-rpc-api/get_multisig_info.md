@@ -8,7 +8,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "jsonrpc": "2.0",
   "method": "get_multisig_info",
   "params": {
-    "ms_id": ""
+    "ms_id": "a6e8da986858e6825fce7a192097e6afae4e889cabe853a9c29b964985b23da8"
 }
 }
 ```
@@ -23,9 +23,9 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "id": 0,
   "jsonrpc": "2.0",
   "result": {
-    "out_no": 0,
+    "out_no": 11,
     "status": "OK",
-    "tx_id": ""
+    "tx_id": "a88541e38d64f87c41b9153412d1d7667f6e4337fe429ed1374722355fa7b423"
 }
 }
 ```

@@ -28,7 +28,16 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     "error_code": "",
     "status": "OK",
     "votes": {
-      "total_pos_blocks": 87482
+      "total_pos_blocks": 87482,
+      "votes": [{
+        "no": 37,
+        "proposal_id": "ZAP999",
+        "yes": 42
+},{
+        "no": 37,
+        "proposal_id": "ZAP999",
+        "yes": 42
+}]
 }
 }
 }
@@ -39,5 +48,12 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     "status": Status of the call.
     "votes": Found votes in the given range.
       "total_pos_blocks": Number of blocks in a given range.
+      "votes": Result of votes in a given range.
+        "no": Number of negative votes.
+        "proposal_id": ID of the proposal.
+        "yes": Nubmer of positve votes.
+        "no": Number of negative votes.
+        "proposal_id": ID of the proposal.
+        "yes": Nubmer of positve votes.
 
 ```

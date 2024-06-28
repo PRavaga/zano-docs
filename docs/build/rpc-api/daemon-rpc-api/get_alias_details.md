@@ -8,7 +8,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "jsonrpc": "2.0",
   "method": "get_alias_details",
   "params": {
-    "alias": ""
+    "alias": "gigabyted"
 }
 }
 ```

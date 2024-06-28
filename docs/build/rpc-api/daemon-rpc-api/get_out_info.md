@@ -8,7 +8,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "jsonrpc": "2.0",
   "method": "get_out_info",
   "params": {
-    "amount": 0,
+    "amount": 3000000000000,
     "i": 0
 }
 }
@@ -25,9 +25,9 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "id": 0,
   "jsonrpc": "2.0",
   "result": {
-    "out_no": 0,
+    "out_no": 7,
     "status": "OK",
-    "tx_id": ""
+    "tx_id": "a6e8da986858e6825fce7a192097e6afae4e889cabe853a9c29b964985b23da8"
 }
 }
 ```

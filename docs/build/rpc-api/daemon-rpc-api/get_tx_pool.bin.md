@@ -14,7 +14,7 @@ URL: ```http:://127.0.0.1:11211/get_tx_pool.bin```
 ```json
 {
   "status": "OK",
-  "tx_expiration_ts_median": 0,
+  "tx_expiration_ts_median": 1711021795,
   "txs": ["7d914497d91442f8f3c2268397d914497d91442f8f3c22683585eaa60b53757d49bf046a96269cef45c1bc9ff7300cc2f8f3c22683585eaa60b53757d49bf046a96269cef45c1bc9ff7300cc"]
 }
 ```

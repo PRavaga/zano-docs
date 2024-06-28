@@ -4,8 +4,8 @@ URL: ```http:://127.0.0.1:11211/start_mining```
 ### Request: 
 ```json
 {
-  "miner_address": "",
-  "threads_count": 0
+  "miner_address": "ZxCSpsGGeJsS8fwvQ4HktDU3qBeauoJTR6j73jAWWZxFXdF7XTbGm4YfS2kXJmAP4Rf5BVsSQ9iZ45XANXEYsrLN2L2W77dH7",
+  "threads_count": 2
 }
 ```
 ### Request description: 

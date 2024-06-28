@@ -21,7 +21,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "id": 0,
   "jsonrpc": "2.0",
   "result": {
-    "expiration_median": 0,
+    "expiration_median": 1719591540,
     "status": "OK"
 }
 }

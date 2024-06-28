@@ -21,7 +21,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "id": 0,
   "jsonrpc": "2.0",
   "result": {
-    "count": 0,
+    "count": 2697388,
     "status": "OK"
 }
 }

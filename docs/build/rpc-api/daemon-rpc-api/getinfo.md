@@ -8,7 +8,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "jsonrpc": "2.0",
   "method": "getinfo",
   "params": {
-    "flags": 0
+    "flags": 1048575
 }
 }
 ```
@@ -23,26 +23,27 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "id": 0,
   "jsonrpc": "2.0",
   "result": {
-    "alias_count": 0,
-    "alt_blocks_count": 0,
-    "block_reward": 0,
+    "alias_count": 1653,
+    "alt_blocks_count": 99,
+    "block_reward": 1000000000000,
     "current_blocks_median": 0,
-    "current_max_allowed_block_size": 0,
-    "current_network_hashrate_350": 0,
-    "current_network_hashrate_50": 0,
-    "daemon_network_state": 0,
-    "default_fee": 0,
-    "expiration_median_timestamp": 0,
-    "grey_peerlist_size": 0,
-    "height": 0,
+    "current_max_allowed_block_size": 250000,
+    "current_network_hashrate_350": 107939216153,
+    "current_network_hashrate_50": 109575236643,
+    "daemon_network_state": 2,
+    "default_fee": 10000000000,
+    "expiration_median_timestamp": 1719585827,
+    "grey_peerlist_size": 321,
+    "height": 2555000,
     "incoming_connections_count": 0,
-    "last_block_hash": "",
+    "is_hardfok_active": [true,true,true,true,true,false],
+    "last_block_hash": "153af86fd0d7d0a427526258e30505a4d21b8f77261f5276c7669e0a6c83efa0",
     "last_block_size": 0,
-    "last_block_timestamp": 0,
+    "last_block_timestamp": 1719586493,
     "last_block_total_reward": 0,
-    "last_pos_timestamp": 0,
-    "last_pow_timestamp": 0,
-    "max_net_seen_height": 0,
+    "last_pos_timestamp": 1719585105,
+    "last_pow_timestamp": 1719586493,
+    "max_net_seen_height": 2555743,
     "mi": {
       "build_no": 0,
       "mode": 0,
@@ -50,10 +51,10 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "ver_minor": 0,
       "ver_revision": 0
 },
-    "minimum_fee": 0,
+    "minimum_fee": 10000000000,
     "net_time_delta_median": 0,
     "offers_count": 0,
-    "outgoing_connections_count": 0,
+    "outgoing_connections_count": 8,
     "outs_stat": {
       "amount_0": 0,
       "amount_0_001": 0,
@@ -107,22 +108,22 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "tx_store_db": 0,
       "writer_tx_count": 0
 },
-    "pos_allowed": false,
-    "pos_block_ts_shift_vs_actual": 0,
+    "pos_allowed": true,
+    "pos_block_ts_shift_vs_actual": -1387,
     "pos_diff_total_coins_rate": 0,
-    "pos_difficulty": "",
+    "pos_difficulty": "1848455949616658404658",
     "pos_sequence_factor": 0,
-    "pow_difficulty": 0,
-    "pow_sequence_factor": 0,
-    "seconds_for_10_blocks": 0,
-    "seconds_for_30_blocks": 0,
+    "pow_difficulty": 12777323347117,
+    "pow_sequence_factor": 1,
+    "seconds_for_10_blocks": 476,
+    "seconds_for_30_blocks": 1264,
     "status": "OK",
-    "synchronization_start_height": 0,
-    "synchronized_connections_count": 0,
-    "total_coins": "",
-    "transactions_cnt_per_day": 0,
-    "transactions_volume_per_day": 0,
-    "tx_count": 0,
+    "synchronization_start_height": 2555000,
+    "synchronized_connections_count": 8,
+    "total_coins": "14308874719144585856",
+    "transactions_cnt_per_day": 1325,
+    "transactions_volume_per_day": 6615220203700000,
+    "tx_count": 767742,
     "tx_count_in_last_block": 0,
     "tx_pool_performance_data": {
       "begin_tx_time": 0,
@@ -137,7 +138,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "validate_amount_time": 0
 },
     "tx_pool_size": 0,
-    "white_peerlist_size": 0
+    "white_peerlist_size": 12
 }
 }
 ```
@@ -155,6 +156,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     "grey_peerlist_size": Size of the grey peer list, which includes addresses of nodes with less consistent availability.
     "height": The current size of the blockchain, equal to the height of the top block plus one.
     "incoming_connections_count": Number of incoming P2P connections established by other nodes.
+    "is_hardfok_active": A list of boolean values indicating whether each corresponding hardfork is active. For example, a list 'true, true, false' indicates that the first hardfork is activated, while the second is not. Hardfork #0 is always active as it is a stub.
     "last_block_hash": Hash of the last block. Calculated only if either COMMAND_RPC_GET_INFO_FLAG_POS_DIFFICULTY or COMMAND_RPC_GET_INFO_FLAG_TOTAL_COINS flag is set.
     "last_block_size": The size of the last block in bytes. This information is only provided if the COMMAND_RPC_GET_INFO_FLAG_LAST_BLOCK_SIZE flag is set.
     "last_block_timestamp": Timestamp of the last block. Calculated only if either COMMAND_RPC_GET_INFO_FLAG_POS_DIFFICULTY or COMMAND_RPC_GET_INFO_FLAG_TOTAL_COINS flag is set.

@@ -8,7 +8,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "jsonrpc": "2.0",
   "method": "get_alias_reward",
   "params": {
-    "alias": ""
+    "alias": "zxdya6q6whzwqjkmtcsjpc3ku"
 }
 }
 ```
@@ -23,7 +23,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "id": 0,
   "jsonrpc": "2.0",
   "result": {
-    "reward": 0,
+    "reward": 100000000000,
     "status": "OK"
 }
 }

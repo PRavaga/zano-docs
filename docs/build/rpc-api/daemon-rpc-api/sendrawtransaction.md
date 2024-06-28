@@ -4,7 +4,7 @@ URL: ```http:://127.0.0.1:11211/sendrawtransaction```
 ### Request: 
 ```json
 {
-  "tx_as_hex": ""
+  "tx_as_hex": "00018ed1535b8b4862e.....368cdc5a86"
 }
 ```
 ### Request description: 

@@ -22,16 +22,16 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "result": {
     "block_header": {
       "depth": 0,
-      "difficulty": "",
-      "hash": "",
-      "height": 0,
-      "major_version": 0,
+      "difficulty": "1849593878843995770114",
+      "hash": "f5df39c4b1590394976aa6e72f04df7836e22dbdfc1e6f61f6cc1b624d83cd94",
+      "height": 2697404,
+      "major_version": 3,
       "minor_version": 0,
       "nonce": 0,
       "orphan_status": false,
-      "prev_hash": "",
+      "prev_hash": "a1b4359c02985720b0cf542678e08f0d4075e518fbd0cd54bd280269545e0e6f",
       "reward": 0,
-      "timestamp": 0
+      "timestamp": 1719588270
 },
     "status": "OK"
 }
@@ -39,6 +39,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
 ```
 ### Response description: 
 ```
+    "block_header": Detailed header information of the block.
       "depth": Depth of the block in the blockchain. Depth 0 indicates the most recent block.
       "difficulty": Network difficulty target that the block met.
       "hash": Hash of the block.
