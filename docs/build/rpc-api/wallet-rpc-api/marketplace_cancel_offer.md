@@ -11,7 +11,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     "fee": 10000000000,
     "no": 0,
     "tx_id": "40fa6db923728b38962718c61b4dc3af1acaa1967479c73703e260dc3609c58d"
-}
+  }
 }
 ```
 ### Request description: 
@@ -29,7 +29,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "result": {
     "tx_blob_size": 1232,
     "tx_hash": "40fa6db923728b38962718c61b4dc3af1acaa1967479c73703e260dc3609c58d"
-}
+  }
 }
 ```
 ### Response description: 

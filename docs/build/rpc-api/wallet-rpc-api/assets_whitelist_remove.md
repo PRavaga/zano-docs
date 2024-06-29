@@ -9,7 +9,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "method": "assets_whitelist_remove",
   "params": {
     "asset_id": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8"
-}
+  }
 }
 ```
 ### Request description: 
@@ -24,7 +24,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "jsonrpc": "2.0",
   "result": {
     "status": "OK"
-}
+  }
 }
 ```
 ### Response description: 

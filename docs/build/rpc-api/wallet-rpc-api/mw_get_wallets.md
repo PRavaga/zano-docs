@@ -8,7 +8,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "jsonrpc": "2.0",
   "method": "mw_get_wallets",
   "params": {
-}
+  }
 }
 ```
 ### Request description: 
@@ -36,21 +36,21 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
             "owner": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8",
             "ticker": "ZUSD",
             "total_max_supply": 1000000000000000000
-},
+          },
           "awaiting_in": 1000000000000,
           "awaiting_out": 2000000000000,
           "total": 100000000000000,
           "unlocked": 50000000000000
-}],
+        }],
         "has_bare_unspent_outputs": false,
         "is_auditable": false,
         "is_watch_only": false,
         "mined_total": 1000000000000,
         "path": "\/some\/path\/to\/wallet\/file.zan",
         "view_sec_key": "97d91442f8f3c22683585eaa60b53757d49bf046a96269cef45c1bc9ff7300cc"
-}
-}]
-}
+      }
+    }]
+  }
 }
 ```
 ### Response description: 

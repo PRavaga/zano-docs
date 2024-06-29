@@ -13,7 +13,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "address": "ZxBvJDuQjMG9R2j4WnYUhBYNrwZPwuyXrC7FHdVmWqaESgowDvgfWtiXeNGu8Px9B24pkmjsA39fzSSiEQG1ekB225ZnrMTBp",
       "amount": 10000000000000,
       "asset_id": "cc608f59f8080e2fbfe3c8c80eb6e6a953d47cf2d6aebd345bada3a1cab99852"
-}],
+    }],
     "fee": 10000000000,
     "hide_receiver": true,
     "mixin": 15,
@@ -25,9 +25,9 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "instruction": "K",
       "security": "d8f6e37f28a632c06b0b3466db1b9d2d1b36a580ee35edfd971dc1423bc412a5",
       "service_id": "C"
-}],
+    }],
     "service_entries_permanent": true
-}
+  }
 }
 ```
 ### Request description: 
@@ -60,7 +60,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     "tx_hash": "",
     "tx_size": 0,
     "tx_unsigned_hex": ""
-}
+  }
 }
 ```
 ### Response description: 

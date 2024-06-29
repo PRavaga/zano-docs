@@ -9,7 +9,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "method": "get_alias_reward",
   "params": {
     "alias": "zxdya6q6whzwqjkmtcsjpc3ku"
-}
+  }
 }
 ```
 ### Request description: 
@@ -25,7 +25,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "result": {
     "reward": 100000000000,
     "status": "OK"
-}
+  }
 }
 ```
 ### Response description: 

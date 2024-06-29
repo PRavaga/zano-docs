@@ -8,7 +8,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "jsonrpc": "2.0",
   "method": "get_wallet_info",
   "params": {
-}
+  }
 }
 ```
 ### Request description: 
@@ -29,7 +29,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     "transfer_entries_count": 24,
     "transfers_count": 11,
     "utxo_distribution": ["1"]
-}
+  }
 }
 ```
 ### Response description: 

@@ -9,7 +9,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "method": "getblockheaderbyhash",
   "params": {
     "hash": "a1b4359c02985720b0cf542678e08f0d4075e518fbd0cd54bd280269545e0e6f"
-}
+  }
 }
 ```
 ### Request description: 
@@ -35,9 +35,9 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "prev_hash": "a1b4359c02985720b0cf542678e08f0d4075e518fbd0cd54bd280269545e0e6f",
       "reward": 0,
       "timestamp": 1719588270
-},
+    },
     "status": "OK"
-}
+  }
 }
 ```
 ### Response description: 

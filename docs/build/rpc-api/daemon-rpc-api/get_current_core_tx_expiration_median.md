@@ -8,7 +8,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "jsonrpc": "2.0",
   "method": "get_current_core_tx_expiration_median",
   "params": {
-}
+  }
 }
 ```
 ### Request description: 
@@ -23,7 +23,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "result": {
     "expiration_median": 1719591540,
     "status": "OK"
-}
+  }
 }
 ```
 ### Response description: 

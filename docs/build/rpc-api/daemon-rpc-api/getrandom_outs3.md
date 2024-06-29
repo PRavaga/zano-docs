@@ -11,11 +11,11 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     "amounts": [{
       "amount": 0,
       "global_offsets": [1,3,5928,2811]
-}],
+    }],
     "coinbase_percents": 15,
     "height_upper_limit": 2555000,
     "use_forced_mix_outs": false
-}
+  }
 }
 ```
 ### Request description: 
@@ -36,9 +36,9 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "result": {
     "outs": [{
       "amount": 10000000000
-}],
+    }],
     "status": "OK"
-}
+  }
 }
 ```
 ### Response description: 

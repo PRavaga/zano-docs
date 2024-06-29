@@ -10,7 +10,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "params": {
     "seed_password": "0101010103",
     "seed_phrase": "girlfriend unlike mutter tightly social silent expect constant bid nowhere reach flower bite salt lightning conversation dog rush quietly become usually midnight each secret offer class"
-}
+  }
 }
 ```
 ### Request description: 
@@ -30,7 +30,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     "require_password": true,
     "syntax_correct": true,
     "tracking": false
-}
+  }
 }
 ```
 ### Response description: 

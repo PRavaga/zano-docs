@@ -17,7 +17,7 @@ URL: ```http:://127.0.0.1:11211/getblocks.bin```
 {
   "blocks": [{
     "block": ""
-}],
+  }],
   "current_height": 2555000,
   "start_height": 2000000,
   "status": "OK"

@@ -11,7 +11,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     "amounts": [0,10000000000],
     "outs_count": 2,
     "use_forced_mix_outs": false
-}
+  }
 }
 ```
 ### Request description: 
@@ -29,9 +29,9 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "result": {
     "outs": [{
       "amount": 10000000000
-}],
+    }],
     "status": "OK"
-}
+  }
 }
 ```
 ### Response description: 

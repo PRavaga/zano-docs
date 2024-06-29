@@ -9,7 +9,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "method": "remove_tx_from_pool",
   "params": {
     "tx_to_remove": ["c5efacd06128fc5a73f58392c84534cd1a146de7d47ffbe770486cce5130dc1f","c2f0de2ef4753dc0ec8dd2da5ebf8e77f07d2ac0791357a9e3f2537071b33762"]
-}
+  }
 }
 ```
 ### Request description: 
@@ -24,7 +24,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "jsonrpc": "2.0",
   "result": {
     "status": "OK"
-}
+  }
 }
 ```
 ### Response description: 

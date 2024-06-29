@@ -27,8 +27,8 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "target": "",
       "timestamp_start": 0,
       "timestamp_stop": 0
-}
-}
+    }
+  }
 }
 ```
 ### Request description: 
@@ -82,10 +82,10 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "tx_hash": "cc608f59f8080e2fbfe3c8c80eb6e6a953d47cf2d6aebd345bada3a1cab99852",
       "tx_original_hash": "cc608f59f8080e2fbfe3c8c80eb6e6a953d47cf2d6aebd345bada3a1cab99852",
       "url": ""
-}],
+    }],
     "status": "OK",
     "total_offers": 1
-}
+  }
 }
 ```
 ### Response description: 

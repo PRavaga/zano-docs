@@ -9,7 +9,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "method": "encrypt_data",
   "params": {
     "buff": "ZGNjc2Ztc2xrZm12O2xrZm12OydlbGtmdm0nbGtmbXY="
-}
+  }
 }
 ```
 ### Request description: 
@@ -24,7 +24,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "jsonrpc": "2.0",
   "result": {
     "res_buff": "ZGNjc2Ztc2xrZm12O2xrZm12OydlbGtmdm0nbGtmbXY="
-}
+  }
 }
 ```
 ### Response description: 

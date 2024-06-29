@@ -13,8 +13,8 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "alias": "zxdya6q6whzwqjkmtcsjpc3ku",
       "comment": "Society is never gonna make any progress until we all learn to pretend to like each other.",
       "tracking_key": "18bb94f69ed61b47b6556f3871b89dff8f9a6f4f798f706fd199b05ccf8ef20c"
-}
-}
+    }
+  }
 }
 ```
 ### Request description: 
@@ -33,7 +33,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "jsonrpc": "2.0",
   "result": {
     "tx_id": "97d91442f8f3c22683585eaa60b53757d49bf046a96269cef45c1bc9ff7300cc"
-}
+  }
 }
 ```
 ### Response description: 

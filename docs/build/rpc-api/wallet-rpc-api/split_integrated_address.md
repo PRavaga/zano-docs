@@ -9,7 +9,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "method": "split_integrated_address",
   "params": {
     "integrated_address": "iZ2EMyPD7g28hgBfboZeCENaYrHBYZ1bLFi5cgWvn4WJLaxfgs4kqG6cJi9ai2zrXWSCpsvRXit14gKjeijx6YPCLJEv6Fx4rVm1hdAGQFis"
-}
+  }
 }
 ```
 ### Request description: 
@@ -25,7 +25,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "result": {
     "payment_id": "1dfe5a88ff9effb3",
     "standard_address": "ZxBvJDuQjMG9R2j4WnYUhBYNrwZPwuyXrC7FHdVmWqaESgowDvgfWtiXeNGu8Px9B24pkmjsA39fzSSiEQG1ekB225ZnrMTBp"
-}
+  }
 }
 ```
 ### Response description: 

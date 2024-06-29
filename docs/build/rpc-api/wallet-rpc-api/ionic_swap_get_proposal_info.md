@@ -9,7 +9,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "method": "ionic_swap_get_proposal_info",
   "params": {
     "hex_raw_proposal": "97d91442f8f3c22683585eaa60b53757d49bf046a96269cef45c1bc9ff7300cc97d91442f8f3c22683585eaa60b53757d49bf046a96269cef45c1bc9ff7300cc97d91442f8f3c22683585eaa60b53757d49bf046a96269cef45c1bc9ff7300cc97d91442f8f3c22683585eaa60b53757d49bf046a96269cef45c1bc9ff7300cc97d91442f8f3c22683585eaa60b53757d49bf046a96269cef45c1bc9ff7300cc97d91442f8f3c22683585eaa60b53757d49bf046a96269cef45c1bc9ff7300cc"
-}
+  }
 }
 ```
 ### Request description: 
@@ -28,13 +28,13 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "to_finalizer": [{
         "amount": 1000000000000,
         "asset_id": "97d91442f8f3c22683585eaa60b53757d49bf046a96269cef45c1bc9ff7300cc"
-}],
+      }],
       "to_initiator": [{
         "amount": 10000000000,
         "asset_id": "d6329b5b1f7c0805b5c345f4957554002a2f557845f64d7645dae0e051a6498a"
-}]
-}
-}
+      }]
+    }
+  }
 }
 ```
 ### Response description: 

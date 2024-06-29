@@ -9,7 +9,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "method": "get_pool_txs_brief_details",
   "params": {
     "ids": ["bd9a89f95c9115d29540c6778dab9d9798eb251143dcd4b8960fcd9730a1471c","1c938f04c935d976310c4338fc570ea20777951471609f3edecb341ea4932b0a"]
-}
+  }
 }
 ```
 ### Request description: 
@@ -29,8 +29,8 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "id": "a6e8da986858e6825fce7a192097e6afae4e889cabe853a9c29b964985b23da8",
       "sz": 6142,
       "total_amount": 9000000000
-}]
-}
+    }]
+  }
 }
 ```
 ### Response description: 

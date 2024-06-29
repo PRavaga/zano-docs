@@ -14,7 +14,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     "offset": 0,
     "order": "FROM_END_TO_BEGIN",
     "update_provision_info": true
-}
+  }
 }
 ```
 ### Request description: 
@@ -40,7 +40,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "transfer_entries_count": 3,
       "transfers_count": 1,
       "unlocked_balance": 90000000000
-},
+    },
     "total_transfers": 1,
     "transfers": [{
       "comment": "Comment here",
@@ -59,12 +59,12 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
           "c": "",
           "t": "",
           "to_pay": 0
-},
+        },
         "state": 0,
         "timestamp": 0
-}],
+      }],
       "employed_entries": {
-},
+      },
       "fee": 10000000000,
       "height": 0,
       "is_mining": false,
@@ -79,21 +79,21 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
         "instruction": "K",
         "security": "d8f6e37f28a632c06b0b3466db1b9d2d1b36a580ee35edfd971dc1423bc412a5",
         "service_id": "C"
-}],
+      }],
       "show_sender": false,
       "subtransfers": [{
         "amount": 1000000000000,
         "asset_id": "cc608f59f8080e2fbfe3c8c80eb6e6a953d47cf2d6aebd345bada3a1cab99852",
         "is_income": false
-}],
+      }],
       "timestamp": 1712590951,
       "transfer_internal_index": 12,
       "tx_blob_size": 0,
       "tx_hash": "5509650e12c8f901e6731a2bfaf3abfd64409e3e1366d3d94cd11db8beddb0c3",
       "tx_type": 0,
       "unlock_time": 0
-}]
-}
+    }]
+  }
 }
 ```
 ### Response description: 

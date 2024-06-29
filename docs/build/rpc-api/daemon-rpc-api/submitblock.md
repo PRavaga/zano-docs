@@ -21,7 +21,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "jsonrpc": "2.0",
   "result": {
     "status": "OK"
-}
+  }
 }
 ```
 ### Response description: 

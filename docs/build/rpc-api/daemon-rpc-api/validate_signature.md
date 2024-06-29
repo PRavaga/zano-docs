@@ -12,7 +12,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     "buff": "SSBkaWRuJ3QgZXhwZWN0IGFueW9uZSB0byBkZWNyeXB0IHRoaXMgZGF0YSwgc2luY2UgaXQncyBqdXN0IGFuIGV4YW1wbGUuIEJ1dCB5b3UgZGVjcnlwdGVkIGl0ISBJJ20gYW1hemVkLg==",
     "pkey": "",
     "sig": "5c202d4bf82c2dd3c6354e2f02826ca72c797950dbe8db5bc5e3b2e60290a407ac2ef85bfc905ace8fe3b3819217084c00faf7237fee3ad2f6a7f662636cd20f"
-}
+  }
 }
 ```
 ### Request description: 
@@ -30,7 +30,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "jsonrpc": "2.0",
   "result": {
     "status": "OK"
-}
+  }
 }
 ```
 ### Response description: 

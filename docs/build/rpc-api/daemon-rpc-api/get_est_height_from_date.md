@@ -9,7 +9,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "method": "get_est_height_from_date",
   "params": {
     "timestamp": 1711021795
-}
+  }
 }
 ```
 ### Request description: 
@@ -25,7 +25,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "result": {
     "h": 2555000,
     "status": "OK"
-}
+  }
 }
 ```
 ### Response description: 

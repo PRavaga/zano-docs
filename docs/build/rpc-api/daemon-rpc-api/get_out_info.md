@@ -10,7 +10,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "params": {
     "amount": 3000000000000,
     "i": 0
-}
+  }
 }
 ```
 ### Request description: 
@@ -28,7 +28,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     "out_no": 7,
     "status": "OK",
     "tx_id": "a6e8da986858e6825fce7a192097e6afae4e889cabe853a9c29b964985b23da8"
-}
+  }
 }
 ```
 ### Response description: 

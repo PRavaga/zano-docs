@@ -10,7 +10,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "params": {
     "h_end": 40000,
     "h_start": 0
-}
+  }
 }
 ```
 ### Request description: 
@@ -33,13 +33,13 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
         "no": 37,
         "proposal_id": "ZAP999",
         "yes": 42
-},{
+      },{
         "no": 37,
         "proposal_id": "ZAP999",
         "yes": 42
-}]
-}
-}
+      }]
+    }
+  }
 }
 ```
 ### Response description: 

@@ -9,7 +9,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "method": "getinfo",
   "params": {
     "flags": 1048575
-}
+  }
 }
 ```
 ### Request description: 
@@ -50,7 +50,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "ver_major": 0,
       "ver_minor": 0,
       "ver_revision": 0
-},
+    },
     "minimum_fee": 10000000000,
     "net_time_delta_median": 0,
     "offers_count": 0,
@@ -67,7 +67,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "amount_10000": 0,
       "amount_100000": 0,
       "amount_1000000": 0
-},
+    },
     "performance_data": {
       "all_txs_insert_time_5": 0,
       "block_processing_time_0": 0,
@@ -107,7 +107,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "tx_push_global_index": 0,
       "tx_store_db": 0,
       "writer_tx_count": 0
-},
+    },
     "pos_allowed": true,
     "pos_block_ts_shift_vs_actual": -1387,
     "pos_diff_total_coins_rate": 0,
@@ -136,10 +136,10 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "update_db_time": 0,
       "validate_alias_time": 0,
       "validate_amount_time": 0
-},
+    },
     "tx_pool_size": 0,
     "white_peerlist_size": 12
-}
+  }
 }
 ```
 ### Response description: 

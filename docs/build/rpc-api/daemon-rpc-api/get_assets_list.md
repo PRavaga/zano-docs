@@ -10,7 +10,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "params": {
     "count": 100,
     "offset": 0
-}
+  }
 }
 ```
 ### Request description: 
@@ -35,9 +35,9 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "owner": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8",
       "ticker": "ZUSD",
       "total_max_supply": 1000000000000000000
-}],
+    }],
     "status": "OK"
-}
+  }
 }
 ```
 ### Response description: 

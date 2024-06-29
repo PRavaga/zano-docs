@@ -8,7 +8,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "jsonrpc": "2.0",
   "method": "get_bare_outs_stats",
   "params": {
-}
+  }
 }
 ```
 ### Request description: 
@@ -25,7 +25,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     "total_amount": 12000000000000,
     "total_bare_outs": 112,
     "txs_count": 2
-}
+  }
 }
 ```
 ### Response description: 

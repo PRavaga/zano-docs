@@ -8,7 +8,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "jsonrpc": "2.0",
   "method": "store",
   "params": {
-}
+  }
 }
 ```
 ### Request description: 
@@ -22,7 +22,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "jsonrpc": "2.0",
   "result": {
     "wallet_file_size": 232243
-}
+  }
 }
 ```
 ### Response description: 

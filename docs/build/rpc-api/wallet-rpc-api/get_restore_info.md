@@ -9,7 +9,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "method": "get_restore_info",
   "params": {
     "seed_password": "010101012"
-}
+  }
 }
 ```
 ### Request description: 
@@ -24,7 +24,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "jsonrpc": "2.0",
   "result": {
     "seed_phrase": "girlfriend unlike offer mutter tightly social silent expect constant bid nowhere reach flower bite salt becomeconversation dog rush quietly become usually lightning midnight each secret class"
-}
+  }
 }
 ```
 ### Response description: 

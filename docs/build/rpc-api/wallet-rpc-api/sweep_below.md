@@ -13,7 +13,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     "fee": 10000000000,
     "mixin": 15,
     "payment_id_hex": "1dfe5a88ff9effb3"
-}
+  }
 }
 ```
 ### Request description: 
@@ -37,7 +37,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     "outs_total": 10,
     "tx_hash": "01220e8304d46b940a86e383d55ca5887b34f158a7365bbcdd17c5a305814a93",
     "tx_unsigned_hex": "8304d46b940a86e383d55ca5887b34f158a7365bbcdd17c5a305814a9334f158a7368304d46b940a86e383d55ca5887b34f158a7365bbcdd17c5a305814a9334f158a736"
-}
+  }
 }
 ```
 ### Response description: 

@@ -9,7 +9,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "method": "get_asset_info",
   "params": {
     "asset_id": "cc4e69455e63f4a581257382191de6856c2156630b3fba0db4bdd73ffcfb36b6"
-}
+  }
 }
 ```
 ### Request description: 
@@ -32,9 +32,9 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "owner": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8",
       "ticker": "ZUSD",
       "total_max_supply": 1000000000000000000
-},
+    },
     "status": "OK"
-}
+  }
 }
 ```
 ### Response description: 

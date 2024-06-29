@@ -9,7 +9,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "method": "search_by_id",
   "params": {
     "id": "729811f9340537e8d5641949e6cc58261f91f109687a706f39bae9514757e819"
-}
+  }
 }
 ```
 ### Request description: 
@@ -25,7 +25,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "result": {
     "status": "OK",
     "types_found": ["key_image"]
-}
+  }
 }
 ```
 ### Response description: 

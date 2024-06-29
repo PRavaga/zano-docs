@@ -8,7 +8,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "jsonrpc": "2.0",
   "method": "sweep_bare_outs",
   "params": {
-}
+  }
 }
 ```
 ### Request description: 
@@ -25,7 +25,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     "bare_outs_swept": 112,
     "fee_spent": 10000000000,
     "txs_sent": 2
-}
+  }
 }
 ```
 ### Response description: 

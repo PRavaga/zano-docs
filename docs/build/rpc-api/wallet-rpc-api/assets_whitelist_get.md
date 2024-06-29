@@ -8,7 +8,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "jsonrpc": "2.0",
   "method": "assets_whitelist_get",
   "params": {
-}
+  }
 }
 ```
 ### Request description: 
@@ -31,7 +31,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "owner": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8",
       "ticker": "ZUSD",
       "total_max_supply": 1000000000000000000
-}],
+    }],
     "local_whitelist": [{
       "asset_id": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8",
       "current_supply": 500000000000000000,
@@ -42,7 +42,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "owner": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8",
       "ticker": "ZUSD",
       "total_max_supply": 1000000000000000000
-}],
+    }],
     "own_assets": [{
       "asset_id": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8",
       "current_supply": 500000000000000000,
@@ -53,8 +53,8 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "owner": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8",
       "ticker": "ZUSD",
       "total_max_supply": 1000000000000000000
-}]
-}
+    }]
+  }
 }
 ```
 ### Response description: 

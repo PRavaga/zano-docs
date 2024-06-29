@@ -31,9 +31,9 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "tx_hash": "cc608f59f8080e2fbfe3c8c80eb6e6a953d47cf2d6aebd345bada3a1cab99852",
       "tx_original_hash": "cc608f59f8080e2fbfe3c8c80eb6e6a953d47cf2d6aebd345bada3a1cab99852",
       "url": ""
-},
+    },
     "tx_id": "40fa6db923728b38962718c61b4dc3af1acaa1967479c73703e260dc3609c58d"
-}
+  }
 }
 ```
 ### Request description: 
@@ -71,7 +71,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "result": {
     "tx_blob_size": 1232,
     "tx_hash": "40fa6db923728b38962718c61b4dc3af1acaa1967479c73703e260dc3609c58d"
-}
+  }
 }
 ```
 ### Response description: 

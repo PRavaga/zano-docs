@@ -9,7 +9,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "method": "get_mining_history",
   "params": {
     "v": 0
-}
+  }
 }
 ```
 ### Request description: 
@@ -26,8 +26,8 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "a": 1000000000000,
       "h": 102000,
       "t": 1712683857
-}]
-}
+    }]
+  }
 }
 ```
 ### Response description: 

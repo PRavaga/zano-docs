@@ -11,7 +11,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     "count": 1,
     "height_start": 51,
     "ignore_transactions": false
-}
+  }
 }
 ```
 ### Request description: 
@@ -56,14 +56,14 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
           "details_view": "",
           "short_view": "0feef5e2ea0e88b592c0a0e6639ce73e12ea9b3136d89464748fcb60bb6f18f5",
           "type": "pub_key"
-}],
+        }],
         "blob": "ARMBgKCUpY0dBBoAAAAAAAAAABoCAAAAAAAAABoKAAAAAAAAABoPAAAAAAAAACVA4FRLH",
         "blob_size": 6794,
         "extra": [{
           "details_view": "",
           "short_view": "0feef5e2ea0e88b592c0a0e6639ce73e12ea9b3136d89464748fcb60bb6f18f5",
           "type": "pub_key"
-}],
+        }],
         "fee": 1000000000,
         "id": "a6e8da986858e6825fce7a192097e6afae4e889cabe853a9c29b964985b23da8",
         "ins": [{
@@ -72,7 +72,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
           "htlc_origin": "",
           "kimage_or_ms_id": "2540e0544b1fed3b104976f803dbd83681335c427f9d601d9d5aecf86ef276d2",
           "multisig_count": 0
-}],
+        }],
         "keeper_block": 51,
         "object_in_json": "ewogICJ2ZXJzaW9uIjogMSwgCiAgInZpbiI6IFsgewogICAgIC",
         "outs": [{
@@ -81,14 +81,14 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
           "is_spent": false,
           "minimum_sigs": 0,
           "pub_keys": ["7d0c755e7e24a241847176c9a3cf4c970bcd6377018068abe6fe4535b23f5323"]
-}],
+        }],
         "pub_key": "0feef5e2ea0e88b592c0a0e6639ce73e12ea9b3136d89464748fcb60bb6f18f5",
         "timestamp": 1557345925
-}],
+      }],
       "type": 1
-}],
+    }],
     "status": "OK"
-}
+  }
 }
 ```
 ### Response description: 

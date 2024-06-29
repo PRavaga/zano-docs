@@ -23,7 +23,7 @@ URL: ```http:://127.0.0.1:11211/getrandom_outs1.bin```
 {
   "outs": [{
     "amount": 10000000000
-}],
+  }],
   "status": "OK"
 }
 ```

@@ -12,7 +12,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     "decoys_count": 10,
     "height_upper_limit": 2555000,
     "use_forced_mix_outs": false
-}
+  }
 }
 ```
 ### Request description: 
@@ -31,9 +31,9 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "result": {
     "outs": [{
       "amount": 10000000000
-}],
+    }],
     "status": "OK"
-}
+  }
 }
 ```
 ### Response description: 

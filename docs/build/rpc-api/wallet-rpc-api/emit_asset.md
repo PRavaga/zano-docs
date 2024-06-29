@@ -13,8 +13,8 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "address": "ZxBvJDuQjMG9R2j4WnYUhBYNrwZPwuyXrC7FHdVmWqaESgowDvgfWtiXeNGu8Px9B24pkmjsA39fzSSiEQG1ekB225ZnrMTBp",
       "amount": 10000000000000,
       "asset_id": "cc608f59f8080e2fbfe3c8c80eb6e6a953d47cf2d6aebd345bada3a1cab99852"
-}]
-}
+    }]
+  }
 }
 ```
 ### Request description: 
@@ -33,7 +33,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "jsonrpc": "2.0",
   "result": {
     "result_tx": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8"
-}
+  }
 }
 ```
 ### Response description: 

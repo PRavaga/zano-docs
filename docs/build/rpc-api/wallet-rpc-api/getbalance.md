@@ -8,7 +8,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "jsonrpc": "2.0",
   "method": "getbalance",
   "params": {
-}
+  }
 }
 ```
 ### Request description: 
@@ -33,14 +33,14 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
         "owner": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8",
         "ticker": "ZUSD",
         "total_max_supply": 1000000000000000000
-},
+      },
       "awaiting_in": 1000000000000,
       "awaiting_out": 2000000000000,
       "total": 100000000000000,
       "unlocked": 50000000000000
-}],
+    }],
     "unlocked_balance": 11000000000
-}
+  }
 }
 ```
 ### Response description: 

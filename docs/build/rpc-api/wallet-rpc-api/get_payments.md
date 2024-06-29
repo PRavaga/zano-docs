@@ -10,7 +10,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "params": {
     "allow_locked_transactions": false,
     "payment_id": "1dfe5a88ff9effb3"
-}
+  }
 }
 ```
 ### Request description: 
@@ -31,8 +31,8 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "payment_id": "1dfe5a88ff9effb3",
       "tx_hash": "01220e8304d46b940a86e383d55ca5887b34f158a7365bbcdd17c5a305814a93",
       "unlock_time": 0
-}]
-}
+    }]
+  }
 }
 ```
 ### Response description: 

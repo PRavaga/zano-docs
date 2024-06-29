@@ -8,7 +8,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "jsonrpc": "2.0",
   "method": "getblockcount",
   "params": {
-}
+  }
 }
 ```
 ### Request description: 
@@ -23,7 +23,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "result": {
     "count": 2697388,
     "status": "OK"
-}
+  }
 }
 ```
 ### Response description: 
