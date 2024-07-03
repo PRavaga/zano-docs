@@ -25,12 +25,12 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
 ### Request description: 
 ```
     "asset_descriptor": Descriptor that holds all information about asset that need to be updated (only owner could be updated)
-      "current_supply": Currently emitted supply for given asset
+      "current_supply": Currently emitted supply for given asset (ignored for REGISTER operation)
       "decimal_point": Decimal point
       "full_name": Full name of the asset
       "hidden_supply": This one reserved for future use, will be documented later
       "meta_info": Any other information assetiaded with asset in a free form
-      "owner": Owner's key, used to validate any operations on the asset altering, could be changed in case of transfer ownership
+      "owner": Owner's key, used only for EMIT and UPDATE validation, could be changed by transferring asset ownership
       "ticker": Ticker associated with asset
       "total_max_supply": Maximum possible supply for given asset, can't be changed after deployment
     "asset_id": Id of the asset to update
