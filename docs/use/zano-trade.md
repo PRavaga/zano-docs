@@ -92,8 +92,9 @@ When users publish their orders to Zano Trade, our DEX coordinator combines sell
 
 ### Is Zano Trade decentralized?
 
-At no point does Zano Trade hold any custody of funds, it's simply a forum for users to find each other's orders.\
-You can even do trades without it by simply using the "Swap" function available in the official Zano wallets, in a fully self-hosted manner.
+Zano trade is simply a forum for users to find each other's orders, at no point does it hold any custody of funds.&#x20;
+
+You can even do trades without the site by simply using the "Swap" function available in the official Zano wallets, in a fully self-hosted manner.
 
 ### Why isn't there a traditional order book/liquidity pool?
 
@@ -101,7 +102,7 @@ While technically a traditional order book is possible by building a list of hal
 
 However if there's a demand for an app like this and users are willing to opt-in, it could be built by a third party.
 
-### What currencies can I trade?
+### Which currencies can I trade?
 
 All [confidential assets](https://docs.zano.org/docs/learn/frequently-asked-questions#what-are-confidential-assets) issued or bridged over to Zano are tradeable.
 

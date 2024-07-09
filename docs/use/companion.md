@@ -32,6 +32,6 @@ It's your gateway to the broader Zano ecosystem!
 
 8. A popup will appear on the Companion to authorize the connection, you will only need to this on the first time.
 
-![](/img/use/companion/sign_request.png)
+   ![](/img/use/companion/sign_request.png)
 
 **And that's it! Welcome to the Zano Ecosystem!**
