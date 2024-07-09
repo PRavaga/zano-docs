@@ -47,11 +47,13 @@ A 2GB graphic card is required for GPU mining.
 
 ### Step 3: Start Mining
 
-
-
 - Double-click `start-zano-mining.bat` to run TT-Miner & Zano node, verify that it's working as intended.
 
-  :::info If your `zanod.exe` instance fails to start, make sure that there isn't another one running, and close your Zano desktop wallet if you haven't done so already. :::
+:::info
+
+If your `zanod.exe` instance fails to start, make sure that there isn't another one running, and close your Zano desktop wallet if you haven't done so already.
+
+:::
 
 ### Step 4 (Optional): Start miner on boot
 
@@ -69,6 +71,10 @@ A 2GB graphic card is required for GPU mining.
 
 - Copy the new shortcut to the previous `Startup` folder, now the script will be executed whenever your PC starts.
 
-  :::info Remember that to open your Zano desktop wallet, you must first close all zanod.exe instances. :::
+:::info
 
-Visit our Mining-Talk channels on our [Discord and Telegram](https://links.zano.org) if you need more assistance or want to discuss about further tuning your setup!
+Remember that to open your Zano desktop wallet, you must first close all zanod.exe instances.
+
+:::
+
+Visit our Mining-Talk channels on our [Discord and Telegram](https://links.zano.org) if you need more assistance or want to discuss, happy mining!
