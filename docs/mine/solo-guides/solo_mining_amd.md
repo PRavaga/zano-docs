@@ -1,5 +1,5 @@
 <div align="center">
-<img src="static/img/mine/solo-mining-guides/linuxzano_icon.png" width="400">
+<img src="static/img/mine/solo-mining-guides/linuxzano_icon.png" width="400" />
 <h1>Solo Mining with AMD (Ubuntu)</h1>
 </div>
 
@@ -91,7 +91,7 @@ Since Ubuntu doesn't come with AMD's OpenCL driver, which is necessary for minin
    You should see something like the following, with OpenCL under both "Platform version" and "Device version."
    
    <div>
-   <img src="static/img/mine/solo-mining-guides/linuxamd-clinfo.png" width="800">
+   <img src="static/img/mine/solo-mining-guides/linuxamd-clinfo.png" width="800" />
    </div>
 
 ## Step 4: Starting Wildrig Miner
@@ -105,7 +105,7 @@ Once your node is fully synced, stop it (ctl+c). In the same terminal, restart `
 The daemon should start, displaying this screen. 
 
 <div>
-<img src="static/img/mine/solo-mining-guides/linuxamd-daemon_synced.png" width="800">
+<img src="static/img/mine/solo-mining-guides/linuxamd-daemon_synced.png" width="800" />
 </div>
 
 You're ready to begin mining. 
@@ -120,13 +120,13 @@ sudo ./wildrig-multi --print-full --algo progpowz --protocol ethproxy -u miner -
 The miner should start, displaying your statistics:
 
 <div>
-<img src="static/img/mine/solo-mining-guides/linuxamd-wildrig_running.png" width="800">
+<img src="static/img/mine/solo-mining-guides/linuxamd-wildrig_running.png" width="800" />
 </div>
 
 And if you switch to the terminal with your daemon running, you should now see this:
 
 <div>
-<img src="static/img/mine/solo-mining-guides/linuxnvidia-daemon_mining.png" width="800">
+<img src="static/img/mine/solo-mining-guides/linuxnvidia-daemon_mining.png" width="800" />
 </div>
 
 <div>
