@@ -4,6 +4,6 @@ sidebar_position: 1
 
 # Mining Zano
 
-### Mining Software
+Zano uses ProgPoWZ for its mining algorithm, it's ASIC-resistant which means that it can only be mined using graphics cards.
 
-[Cuda Mining Software](https://api.zano.org/downloads/progminer-zano-cuda.exe)
+The best way to support and further decentralize the network is to solo-mine it, we have prepared a guides to help you get started.

@@ -40,7 +40,7 @@ Anyone can easily issue user-creatable currencies and digital tokens on the Zano
 
 ### **What are Ionic Swaps?**
 
-Ionic Swaps are an improvement on Atomic Swaps, innovating seamless cryptocurrency exchanges while preserving user privacy. Ionic Swaps are a safe and consistent way to perform peer-to-peer swaps in which neither party has an unfair advantage. This technology is used by the DEX and for instant swaps.
+Ionic Swaps are an improvement on Atomic Swaps, innovating seamless cryptocurrency exchanges while preserving user privacy. Ionic Swaps are a safe and consistent way to perform peer-to-peer swaps in which neither party has an unfair advantage. This technology is used by our DEX: Zano Trade.
 
 ### **What are Escrow Contracts?[​](https://docs.zano.org/docs/learn/frequently-asked-questions/#what-is-escrow-contracts)**
 

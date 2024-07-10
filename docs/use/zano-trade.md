@@ -30,7 +30,7 @@ A decentralized exchange to trade native Zano and all the Confidential Assets la
 
 ### Create an order
 
-For this example, we will be buying "ZNOPP" tokens:
+For this example, we will be buying "ZNOOP" tokens:
 
 _Price:_ How much of the base pair (in this case, ZANO) do we want to pay per unit of ZNOOP?
 
@@ -38,7 +38,9 @@ _Amount:_ How many tokens do we want to acquire at this price?
 
 Click "Buy" to post the order.
 
-![](/img/use/zano-trade/new_order1.png)
+<figure style={{textAlign: 'center'}}>
+  <img src={require('/img/use/zano-trade/new_order1.png').default} />
+</figure>
 
 ### Take an order
 
@@ -48,11 +50,15 @@ Scroll down to see the order book.
 
 Since we are happy with receiving 0.01 ZANO per token, we'll proceed to click "Take Order".
 
-![](/img/use/zano-trade/order_book2.png)
+<figure style={{textAlign: 'center'}}>
+  <img src={require('/img/use/zano-trade/order_book2.png').default} />
+</figure>
 
 This will take us back above and automatically set the fields for our sell order, simply click "Sell".
 
-![](/img/use/zano-trade/new_order2.png)
+<figure style={{textAlign: 'center'}}>
+  <img src={require('/img/use/zano-trade/new_order2.png').default} />
+</figure>
 
 ### Complete the trade
 
@@ -76,4 +82,34 @@ Now we wait for @Timmy03 to apply our order in the same way we just did.
   <img src={require('/img/use/zano-trade/completed_trade.png').default} />
 </figure>
 
-And that's it! We just completed a peer-to-peer trade, made possible by Zano's Ionic Swaps, preserving our privacy across the whole process.
+And that's it! We just completed a peer-to-peer trade, made possible by Zano's Ionic Swaps, preserving our privacy across the entire process.
+
+## Frequently Asked Questions
+
+### How do trades work?
+
+When users publish their orders to Zano Trade, our DEX coordinator combines sell and buy orders together in an [Ionic Swap](https://docs.zano.org/docs/learn/frequently-asked-questions#what-are-ionic-swaps) transaction that is then relayed by the app and executed by users, its content is only visible to the parties involved in the swap.
+
+### Is Zano Trade decentralized?
+
+Zano trade is simply a forum for users to find each other's orders, at no point does it hold any custody of funds.&#x20;
+
+You can even do trades without the site by simply using the "Swap" function available in the official Zano wallets, in a fully self-hosted manner.
+
+### Why isn't there a traditional order book/liquidity pool?
+
+While technically a traditional order book is possible by building a list of half-filled ionic swap transactions, this is not something we endorse since it sacrifices the privacy on the maker side, contradicting one of Zano's core features.
+
+However if there's a demand for an app like this and users are willing to opt-in, it could be built by a third party.
+
+### Which currencies can I trade?
+
+All [confidential assets](https://docs.zano.org/docs/learn/frequently-asked-questions#what-are-confidential-assets) issued or bridged over to Zano are tradeable.
+
+### How long does it take before my transaction is processed?
+
+An ionic swap takes 1 confirmation to complete, which on average is 1 minute.
+
+### Why do I need Zano Companion to be able to access Zano Trade?
+
+Since Zano Trade is a non-custodial app it uses Zano Companion as a secure interface to the user's wallet instead, this way funds always stay in your control.
