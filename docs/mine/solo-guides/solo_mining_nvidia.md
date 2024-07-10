@@ -1,11 +1,13 @@
 <div>
 
 <div align="center">
+</div>
 <img src="/img/mine/solo-mining-guides/linux/zano_icon.png" width="400" />
+</div>
 <h1>Solo Mining with Nvidia</h1>
 </div>
 
-## Step 1: Synchronize the Daemon
+### Step 1: Synchronize the Daemon
 
 Open a terminal in the directory with `zanod`, and run it: [^1]
 
@@ -15,7 +17,7 @@ Open a terminal in the directory with `zanod`, and run it: [^1]
 
 Allow the daemon to synchronize, while we complete other steps.
 
-## Step 2: Install TT-Miner
+### Step 2: Install TT-Miner
 
 Open another terminal within the same director, and download TT-Miner application:
 
@@ -50,7 +52,7 @@ Note the contents. They provide the basic instructions for setting up TT-Miner (
 
 Exit Nano (`ctl+x`), but leave the terminal and directory open; we'll return to it soon.
 
-## Step 3: Nvidia Driver Installation
+### Step 3: Nvidia Driver Installation
 
 Since Ubuntu uses all open source drivers, you may need to install the proper proprietary Nvidia driver (for use with Cuda below). To determine which FOSS driver you may have, and which proprietary driver is recommended, give the command:
 
@@ -88,7 +90,7 @@ If you wish to check on the installation, give:
 nvcc --version
 ```
 
-## Step 4: Starting TT-Miner
+### Step 4: Starting TT-Miner
 
 Once your node is fully synced, stop it (`ctl+c`). In the same terminal, restart `zanod`  with the following flags, taken from the above `ZANO-SOLO.sh` file:
 
