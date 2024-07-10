@@ -134,7 +134,7 @@ And if you switch to the terminal with your daemon running, you should now see t
 <h1>Congratulations, you're solo mining Zano!</h1>
 </div>
 
-[^1]: This guide assumes you have already installed, and can use, a CLI wallet and its daemon. If you haven't, see those guides [here](https://docs.zano.org/docs/install-a-zano-cli-wallet-ubuntu) and [here](https://docs.zano.org/docs/using-a-zano-cli-wallet), respectively.
+[^1]: This guide assumes you have already installed, and can use, a CLI wallet and its daemon. If you haven't, see those guides [here](https://docs.zano.org/docs/install-zano-cli-wallet-ubuntu) and [here](https://docs.zano.org/docs/using-zano-cli-wallet), respectively.
 
 [^2]: Be aware that Wildrig has a 1.0% fee.
 
