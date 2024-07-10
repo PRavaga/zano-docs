@@ -1,6 +1,6 @@
 <div align="center">
 <img src="static/img/mine/solo-mining-guides/linuxzano_icon.png" width="400">
-<h1>Solo Mining with AMD (Ubuntu)<h1>
+<h1>Solo Mining with AMD (Ubuntu)</h1>
 </div>
 
 ## Step 1: Synchronize the Daemon
