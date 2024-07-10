@@ -2,7 +2,7 @@
 
 <div align="center">
 <img src="static/img/mine/solo-mining-guides/linux/zano_icon.png" width="400">
-<h1>Solo Mining with Nvidia<h1>
+<h1>Solo Mining with Nvidia</h1>
 </div>
 
 ## Step 1: Synchronize the Daemon
