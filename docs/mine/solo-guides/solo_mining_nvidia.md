@@ -1,6 +1,6 @@
 <div>
 
-<div align=center>
+<div align="center">
 <img src="static/img/mine/solo-mining-guides/linux/zano_icon.png" width="400">
 <h1>Solo Mining with Nvidia<h1>
 </div>
