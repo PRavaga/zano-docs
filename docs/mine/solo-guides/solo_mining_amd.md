@@ -1,11 +1,10 @@
 # Linux (AMD)
 
 <div align="center">
-<img src="/img/mine/solo-mining-guides/zano_icon.png" width="400" />
 <h1>Solo Mining with AMD (Ubuntu)</h1>
 </div>
 
-## Step 1: Synchronize the Daemon
+### Step 1: Synchronize the Daemon
 
 Open a terminal in the directory with `zanod`, and run it: [^1]
 
@@ -15,7 +14,7 @@ Open a terminal in the directory with `zanod`, and run it: [^1]
 
 Allow the daemon to synchronize, while we complete other steps.
 
-## Step 2: Install Wildrig Miner[^2]
+### Step 2: Install Wildrig Miner[^2]
 
 Open another terminal within the same directory. Create a new directory for Wildrig and enter it:
 
@@ -39,7 +38,7 @@ rm wildrig-multi-linux-0.36.6b.tar.xz
 
 Leave this directory open; we'll return to it soon.
 
-## Step 3: AMD Driver Installation
+### Step 3: AMD Driver Installation
 
 Since Ubuntu doesn't come with AMD's OpenCL driver, which is necessary for mining, you'll need to install that. But it also requires ****very**** specific AMD driver software (22.40): we've found no other that successfully installs. 
 
@@ -96,7 +95,7 @@ Since Ubuntu doesn't come with AMD's OpenCL driver, which is necessary for minin
    <img src="/img/mine/solo-mining-guides/amd-clinfo.png" width="800" />
    </div>
 
-## Step 4: Starting Wildrig Miner
+### Step 4: Starting Wildrig Miner
 
 Once your node is fully synced, stop it (ctl+c). In the same terminal, restart `zanod` with the following flags, substituting your wallet address for        "<YOUR_WALLET_ID>"
 
