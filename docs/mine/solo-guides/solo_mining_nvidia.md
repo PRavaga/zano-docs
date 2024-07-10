@@ -1,7 +1,7 @@
 <div>
 
 <div align="center">
-<img src="static/img/mine/solo-mining-guides/linux/zano_icon.png" width="400">
+<img src="static/img/mine/solo-mining-guides/linux/zano_icon.png" width="400" />
 <h1>Solo Mining with Nvidia</h1>
 </div>
 
@@ -61,7 +61,7 @@ sudo ubuntu-drivers devices
 You should see something like the following:
 
 <div>
-<img src="static/img/mine/solo-mining-guides/linux/nvidia-installed_drivers.png" width="800">
+<img src="static/img/mine/solo-mining-guides/linux/nvidia-installed_drivers.png" width="800" />
 </div>
 
 </div>
@@ -105,7 +105,7 @@ Note the above has two important adjustments from what is given in `ZANO-SOLO.SH
 If you do not place your receive address there, you may get an error such as the following:
 
 <div>
-<img src="static/img/mine/solo-mining-guides/linux/nvidia-wrong_wallet.png" width="800">
+<img src="static/img/mine/solo-mining-guides/linux/nvidia-wrong_wallet.png" width="800" />
 </div>
 
 <div>
@@ -119,7 +119,7 @@ But if there are no other problems, the daemon should start, eventually confimin
 
 
 <div>
-<img src="static/img/mine/solo-mining-guides/linux/nvidia-daemon4.png" width="800">
+<img src="static/img/mine/solo-mining-guides/linux/nvidia-daemon4.png" width="800" />
 </div>
 
 We're ready to run TT-Miner. Open a new terminal in the same directory as both `ZANO-SOLO.sh` and `TT-Miner` . 
@@ -133,13 +133,13 @@ Give the command:
 The miner should start, displaying your statistics:
 
 <div>
-<img src="static/img/mine/solo-mining-guides/linux/nvidia-ttminer.png" width="800">
+<img src="static/img/mine/solo-mining-guides/linux/nvidia-ttminer.png" width="800" />
 </div>
 
 And if you switch to the terminal with your daemon running, you should now see this:
 
 <div>
-<img src="static/img/mine/solo-mining-guides/linux/nvidia-daemon_mining.png" width="800">
+<img src="static/img/mine/solo-mining-guides/linux/nvidia-daemon_mining.png" width="800" />
 </div>
 
 <div>
