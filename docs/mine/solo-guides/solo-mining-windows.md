@@ -1,4 +1,4 @@
-# Solo Mining Guide
+# Windows
 
 The Zano daemon features an internal stratum-like server that can serve miner clients via the ethProxy protocol. It works like a very light and simple pool that mines to a single address.
 
@@ -8,7 +8,7 @@ A 2GB graphic card is required for GPU mining.
 
 :::
 
-## Windows quick guide
+## Windows Solo Mining guide
 
 ### Step 1: Set up the Zano node
 

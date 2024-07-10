@@ -1,3 +1,5 @@
+# Linux (AMD)
+
 <div align="center">
 <img src="/img/mine/solo-mining-guides/zano_icon.png" width="400" />
 <h1>Solo Mining with AMD (Ubuntu)</h1>
