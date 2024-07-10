@@ -109,7 +109,7 @@ If you do not place your receive address there, you may get an error such as the
 </div>
 
 <div>
-<div align=center>
+<div align="center">
 
 </div>
 
