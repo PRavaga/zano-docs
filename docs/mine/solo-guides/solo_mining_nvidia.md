@@ -1,10 +1,6 @@
 # Linux (NVIDIA)
 
-<div>
-
-<div align="center">
-<h1>Solo Mining with Nvidia</h1>
-</div>
+## Solo Mining in Ubuntu (NVIDIA)
 
 ### Step 1: Synchronize the Daemon
 
@@ -143,8 +139,6 @@ And if you switch to the terminal with your daemon running, you should now see t
 <h1>Congratulations, you're solo mining Zano!</h1>
 </div>
 
-[^1]: This guide assumes you've already installed, and can use, a CLI wallet and its daemon. If you haven't, see those guides [here](https://docs.zano.org/docs/install-zano-cli-wallet-ubuntu) and [here](https://docs.zano.org/docs/using-zano-cli-wallet), respectively.  
+[^1]: This guide assumes you've already installed, and can use, a CLI wallet and its daemon. If you haven't, see those guides [here](https://docs.zano.org/docs/use/wallets/install-zano-cli-wallet-ubuntu) and [here](https://docs.zano.org/docs/use/wallets/using-zano-cli-wallet-ubuntu), respectively.  
 
 [^2]: If you get the following error, you'll need to install Cuda: `./TT-Miner: error while loading shared libraries: libcuda.so.1: cannot open shared object file: No such file or directory.` 
-
-</div>

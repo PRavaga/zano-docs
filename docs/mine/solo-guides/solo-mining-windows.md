@@ -8,7 +8,7 @@ A 2GB graphic card is required for GPU mining.
 
 :::
 
-## Windows Solo Mining guide
+## Solo Mining in Windows (AMD & NVIDIA)
 
 ### Step 1: Set up the Zano node
 

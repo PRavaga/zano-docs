@@ -1,8 +1,6 @@
 # Linux (AMD)
 
-<div align="center">
-<h1>Solo Mining with AMD (Ubuntu)</h1>
-</div>
+## Solo Mining in Ubuntu (AMD)
 
 ### Step 1: Synchronize the Daemon
 
