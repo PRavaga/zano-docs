@@ -16,7 +16,7 @@ It's your gateway to the broader Zano ecosystem!
 
 3. Right-click to copy the secret that will be displayed.
 
-   ![](/img/use/companion/comp_secret.png)
+   ![Zano wallet secret](/img/use/companion/comp_secret.png)
 
 4. Open your browser and install the Zano Companion extension from the Chrome Web Store.[ \[Here\]](https://chromewebstore.google.com/detail/zano-companion/akcgnllhhhkcpmlenfpicmcpgfpindlb)
 
@@ -24,14 +24,14 @@ It's your gateway to the broader Zano ecosystem!
 
 6. You can now register an[ alias](https://app.dhub.dev/c/goncativas-projects/zano-docs/docs/use/aliases.md) if you haven't done so already, this will be displayed as your identity when using the Zano ecosystem.
 
-   ![](/img/use/companion/companion.png)
+   ![Companion extension showcase](/img/use/companion/companion.png)
 
 7. To connect to a Zano web application, simply click on its "Connect Wallet" button and select Zano Extension if asked.
 
-   ![](/img/use/companion/connect_wallet.png)
+   ![connect wallet pop-up](/img/use/companion/connect_wallet.png)
 
 8. A popup will appear on the Companion to authorize the connection, you will only need to this on the first time.
 
-   ![](/img/use/companion/sign_request.png)
+   ![Sign request pop-up in Zano Companion](/img/use/companion/sign_request.png)
 
 **And that's it! Welcome to the Zano Ecosystem!**
