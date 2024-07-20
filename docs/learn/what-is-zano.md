@@ -34,4 +34,4 @@ Here are they summed up:
 
 Additionally, with features like the dynamic [Marketplace API](https://docs.zano.org/docs/build/marketplace/marketplace-api-guide), adaptable [Escrow/P2P Contracts](https://docs.zano.org/docs/use/escrow-contracts/), and an array of projects nurtured on Zano's foundation, our platform offers diverse opportunities for developers, traders, and all who value privacy in the digital age.
 
-Zano is always in constant innovation, so make sure to check our [roadmap](https://zano.org/roadmap) as well as our [Frequent Asked Questions](https://docs.zano.org/docs/learn/frequently-asked-questions) page.
+Zano is constantly innovating, so make sure to check our [roadmap](https://zano.org/roadmap) as well as our [Frequent Asked Questions](https://docs.zano.org/docs/learn/frequently-asked-questions) page.
