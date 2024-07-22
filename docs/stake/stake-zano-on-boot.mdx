@@ -1,0 +1,254 @@
+# Guide: Stake Zano automatically on system startup
+
+## Introduction
+
+Staking is an important aspect of Zano, users should be able to effortlessly stake their Zano upon system startup without any intervention, for this we’ll use PM2. PM2 makes it possible to daemonize applications so that they will run in the background as a service.
+
+## Install Node.js & NPM
+
+We’ll also need Node.js, Installing Node.js and NPM is super easy, simply head over to the download page and download the relevant version, their website allows you to download Node.js the way you want.
+
+### Windows
+
+Download Node.js from [https://nodejs.org/en/download/prebuilt-installer](https://nodejs.org/en/download/prebuilt-installer), NPM is included by default.
+
+Alternatively, we can download it from a repository if using Linux:
+
+### Linux
+
+#### How to Install Node.js and NPM from Ubuntu repository
+
+```
+sudo apt update
+```
+
+```
+sudo apt install nodejs npm
+```
+
+#### How to Install Node.js and NPM on Arch based distro
+
+```
+sudo pacman -S npm nodejs
+```
+
+You can now type the following to ensure they’re installed and check version:
+
+```
+node -v
+```
+
+```
+npm -v
+```
+
+## Install the latest version of PM2 using NPM
+
+### Windows
+
+Press your Windows key and search for "Powershell" and hit enter to open the terminal, paste the following command, hit enter to run it:
+
+```
+npm install pm2@latest -g
+npm install pm2-windows-startup -g
+pm2-startup install
+```
+
+### Linux
+
+```
+sudo npm install pm2@latest -g
+```
+
+## Get the Zano Binaries
+
+We need to get the zanod and simplewallet binaries in order to run things in CLI mode.
+
+### Windows
+
+Head to [https://zano.org/downloads](https://zano.org/downloads), download the .ZIP file for Windows and extract it in a folder.
+
+### Linux
+
+Binaries can be extracted from the AppImage available on [https://zano.org/downloads](https://zano.org/downloads) or the GitHub repository, see the following steps to extract from the AppImage:
+
+1. Go to the folder containing the Zano wallet AppImage file and mark it as executable by right-clicking it: `Properties > Permissions > 'Allow executing file as program'`
+
+2. Rename the file to `zano-linux.AppImage`
+
+3. Open a terminal inside that same folder and type the following command:
+
+```
+./zano-linux.AppImage --appimage-mount
+```
+
+Which will then show you a temp mountpoint, this will look something like:
+
+`/tmp/.mount_zano-lHATDRi`
+
+2.  Navigate to this folder, (you may need to check **‘show hidden files’**) then go to the  `usr > bin` folder and copy zanod and simplewallet to a folder of your choosing.
+
+![](/img/stake/stake-on-boot-guide/extracted-zano-binaries.png)
+
+## Set your Zano CLI wallet
+
+Open a terminal (PowerShell on Windows) from the folder containing the zanod and simplewallet binaries (Extracted .zip on Windows).
+
+:::info How to open PowerShell from inside a folder on Windows
+
+Open the folder, then while holding `shift-key`, right-click on an empty space inside the folder and select `Open PowerShell window here`.
+
+:::
+
+Inside the terminal paste the following command (change example.wallet to a name for your wallet file):
+
+```
+./simplewallet --restore-wallet example.wallet
+```
+
+You will be prompted to create a password for it, once you do, it will ask you to enter your wallet's seedphrase.
+
+Exit simplewallet by pressing `Ctrl key` and `C`
+
+## Automate processes with PM2
+
+Now we want to start both zanod and simplewallet using PM2 process manager.
+
+### Start zanod
+
+Inside the previously opened terminal, paste the following commands:&#x20;
+
+#### Windows
+
+```
+pm2 start zanod.exe
+```
+
+#### Linux
+
+```
+pm2 start zanod
+```
+
+### Start simplewallet
+
+In the command below, replace `example.wallet` and `<password> `with your corresponding ones.
+
+#### Windows
+
+```
+pm2 start simplewallet.exe -- start -- --wallet-file example.wallet --password <password> --rpc-bind-ip 127.0.0.1 --rpc-bind-port 11212 --daemon-address 127.0.0.1:11211 --do-pos-mining
+```
+
+:::info
+
+The error: `Script not found: ...\start` is expected, you can ignore it.
+
+:::
+
+#### Linux
+
+```
+pm2 start simplewallet -- --wallet-file example.wallet  --password <password> --rpc-bind-ip 127.0.0.1  --rpc-bind-port 11212  --daemon-address 127.0.0.1:11211 --do-pos-mining
+```
+
+### PM2 tips
+
+Now both of our processes are daemonized and running in the background at all times, we can monitor and manage our processes, using the following commands:
+
+```
+pm2 list
+```
+
+```
+pm2 monit
+```
+
+```
+pm2 stop <ID>
+```
+
+```
+pm2 start <ID>
+```
+
+![](/img/stake/stake-on-boot-guide/pm2-list.jpg)
+
+![](/img/stake/stake-on-boot-guide/pm2-monit.png)
+
+This isn't an extensive howto on PM2, check here to learn more on PM2:
+
+[https://devhints.io/pm2](https://devhints.io/pm2)
+
+[https://pm2.keymetrics.io/docs/usage/quick-start/](https://pm2.keymetrics.io/docs/usage/quick-start/)
+
+## Persist processes to run on startup
+
+In order to persist zanod and simplewallet to auto-run on startup, run the following command:
+
+#### Windows
+
+```
+pm2 save
+```
+
+#### Linux
+
+```
+pm2 save
+```
+
+```
+pm2 startup
+```
+
+You may then be prompted to enter another command by PM2, copy and paste this command:
+
+![](/img/stake/stake-on-boot-guide/pm2-startup.png)
+
+It will look something like:
+
+`sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u anon --hp /home/anon`
+
+**Yours will differ, use the command you are given.**
+
+### How to disable run on startup
+
+In case you no longer want the process to start on boot, use the following commands
+
+#### Windows
+
+```
+pm2 cleardump
+pm2 save
+```
+
+(To re-enable it you will need to follow the [steps](https://docs.zano.org/docs/stake/stake-zano-on-boot#automate-processes-with-pm2) to start zanod and simplewallet again)
+
+#### Linux
+
+```
+pm2 unstartup
+```
+
+## Monitor your staking
+
+Open `simplewallet.txt` inside the folder you have been working on to check your staking activity, it should look something like this (after your node finishes syncing):
+
+`[Date/time] [RPC0][W:ZxDxxx] PoS mining: 0 iterations finished (0.00s), status: NOT_FOUND, 0 entries with total amount: 0.0`
+
+## Things to note
+
+**If you want to open your Zano desktop wallet (GUI)**, you will need to stop the processes otherwise your wallet will not start, you can start and stop the processes using the following commands:
+
+```
+pm2 stop <ID>
+```
+
+```
+pm2 start <ID>
+```
+
+## Conclusion
+
+You’re now staking your Zano, on system startup automatically.

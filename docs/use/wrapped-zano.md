@@ -13,7 +13,10 @@ It allows us access to the enormous existing infrastructure that exists around E
 The process of swapping ZANO to WZANO is referred to as “wrapping”. You can wrap ZANO from within any of the Zano mobile or desktop clients. Just go to the “Send” tab, enter the amount of ZANO you would like to receive and the Ethereum address to which you’d like the WZANO to be sent. You will be informed of how much Zano is required to cover the transaction fees before you finalize the transaction.
 
 <figure style={{textAlign: 'center'}}>
-  <img src={require('/img/use/wrapped-zano/wrap.png').default} />
+  <img
+    src={require('/img/use/wrapped-zano/wrap.png').default}
+    alt="Desktop Zano wallet, &#x22;Send&#x22; tab, with Wrapped Zano tx details"
+  />
 </figure>
 
 ## How to unwrap WZANO
@@ -21,7 +24,10 @@ The process of swapping ZANO to WZANO is referred to as “wrapping”. You can 
 Go to [https://wrapped.zano.org/app/](https://wrapped.zano.org/app/) connect your metamask wallet and specify the Zano address to which you want to receive ZANO. After that, you will be able to unwrap WZANO to ZANO. The process takes around 15 minutes and you will receive ZANO to your Zano address.
 
 <figure style={{textAlign: 'center'}}>
-  <img src={require('/img/use/wrapped-zano/unwrap.png').default} />
+  <img
+    src={require('/img/use/wrapped-zano/unwrap.png').default}
+    alt="Unwrap Zano widget"
+  />
 </figure>
 
 ## Proof of Assets
