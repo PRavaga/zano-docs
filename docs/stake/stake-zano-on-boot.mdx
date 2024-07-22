@@ -96,7 +96,6 @@ Open a terminal (PowerShell on Windows) from the folder containing the zanod and
 
 :::info How to open PowerShell from inside a folder on Windows
 
-\
 Open the folder, then while holding `shift-key`, right-click on an empty space inside the folder and select `Open PowerShell window here`.
 
 :::
@@ -213,7 +212,7 @@ It will look something like:
 
 **Yours will differ, use the command you are given.**
 
-### **How to disable run on startup**
+### How to disable run on startup
 
 In case you no longer want the process to start on boot, use the following commands
 
@@ -224,7 +223,7 @@ pm2 cleardump
 pm2 save
 ```
 
-(To re-enable it you will need to follow the [steps](https://docs.zano.org/docs/use/zano-trade#which-currencies-can-i-trade) to start zanod and simplewallet again)
+(To re-enable it you will need to follow the [steps](https://docs.zano.org/docs/stake/stake-zano-on-boot#automate-processes-with-pm2) to start zanod and simplewallet again)
 
 #### Linux
 
@@ -234,8 +233,8 @@ pm2 unstartup
 
 ## Monitor your staking
 
-Open simplewallet.txt inside the folder you have been working on to check your staking activity, it should look something like this: (after your node finishes syncing)\
-\
+Open `simplewallet.txt` inside the folder you have been working on to check your staking activity, it should look something like this (after your node finishes syncing):
+
 `[Date/time] [RPC0][W:ZxDxxx] PoS mining: 0 iterations finished (0.00s), status: NOT_FOUND, 0 entries with total amount: 0.0`
 
 ## Things to note
