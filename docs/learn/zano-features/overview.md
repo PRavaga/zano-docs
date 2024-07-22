@@ -1,4 +1,6 @@
-# Zano’s Values
+# Overview
+
+## Zano’s Values
 
 ### Privacy
 
@@ -20,7 +22,7 @@ When we say decentralization we mean it, Zano is truly decentralized as anyone c
 
 From our wide variety of wallets to our documentation and to our products, we always keep the end user in mind ensuring a good user experience to drive adoption of the Zano blockchain.
 
-# Technologies
+## Technologies
 
 Zano has developed and adopted a wide variety of technologies that can be used to create all kinds of privacy-focused decentralized applications (dApps) and other projects. These technologies make Zano truly different from other projects and are summed below.
 
@@ -68,7 +70,7 @@ Anyone can easily issue user-creatable privacy tokens on the Zano chain; assets 
 
 first-generation cryptocurrencies, namely because of hidden addresses and hidden amounts. This unique technology can be used to create private stablecoins, shielded versions of existing assets, and much more, without the overhead of having to create, manage, and secure your own blockchain.
 
-# Products
+## Products
 
 All of the above-named technologies can be used to create all kinds of privacy-focused, decentralized applications (dApps). Below you can find examples of the products we created with these technologies, but of course, others can use these technologies as well to develop on Zano.
 
