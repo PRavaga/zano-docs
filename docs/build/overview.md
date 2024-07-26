@@ -16,7 +16,7 @@ If launching your own project centered around private transactions is your goal,
 
 ## Exchange Listing Guidelines
 
-If you're looking to list your project or Zano assets on exchanges, it's crucial to follow specific guidelines to ensure compliance and success in your listings. We provide a [detailed set of guidelines](/exchange-guidelines/multi-assets-custody-guide) that cover everything from technical requirements to compliance with financial regulations.
+If you're looking to list your project or Zano assets on exchanges, it's crucial to follow specific guidelines to ensure compliance and success in your listings. We provide a [detailed set of guidelines](exchange-guidelines/multi-assets-custody-guide) that cover everything from technical requirements to compliance with financial regulations.
 
 ## Tools and Resources
 
