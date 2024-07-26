@@ -20,17 +20,18 @@ If you're looking to list your project or Zano assets on exchanges, it's crucial
 
 ## Tools and Resources
 
-We provide a variety of tools and libraries to assist you in building robust applications:
+We provide a variety of tools and [libraries](libraries/overview.md) to assist you in building robust applications:
 
-- Web3 TS Library: A toolkit for integrating Zano functionalities directly into your web applications. Learn more about the npm package.
-- Dart Library: For developers looking to integrate Zano functionalities into applications built with Dart, we offer a comprehensive Dart library.
+- **Zano Web3 TS**: This TypeScript library now includes a server component for RPC interactions, simplifying the connection to Zano wallets and handling transactions directly from web applications.
+- **Mobile Libraries** (Flutter/Android & iOS): These have been updated to offer more robust features for mobile developers, enabling seamless integration into a wider range of applications.
+- **Native Crypto Library** for iOS/Android (C++): Updated to provide essential cryptographic functionalities needed for secure and reliable app development.
 
 ## Community and Support
 
 Join our vibrant community of developers and privacy enthusiasts:
 
-- Discussions: Engage with other developers, share your projects, and get feedback in community dev channels in [discord](https://discord.gg/wE3rmYY) and [telegram](https://t.me/zanocoin).
-- Technical Support: Our technical team is ready to assist you with any questions or challenges you may encounter.
+- **Discussions**: Engage with other developers, share your projects, and get feedback in community dev channels in [discord](https://discord.gg/wE3rmYY) and [telegram](https://t.me/zanocoin).
+- **Technical Support**: Our technical team is ready to assist you with any questions or challenges you may encounter.
 
 ## Contributing to Zano
 
