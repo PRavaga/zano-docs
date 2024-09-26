@@ -17,7 +17,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     "fee": 10000000000,
     "hide_receiver": true,
     "mixin": 15,
-    "payment_id": "1dfe5a88ff9effb3",
+    "payment_id": "",
     "push_payer": false,
     "service_entries": [{
       "body": "dcfd7e055a6a3043ea3541a571a57a63e25dcc64e4a270f14fa9a58ac5dbec85dcfd7e055a6a3043ea3541a571a57a63e25dcc64e4a270f14fa9a58ac5dbec85",
@@ -57,13 +57,15 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "id": 0,
   "jsonrpc": "2.0",
   "result": {
-    "tx_hash": "",
-    "tx_size": 0,
+    "tx_hash": "01220e8304d46b940a86e383d55ca5887b34f158a7365bbcdd17c5a305814a93",
+    "tx_size": 1234,
     "tx_unsigned_hex": ""
   }
 }
 ```
 ### Response description: 
 ```
+    "tx_hash": Has of the generated transaction(if succeded)
+    "tx_size": Transaction size in bytes
 
 ```
