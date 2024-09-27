@@ -25,12 +25,12 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
   "id": 0,
   "jsonrpc": "2.0",
   "result": {
-    "result_tx": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8"
+    "tx_id": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8"
   }
 }
 ```
 ### Response description: 
 ```
-    "result_tx": Id of transaction that carries asset burn operation
+    "tx_id": Id of transaction that carries asset burn operation
 
 ```

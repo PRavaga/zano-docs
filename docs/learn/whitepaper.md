@@ -8,7 +8,7 @@ sidebar_position: 3
 
 Original Zano whitepaper, describes general concepts used in project.
 
-<https://github.com/hyle-team/docs/blob/master/zano/Zano_WP_1.1.pdf>
+<https://github.com/hyle-team/docs/blob/master/zano/Zano%20WP_latest.pdf>
 
 ### PoS Analysis and improvements proposal (2019)
 

@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Emission
+# Emission/Tokenomics
 
 ### Where does the emission come from?
 
