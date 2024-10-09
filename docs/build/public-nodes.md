@@ -6,7 +6,7 @@ sidebar_position: 2
 
 :::warning
 
-For secutity reasons it's not recommended to use private api with public
+For secutity reasons it's not recommended to use private api with public daemon
 
 :::
 
