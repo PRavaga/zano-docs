@@ -12,7 +12,7 @@ Kickstart your journey with our RPC API Guide [Overview](rpc-api/overview.md). H
 
 ### Confidential Assets
 
-If launching your own project centered around private transactions is your goal, our [Confidential Assets](confidential-assets/overview) section provides detailed methods to give your initiative a solid foundation.
+If launching your own project centered around private transactions is your goal, our [Confidential Assets](confidential-assets/overview.md) section provides detailed methods to give your initiative a solid foundation.
 
 ## Exchange Listing Guidelines
 
