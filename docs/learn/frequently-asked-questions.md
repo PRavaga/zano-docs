@@ -18,7 +18,7 @@ Our implementation boils down to:
 
 - **Stealth addresses** that hide the receiver and asset type being transacted.
 
-- **RingCT** which hides amounts/balances, even when staking thanks to **Zarcanum.**
+- **Pedersen commitments** that hide amounts/balances, the asset type being transacted, and facilitate private staking (Zarcanum).
 
 This makes sure that **by default,** transaction data being stored on the blockchain is **only** accessible by parties who authorized the transactions, none of it is ever publicly published.
 
