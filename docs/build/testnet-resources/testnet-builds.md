@@ -4,26 +4,26 @@ A list of builds for the current Zano testnet
 
 ### Windows
 
-INST: https://build.zano.org/builds/zano-win-x64-develop-testnet-v2.0.0.344[565e950]-installer.exe
+INST: https://build.zano.org/builds/zano-win-x64-develop-testnet-v2.1.0.356[5e4fae1]-installer.exe
 
-sha256: 5ffb68d9d987bf1a75be766801fe49467261b46c5cf28c386930aaa9a142b76d
+sha256: 5194c1b22b29c8d9ffaa3a8b88ead2f548c89ed9f69acb564e01d78705be4a52
 
-ZIP: https://build.zano.org/builds/zano-win-x64-develop-testnet-v2.0.0.344[565e950].zip
+ZIP: https://build.zano.org/builds/zano-win-x64-develop-testnet-v2.1.0.356[5e4fae1].zip
 
-sha256: e216dc76b8dc37cb00c719454b562e17403666c26a1e6d473dd9034951c68ed2
+sha256: 3cdaf5c1864d2602be9d3f9db72569bf546bd680e78225e859215d53ecff10cb
 
 ### MacOs
 
-https://build.zano.org/builds/zano-macos-x64-develop-testnet-v2.0.0.344[565e950].dmg
+https://build.zano.org/builds/zano-macos-x64-develop-testnet-v2.1.0.356[a8a188b].dmg
 
-sha256: f03e5371b5d8e09776d639c5a148b8c135a2eba7c9f0adf33d841ca8e65aaf5c
+sha256: a368db09ac7c0932e07c8f5c146c05e9294c815749badf579f0bbc27e817d164
 
 ### Linux
 
-https://build.zano.org/builds/zano-linux-x64-develop-testnet-devtools-v2.0.0.344[565e950].AppImage
+https://build.zano.org/builds/zano-linux-x64-develop-testnet-devtools-v2.1.0.356[5e4fae1].AppImage
 
-sha256: ca698203bfae3d2e8ef5b15d9629799a44302a23d0a495f76ec3e5fd20bff659
+sha256: 561cdba08d6d533874f73051a41425f75f829b021bf4747e244c15141547c6f5
 
 ```
-updated at 2024-09-26 12:00:00
+updated at 2024-10-23 14:32:00
 ```
