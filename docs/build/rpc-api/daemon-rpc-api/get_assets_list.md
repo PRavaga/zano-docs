@@ -33,6 +33,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "hidden_supply": false,
       "meta_info": "Stable and private",
       "owner": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8",
+      "owner_eth_pub_key": "",
       "ticker": "ZABC",
       "total_max_supply": 1000000000000000000
     }],
@@ -50,6 +51,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "hidden_supply": This field is reserved for future use and will be documented later.
       "meta_info": Any other information associated with the asset in free form.
       "owner": Owner's key, used only for EMIT and UPDATE validation, can be changed by transferring asset ownership.
+      "owner_eth_pub_key": [Optional] Owner's key in the case when ETH signature is used.
       "ticker": Ticker associated with the asset.
       "total_max_supply": Maximum possible supply for a given asset, cannot be changed after deployment.
     "status": Status code of operation, OK if success

@@ -43,6 +43,12 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     },
     "total_transfers": 1,
     "transfers": [{
+      "ado": {
+        "operation_type": 1,
+        "opt_amount_commitment": "5688b56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8",
+        "opt_asset_id": "cc4e69455e63f4a581257382191de6856c2156630b3fba0db4bdd73ffcfb36b6",
+        "version": 2
+      },
       "comment": "Comment here",
       "contract": [{
         "cancel_expiration_time": 0,
@@ -107,6 +113,11 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "unlocked_balance": Unlocked balance oof native coins
     "total_transfers": Total transfers
     "transfers": Transfers
+      "ado": "Asset Descriptor Operation" if it was present in transaction
+        "operation_type": Asset operation type identifier
+        "opt_amount_commitment": (optional) Asset operation amount commitment (register/emit/burn).
+        "opt_asset_id": (optional) ID of an asset (emit/burn/update).
+        "version": Asset operation type struct version
       "comment": Some human-readable comment
       "contract": Escrow contract if it's part of transaction
       "employed_entries": Mark entries from transaction that was connected to this wallet
