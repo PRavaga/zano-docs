@@ -22,7 +22,7 @@ It's your gateway to the broader Zano ecosystem!
 
 5. Click on the extension, and paste the secret you copied in the appropriate field, as well as the password that you will use to log in to the Companion.
 
-6. You can now register an[ alias](https://app.dhub.dev/c/goncativas-projects/zano-docs/docs/use/aliases.md) if you haven't done so already, this will be displayed as your identity when using the Zano ecosystem.
+6. You can now register an[ alias](https://docs.zano.org/docs/learn/zano-features/overview#aliases) if you haven't done so already, this will be displayed as your identity when using the Zano ecosystem.
 
    ![Companion extension showcase](/img/use/companion/companion.png)
 

@@ -32,14 +32,14 @@ A 2GB graphic card is required for GPU mining.
 
   ```
   rem starts zano with the stratum server activated
-  start "" "C:\Program Files\Zano\zanod.exe" --stratum --stratum-miner-address=<YOUR_WALLET_ADDRESS> --stratum-bind-port=11555
+  start "" "C:\Program Files\Zano\zanod.exe" --stratum --stratum-miner-address=YOUR_WALLET_ADDRESS --stratum-bind-port=11555
 
   rem TT commandline
   start TT-Miner.exe -luck -c ZANO -P miner@127.0.0.1:11555
   pause
   ```
 
-- Replace `<YOUR_WALLET_ADDRESS>` with your actual Zano wallet address.
+- Replace `YOUR_WALLET_ADDRESS` with your actual Zano wallet address.
 
 - If your installation is not in the default location, replace `C:\Program Files\Zano` with the correct path.
 
