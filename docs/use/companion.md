@@ -10,6 +10,23 @@ It's your gateway to the broader Zano ecosystem!
 
 ## How to use
 
+<div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
+  <iframe
+    src="https://www.youtube.com/embed/bVuuYOduZvE"
+    title="YouTube video player"
+    style={{ 
+     position: 'absolute', 
+     top: 0, 
+     left: 0, 
+     width: '100%', 
+     height: '100%' 
+    }}
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+  />
+</div>
+
 1. First, open your Zano desktop wallet, and wait until it finishes syncing the blockchain.
 
 2. Go to settings, and flip the "Zano Companion" switch. If you haven't set up a master password yet, it will ask you to create a new one in the fields below.
