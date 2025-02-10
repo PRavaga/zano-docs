@@ -32,7 +32,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
             "decimal_point": 12,
             "full_name": "Zano wrapped ABC",
             "hidden_supply": false,
-            "meta_info": "Stable and private",
+            "meta_info": "{ \"logo_url\": \"https:\/\/some.nice.logo.png\"}",
             "owner": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8",
             "owner_eth_pub_key": "",
             "ticker": "ZABC",
@@ -40,6 +40,9 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
           },
           "awaiting_in": 1000000000000,
           "awaiting_out": 2000000000000,
+          "outs_amount_max": 2000000000000,
+          "outs_amount_min": 2000000000000,
+          "outs_count": 7,
           "total": 100000000000000,
           "unlocked": 50000000000000
         }],
@@ -66,13 +69,16 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
             "decimal_point": Decimal point.
             "full_name": Full name of the asset.
             "hidden_supply": This field is reserved for future use and will be documented later.
-            "meta_info": Any other information associated with the asset in free form.
+            "meta_info": Any other information associated with the asset, by default in a json format.
             "owner": Owner's key, used only for EMIT and UPDATE validation, can be changed by transferring asset ownership.
             "owner_eth_pub_key": [Optional] Owner's key in the case when ETH signature is used.
             "ticker": Ticker associated with the asset.
             "total_max_supply": Maximum possible supply for a given asset, cannot be changed after deployment.
           "awaiting_in": Unconfirmed amount for receive
           "awaiting_out": Unconfirmed amount for send
+          "outs_amount_max": Output's maximum amount
+          "outs_amount_min": Output's minimum amount
+          "outs_count": Number of total unspent outputs (including locked)
           "total": Total coins available(including locked)
           "unlocked": Unlocked coins available(the ones that could be used right now)
         "has_bare_unspent_outputs": Flag indicating whether the wallet has bare unspent outputs(pre-zarcanum outputs)

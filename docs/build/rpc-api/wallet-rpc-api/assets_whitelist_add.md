@@ -28,7 +28,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "decimal_point": 12,
       "full_name": "Zano wrapped ABC",
       "hidden_supply": false,
-      "meta_info": "Stable and private",
+      "meta_info": "{ \"logo_url\": \"https:\/\/some.nice.logo.png\"}",
       "owner": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8",
       "owner_eth_pub_key": "",
       "ticker": "ZABC",
@@ -45,7 +45,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "decimal_point": Decimal point.
       "full_name": Full name of the asset.
       "hidden_supply": This field is reserved for future use and will be documented later.
-      "meta_info": Any other information associated with the asset in free form.
+      "meta_info": Any other information associated with the asset, by default in a json format.
       "owner": Owner's key, used only for EMIT and UPDATE validation, can be changed by transferring asset ownership.
       "owner_eth_pub_key": [Optional] Owner's key in the case when ETH signature is used.
       "ticker": Ticker associated with the asset.
