@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # GUI Wallet
 
-Zano app is available for Windows, Linux and MacOS. It can be downloaded here.
+Zano app is available for Windows, Linux and MacOS. It can be downloaded [here](https://zano.org/downloads).
 
 ### Open Zano app
 
