@@ -58,17 +58,17 @@ Zarcanum is the world’s first Proof of Stake scheme that enhances traditional 
 
 You can mine coins and stake them to increase your balance or trade coins on cryptocurrency exchanges, including our own DEX.
 
-[List of exchanges that currently list Zano](https://zano.org/community/exchanges)
+[List of exchanges that currently list Zano](https://zano.org/ecosystem/exchanges)
 
 ### **Where can I store my Zano?**
 
 [Wallets where Zano is available](https://zano.org/downloads) (Mobile & Desktop)
 
-### **Where can I spend Zano?**
+<!-- ### **Where can I spend Zano?**
 
 Zano is currently integrated in Trocador's Anon Pay, this means that any website that uses this payment processor will accept Zano, that includes buying gift cards and prepaid cards at [Cake Pay](https://buy.cakepay.com) and [Trocador](https://trocador.app/es/prepaidcards/) itself.
 
-We are also working on further integrations and a Zano based decentralized [marketplace](https://zanobazaar.com) is in the works by a community member.
+We are also working on further integrations and a Zano based decentralized [marketplace](https://zanobazaar.com) is in the works by a community member. -->
 
 ### **What’s the plan for scaling?**
 
