@@ -1,8 +1,12 @@
 import React from "react";
 import styles from "./StartArticle.module.css";
 import TextBlock from "../TextBlock/TextBlock";
+import BannerBackground from "../../assets/UI/banner_background.svg";
 
 function StartArticle({ content }) {
+
+  const contentAfterBanner = content.slice(1);
+
   return (
     <div className={styles.intro}>
       <article>
@@ -16,7 +20,14 @@ function StartArticle({ content }) {
             functionalities, and opportunities.
           </span>
         </div>
-        {content.map((item) => (
+        <TextBlock content={content[0]} />
+        <br />
+        <div className={styles.banner_wrapper}>
+          <BannerBackground />
+          <div></div>
+        </div>
+
+        {contentAfterBanner.map((item) => (
           <TextBlock key={item.title} content={item} />
         ))}
       </article>
