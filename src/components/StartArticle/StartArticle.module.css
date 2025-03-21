@@ -29,12 +29,12 @@
 
 .banner_wrapper__bg {
   position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 1152px;
   height: 100%;
   z-index: -1;
-  object-fit: cover;
 }
 
 .banner_wrapper__content {

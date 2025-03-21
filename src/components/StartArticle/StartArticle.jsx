@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./StartArticle.module.css";
 import TextBlock from "../TextBlock/TextBlock";
-import bannerBackground from "../../assets/UI/banner_background.png";
+import BannerBackground from "../../assets/UI/banner_background.svg";
 import ContinueIcon from "../../assets/icons/continue.svg";
 
 function StartArticle({ content }) {
@@ -25,7 +25,7 @@ function StartArticle({ content }) {
         <br />
 
         <div className={styles.banner_wrapper}>
-          <img src={bannerBackground} className={styles.banner_wrapper__bg} />
+          <BannerBackground className={styles.banner_wrapper__bg} />
 
           <div className={styles.banner_wrapper__content}>
             <h4 className={styles.title}>Exchange integration full guide</h4> <ContinueIcon className={styles.continueIcon} />
