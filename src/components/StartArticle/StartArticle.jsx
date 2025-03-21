@@ -27,9 +27,9 @@ function StartArticle({ content }) {
         <div className={styles.banner_wrapper}>
           <BannerBackground className={styles.banner_wrapper__bg} />
 
-          <div className={styles.banner_wrapper__content}>
+          <a href="/" className={styles.banner_wrapper__content}>
             <h4 className={styles.title}>Exchange integration full guide</h4> <ContinueIcon className={styles.continueIcon} />
-          </div>
+          </a>
         </div>
 
         {contentAfterBanner.map((item) => (

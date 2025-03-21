@@ -41,6 +41,10 @@
   display: flex;
   align-items: center;
   gap: 15px;
+  text-decoration: none;
+}
+.banner_wrapper__content:hover {
+  text-decoration: none;
 }
 
 .banner_wrapper__content .title {
