@@ -1,8 +1,13 @@
 import React from "react";
 import styles from "./StartArticle.module.css";
 import TextBlock from "../TextBlock/TextBlock";
+import BannerBackground from "../../assets/UI/banner_background.svg";
+import ContinueIcon from "../../assets/icons/continue.svg";
 
 function StartArticle({ content }) {
+
+  const contentAfterBanner = content.slice(1);
+
   return (
     <div className={styles.intro}>
       <article>
@@ -16,7 +21,18 @@ function StartArticle({ content }) {
             functionalities, and opportunities.
           </span>
         </div>
-        {content.map((item) => (
+        <TextBlock content={content[0]} />
+        <br />
+
+        <div className={styles.banner_wrapper}>
+          <BannerBackground className={styles.banner_wrapper__bg} />
+
+          <a href="/" className={styles.banner_wrapper__content}>
+            <h4 className={styles.title}>Exchange integration full guide</h4> <ContinueIcon className={styles.continueIcon} />
+          </a>
+        </div>
+
+        {contentAfterBanner.map((item) => (
           <TextBlock key={item.title} content={item} />
         ))}
       </article>
