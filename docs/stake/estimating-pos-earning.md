@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Estimating Rewards
@@ -21,7 +21,7 @@ where $C$ is the total amount of coins participating in PoS mining, and $D_{PoS}
 As you may know, the Zano network emits an average of 1 coin each minute with a 50-50 spread between PoS and PoW. That makes it 720 potential PoS reward coins per day. So if you owned all the coins in PoS, that could be your total day earnings. And if you divide $C$ by 720, you will get the number of coins you need to mine 1 Zano coin a day. Now, you can estimate the number of coins you will earn as:
 
 $$
-E_{daily} = \frac{720 \cdot N}{C} \approx \frac{2.07 \cdot 10^{17} \cdot N}{D_{PoS}} 
+E_{daily} = \frac{720 \cdot N}{C} \approx \frac{2.07 \cdot 10^{17} \cdot N}{D_{PoS}}
 $$
 
 where $\thinspace E_{daily} \thinspace$ is the estimated number of coins you'll earn per day, and $N$ is the number of coins you're staking.

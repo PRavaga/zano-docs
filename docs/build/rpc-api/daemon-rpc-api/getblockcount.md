@@ -1,30 +1,34 @@
-Retrieves the current number of blocks in the longest chain known to this node
+Returns the total number of blocks in the blockchain (the height of the top block plus one).
 
-### Request
-
+URL: ```http:://127.0.0.1:11211/json_rpc```
+### Request: 
 ```json
 {
-  "jsonrpc": "2.0",
   "id": 0,
-  "method": "getblockcount"
+  "jsonrpc": "2.0",
+  "method": "getblockcount",
+  "params": {
+  }
 }
 ```
+### Request description: 
+```
 
----
-
-### Response
-
+```
+### Response: 
 ```json
 {
   "id": 0,
   "jsonrpc": "2.0",
   "result": {
-    "count": 2114936,
+    "count": 2697388,
     "status": "OK"
   }
 }
 ```
+### Response description: 
+```
+    "count": The total number of blocks in the blockchain, equivalent to the top block's height plus one.
+    "status": Status of the call.
 
-### Response information
-
-- count - unsigned integer; total number of blocks in the blockchain, including genesis block at height zero.
+```

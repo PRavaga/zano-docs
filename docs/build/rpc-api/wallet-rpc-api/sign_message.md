@@ -1,35 +1,36 @@
-Signes a message with the wallet key
+Trivially sign base64 encoded data message using wallet spend key
 
-### Request
-
+URL: ```http:://127.0.0.1:11211/json_rpc```
+### Request: 
 ```json
 {
-    "id": 0,
-    "jsonrpc": "2.0",
-    "result": {
-        "pkey": "a85e688adf2b87e09588f223e9ed67d48cf19b21752a172b973f96b52f289068",
-        "sig": "80229d7660ad61a565af8f980cc86723b7a67d5d2f205e5f6895294ed700cd08e4be15bfb00889ad9731d51d7e8687585c2e27c031e214229a3fcc1ce3a17d0d"
-    }
+  "id": 0,
+  "jsonrpc": "2.0",
+  "method": "sign_message",
+  "params": {
+    "buff": "ZGNjc2Ztc2xrZm12O2xrZm12OydlbGtmdm0nbGtmbXY="
+  }
 }
 ```
+### Request description: 
+```
+    "buff": base64 encoded data message to be signed
 
----
-
-### Response
-
+```
+### Response: 
 ```json
-curl -i -X POST \
-   -H "Content-Type:application/json" \
-   -d \
-'{
-  "jsonrpc": "2.0",
+{
   "id": 0,
-  "method": "sign_message",
-  "params": 
-  	{
-      "buff": "aGFoYWhh",
-    }
+  "jsonrpc": "2.0",
+  "result": {
+    "pkey": "97d91442f8f3c22683585eaa60b53757d49bf046a96269cef45c1bc9ff7300cc",
+    "sig": "97d91442f8f3c22683585eaa60b53757d49bf046a96269cef45c1bc9ff7300cc97d91442f8f3c22683585eaa60b53757d49bf046a96269cef45c1bc9ff7300cc"
   }
-}' \
- 'http://127.0.0.1:12111/json_rpc'
+}
+```
+### Response description: 
+```
+    "pkey": Wallet's public key represented as a hexadecimal string
+    "sig": Signature represented as a hexadecimal string
+
 ```

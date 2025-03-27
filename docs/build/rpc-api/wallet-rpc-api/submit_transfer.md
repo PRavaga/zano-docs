@@ -1,36 +1,34 @@
-Broadcasts transaction that was previously signed using sign_transfer call
+Relay signed transaction over the network
 
-### Request 
-
+URL: ```http:://127.0.0.1:11211/json_rpc```
+### Request: 
 ```json
 {
-	"jsonrpc": "2.0",
-	"id": 0,
-	"method": "submit_transfer",
-	"params": {
-		"tx_signed_hex": ""
-	}
+  "id": 0,
+  "jsonrpc": "2.0",
+  "method": "submit_transfer",
+  "params": {
+    "tx_signed_hex": "8304d46b940a86e383d55ca5887b34f158a7365bbcdd17c5a305814a9334f158a7368304d46b940a86e383d55ca5887b34f158a7365bbcdd17c5a305814a9334f158a7368304d46b940a86e383d55ca5887b34f158a7365bbcdd17c5a305814a9334f158a7368304d46b940a86e383d55ca5887b34f158a7365bbcdd17c5a305814a9334f158a736"
+  }
 }
 ```
+### Request description: 
+```
+    "tx_signed_hex": Signed transaction hex-encoded blob.
 
-### Request parameters
-
-- tx_signed_hex - hex-encoded signed transaction as returned from sign_transfer call.
-
----
-
-### Response
-
+```
+### Response: 
 ```json
 {
   "id": 0,
   "jsonrpc": "2.0",
   "result": {
-    "tx_hash": "0554849abdb62f7d1902ddd14ce005722a340fc14fab4a375adc8749abf4e10b"
+    "tx_hash": "01220e8304d46b940a86e383d55ca5887b34f158a7365bbcdd17c5a305814a93"
   }
 }
 ```
+### Response description: 
+```
+    "tx_hash": Signed transaction hash.
 
-### Response information
-
-- tx_hash - string; transaction hash identifier.
+```

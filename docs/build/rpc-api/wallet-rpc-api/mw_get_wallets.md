@@ -1,149 +1,91 @@
-[Multiassets] Fetches the list of wallets
+Get loaded wallets list, userful for multi-wallet API
 
-### Request
-
-```json
-curl -i -X POST \
-   -H "Content-Type:application/json" \
-   -d \
-'{
-  "jsonrpc": "2.0",
-  "id": 0,
-  "method": "mw_get_wallets",
-  "params": {}
-  }
-}' \
- 'http://127.0.0.1:12111/json_rpc'
-```
-
----
-
-### Response
-
+URL: ```http:://127.0.0.1:11211/json_rpc```
+### Request: 
 ```json
 {
-    "id": 0,
-    "jsonrpc": "2.0",
-    "result": {
-        "wallets": [
-            {
-                "wallet_id": 0,
-                "wi": {
-                    "address": "ZxDA4mkxiiNPjBRyr2TcQCJNHTVSMt8s34snHJPoUxUwR9wMWad7cXDNGyBDKFjnpd16thHdmmBPpMhyCBjLXbDC1FTYpyrWs",
-                    "balances": [
-                        {
-                            "asset_info": {
-                                "asset_id": "d6329b5b1f7c0805b5c345f4957554002a2f557845f64d7645dae0e051a6498a",
-                                "current_supply": 0,
-                                "decimal_point": 12,
-                                "full_name": "Zano",
-                                "meta_info": "",
-                                "owner": "0000000000000000000000000000000000000000000000000000000000000000",
-                                "ticker": "ZANO",
-                                "total_max_supply": 0
-                            },
-                            "awaiting_in": 0,
-                            "awaiting_out": 0,
-                            "total": 0,
-                            "unlocked": 0
-                        }
-                    ],
-                    "is_auditable": false,
-                    "is_watch_only": false,
-                    "mined_total": 0,
-                    "path": "E:/home/projects/temp/testnet_wallet.zan",
-                    "view_sec_key": "2fae8c8472b43443ba06cdcef456d9b27822e2650d11eb572204663556330b0d"
-                }
-            },
-            {
-                "wallet_id": 1,
-                "wi": {
-                    "address": "ZxDrfTQcvsfiGccJWMTyiUHh9HTuQQffKTRaKgYGMkyrQq2hz4e9GXfiKt6PRLrsr4CPqhF1m6pEpYHTiPcm2Myj1bfXdhkw7",
-                    "balances": [
-                        {
-                            "asset_info": {
-                                "asset_id": "d6329b5b1f7c0805b5c345f4957554002a2f557845f64d7645dae0e051a6498a",
-                                "current_supply": 0,
-                                "decimal_point": 12,
-                                "full_name": "Zano",
-                                "meta_info": "",
-                                "owner": "0000000000000000000000000000000000000000000000000000000000000000",
-                                "ticker": "ZANO",
-                                "total_max_supply": 0
-                            },
-                            "awaiting_in": 0,
-                            "awaiting_out": 0,
-                            "total": 0,
-                            "unlocked": 0
-                        }
-                    ],
-                    "is_auditable": false,
-                    "is_watch_only": false,
-                    "mined_total": 0,
-                    "path": "E:/home/projects/temp/testnet_wallet2.zan",
-                    "view_sec_key": "8651f48f90282d147a7e142c0b3a9cef49fa4a27fad9d69d5c37898ee6af2d0c"
-                }
-            },
-            {
-                "wallet_id": 2,
-                "wi": {
-                    "address": "ZxC3q9Zd6xDKBq8ZrCDiZBap2yLW6FT8g8yxJEkcfYx7Y7GMDKF9g2QAHLNASbmBKS45w5fFa7dmQe67d1UJn9Xp14y51a3Gh",
-                    "balances": [
-                        {
-                            "asset_info": {
-                                "asset_id": "d6329b5b1f7c0805b5c345f4957554002a2f557845f64d7645dae0e051a6498a",
-                                "current_supply": 0,
-                                "decimal_point": 12,
-                                "full_name": "Zano",
-                                "meta_info": "",
-                                "owner": "0000000000000000000000000000000000000000000000000000000000000000",
-                                "ticker": "ZANO",
-                                "total_max_supply": 0
-                            },
-                            "awaiting_in": 0,
-                            "awaiting_out": 0,
-                            "total": 0,
-                            "unlocked": 0
-                        }
-                    ],
-                    "is_auditable": false,
-                    "is_watch_only": false,
-                    "mined_total": 0,
-                    "path": "E:/home/projects/temp/testnet_wallet3.zan",
-                    "view_sec_key": "e9dec77214ae339621ddcba5cc1af9a44103f864ddd0fa8c19c6a0f173ce9c05"
-                }
-            },
-            {
-                "wallet_id": 3,
-                "wi": {
-                    "address": "ZxDhY7J4iZBN7qg5T3KWQeEtMdBtvuGV6DdRvhZxcU4vCNfAE8wctxtCy5u965mtqzVKpGBTo7D9HFcGkXaL4v9F25TXQTQW1",
-                    "balances": [
-                        {
-                            "asset_info": {
-                                "asset_id": "d6329b5b1f7c0805b5c345f4957554002a2f557845f64d7645dae0e051a6498a",
-                                "current_supply": 0,
-                                "decimal_point": 12,
-                                "full_name": "Zano",
-                                "meta_info": "",
-                                "owner": "0000000000000000000000000000000000000000000000000000000000000000",
-                                "ticker": "ZANO",
-                                "total_max_supply": 0
-                            },
-                            "awaiting_in": 0,
-                            "awaiting_out": 0,
-                            "total": 0,
-                            "unlocked": 0
-                        }
-                    ],
-                    "is_auditable": false,
-                    "is_watch_only": false,
-                    "mined_total": 0,
-                    "path": "E:/home/projects/temp/testnet_wallet5.zan",
-                    "view_sec_key": "c419279f71dce7b330f3406d499850b1b38a5dbae724db0ef98a7b36f9ad0800"
-                }
-            }
-        ]
-    }
+  "id": 0,
+  "jsonrpc": "2.0",
+  "method": "mw_get_wallets",
+  "params": {
+  }
 }
 ```
+### Request description: 
+```
 
+```
+### Response: 
+```json
+{
+  "id": 0,
+  "jsonrpc": "2.0",
+  "result": {
+    "wallets": [{
+      "wallet_id": 2,
+      "wi": {
+        "address": "ZxBvJDuQjMG9R2j4WnYUhBYNrwZPwuyXrC7FHdVmWqaESgowDvgfWtiXeNGu8Px9B24pkmjsA39fzSSiEQG1ekB225ZnrMTBp",
+        "balances": [{
+          "asset_info": {
+            "asset_id": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8",
+            "current_supply": 500000000000000000,
+            "decimal_point": 12,
+            "full_name": "Zano wrapped ABC",
+            "hidden_supply": false,
+            "meta_info": "{ \"logo_url\": \"https:\/\/some.nice.logo.png\"}",
+            "owner": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8",
+            "owner_eth_pub_key": "",
+            "ticker": "ZABC",
+            "total_max_supply": 1000000000000000000
+          },
+          "awaiting_in": 1000000000000,
+          "awaiting_out": 2000000000000,
+          "outs_amount_max": 2000000000000,
+          "outs_amount_min": 2000000000000,
+          "outs_count": 7,
+          "total": 100000000000000,
+          "unlocked": 50000000000000
+        }],
+        "has_bare_unspent_outputs": false,
+        "is_auditable": false,
+        "is_watch_only": false,
+        "mined_total": 1000000000000,
+        "path": "\/some\/path\/to\/wallet\/file.zan",
+        "view_sec_key": "97d91442f8f3c22683585eaa60b53757d49bf046a96269cef45c1bc9ff7300cc"
+      }
+    }]
+  }
+}
+```
+### Response description: 
+```
+    "wallets": Array of wallets
+      "wallet_id": Wallet ID
+        "address": Address
+        "balances": Balances hold by this wallet
+          "asset_info": Asset info details
+            "asset_id": Asset ID
+            "current_supply": Currently emitted supply for the given asset (ignored for REGISTER operation).
+            "decimal_point": Decimal point.
+            "full_name": Full name of the asset.
+            "hidden_supply": This field is reserved for future use and will be documented later.
+            "meta_info": Any other information associated with the asset, by default in a json format.
+            "owner": Owner's key, used only for EMIT and UPDATE validation, can be changed by transferring asset ownership.
+            "owner_eth_pub_key": [Optional] Owner's key in the case when ETH signature is used.
+            "ticker": Ticker associated with the asset.
+            "total_max_supply": Maximum possible supply for a given asset, cannot be changed after deployment.
+          "awaiting_in": Unconfirmed amount for receive
+          "awaiting_out": Unconfirmed amount for send
+          "outs_amount_max": Output's maximum amount
+          "outs_amount_min": Output's minimum amount
+          "outs_count": Number of total unspent outputs (including locked)
+          "total": Total coins available(including locked)
+          "unlocked": Unlocked coins available(the ones that could be used right now)
+        "has_bare_unspent_outputs": Flag indicating whether the wallet has bare unspent outputs(pre-zarcanum outputs)
+        "is_auditable": Flag indicating whether the wallet is auditable
+        "is_watch_only": Flag indicating whether the wallet is watch-only
+        "mined_total": Total amount mined
+        "path": Path to wallet file
+        "view_sec_key": View secret key
+
+```

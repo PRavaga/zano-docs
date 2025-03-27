@@ -1,47 +1,45 @@
-Returns brief information for transactions currently in the pool.
+Retrieves brief details about specific transactions in the transaction pool, identified by their IDs.
 
-### Request
-
+URL: ```http:://127.0.0.1:11211/json_rpc```
+### Request: 
 ```json
 {
-	"jsonrpc": "2.0",
-	"id": 0,
-	"method": "get_pool_txs_brief_details",
-	"params": {
-		"ids": ["", ""]
-	}
+  "id": 0,
+  "jsonrpc": "2.0",
+  "method": "get_pool_txs_brief_details",
+  "params": {
+    "ids": ["bd9a89f95c9115d29540c6778dab9d9798eb251143dcd4b8960fcd9730a1471c","1c938f04c935d976310c4338fc570ea20777951471609f3edecb341ea4932b0a"]
+  }
 }
 ```
+### Request description: 
+```
+    "ids": List of transaction IDs.
 
-### Request parameters
-
-- ids - list of transaction hash identifiers for which information is requested. All transactions from the pool will be returned if ids is empty or if this parameter is omitted
-
---- 
-
-### Response
-
+```
+### Response: 
 ```json
 {
   "id": 0,
   "jsonrpc": "2.0",
   "result": {
     "status": "OK",
-    "txs": [
-      {
-        "fee": 10000000000,
-        "id": "5864f3e061c70b47d4ea6a47e593aad66bb2462fa4036be2cd3dfede9faa7583",
-        "sz": 57913,
-        "total_amount": 500000000000000
-      }
-    ]
+    "txs": [{
+      "fee": 1000000000,
+      "id": "a6e8da986858e6825fce7a192097e6afae4e889cabe853a9c29b964985b23da8",
+      "sz": 6142,
+      "total_amount": 9000000000
+    }]
   }
 }
 ```
+### Response description: 
+```
+    "status": Status of the call.
+    "txs": List of transactions with detailed information.
+      "fee": Transaction fee in the smallest currency unit.
+      "id": Hash of the transaction.
+      "sz": Size of the transaction in bytes.
+      "total_amount": Total amount transferred in the transaction (legacy, for pre-Zarcanum txs).
 
-### Response information
-
-- fee - unsigned int; transaction fee.
-- id - string; hash identifier.
-- sz - unsigned int; size of serialized transaction in bytes (the same as blob_size in tx_rpc_extended_info).
-- total_amount - unsigned int; sum of all transaction outputs.
+```

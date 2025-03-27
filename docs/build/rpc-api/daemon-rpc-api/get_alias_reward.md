@@ -1,33 +1,36 @@
-Returns current reward that must be paid to register an alias name.
+Retrieves the cost of registering an alias on the blockchain.
 
-### Request
-
+URL: ```http:://127.0.0.1:11211/json_rpc```
+### Request: 
 ```json
 {
-	"jsonrpc": "2.0",
-	"id": 0,
-	"method": "get_alias_reward",
-	"params": {
-		"alias": "mickymouse"
-	}
+  "id": 0,
+  "jsonrpc": "2.0",
+  "method": "get_alias_reward",
+  "params": {
+    "alias": "zxdya6q6whzwqjkmtcsjpc3ku"
+  }
 }
 ```
+### Request description: 
+```
+    "alias": The alias name for which the registration cost is being queried.
 
----
-
-### Response
-
+```
+### Response: 
 ```json
 {
-	"id": 0,
-	"jsonrpc": "2.0",
-	"result": {
-		"reward": 100000000000,
-		"status": "OK"
-	}
+  "id": 0,
+  "jsonrpc": "2.0",
+  "result": {
+    "reward": 100000000000,
+    "status": "OK"
+  }
 }
 ```
+### Response description: 
+```
+    "reward": The registration cost for the specified alias.
+    "status": Status of the call.
 
-### Response information
-
-- reward - unsigned int; current reward (in atomic units) to be paid for an alias.
+```

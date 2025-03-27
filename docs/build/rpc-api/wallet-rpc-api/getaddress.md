@@ -1,29 +1,32 @@
-Obtains wallet’s public address
+Obtains wallet's public address
 
-### Request
-
+URL: ```http:://127.0.0.1:11211/json_rpc```
+### Request: 
 ```json
 {
-	"jsonrpc": "2.0",
-	"id": 0,
-	"method": "getaddress"
+  "id": 0,
+  "jsonrpc": "2.0",
+  "method": "getaddress",
+  "params": {
+  }
 }
 ```
+### Request description: 
+```
 
----
-
-### Response
-
+```
+### Response: 
 ```json
 {
-	"id": 0,
-	"jsonrpc": "2.0",
-	"result": {
-		"address": "ZxDNaMeZjwCjnHuU5gUNyrP1pM3U5vckbakzzV6dEHyDYeCpW8XGLBFTshcaY8LkG9RQn7FsQx8w2JeJzJwPwuDm2NfixPAXf"
-	}
+  "id": 0,
+  "jsonrpc": "2.0",
+  "result": {
+    "address": "ZxDNaMeZjwCjnHuU5gUNyrP1pM3U5vckbakzzV6dEHyDYeCpW8XGLBFTshcaY8LkG9RQn7FsQx8w2JeJzJwPwuDm2NfixPAXf"
+  }
 }
 ```
+### Response description: 
+```
+    "address": string; standard public address of the wallet.
 
-### Response information
-
-- address - string; standard public address of the wallet.
+```

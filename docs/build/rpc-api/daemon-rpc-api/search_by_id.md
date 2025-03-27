@@ -1,35 +1,36 @@
-Returns type of an entity by specified hash identifier.
+Searches for a given ID across various entity types such as blocks, transactions, key images, multisig outputs, and alternative blocks, useful when the entity type is unknown or unspecified.
 
-### Request
-
+URL: ```http:://127.0.0.1:11211/json_rpc```
+### Request: 
 ```json
 {
-	"jsonrpc": "2.0",
-	"id": 0,
-	"method": "search_by_id",
-	"params": {
-		"id": "ee25a5503726368eef558737f81f15fdc5f1e705b678df81315c83d8789ed4b3"
-	}
+  "id": 0,
+  "jsonrpc": "2.0",
+  "method": "search_by_id",
+  "params": {
+    "id": "729811f9340537e8d5641949e6cc58261f91f109687a706f39bae9514757e819"
+  }
 }
 ```
+### Request description: 
+```
+    "id": The identifier used to search across various types of entities.
 
----
-
-### Response
-
+```
+### Response: 
 ```json
 {
-	"id": 0,
-	"jsonrpc": "2.0",
-	"result": {
-		"status": "OK",
-		"types_found": [
-			"tx"
-		]
-	}
+  "id": 0,
+  "jsonrpc": "2.0",
+  "result": {
+    "status": "OK",
+    "types_found": ["key_image"]
+  }
 }
 ```
+### Response description: 
+```
+    "status": Status of the call.
+    "types_found": List of entity types where the identifier was found.
 
-### Response information
-
-- types_found — array of strings; a set of the types found (usually only one). Possible values: block, alt_block, key_image, tx, multisig_id.
+```

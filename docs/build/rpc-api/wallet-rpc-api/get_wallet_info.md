@@ -1,38 +1,46 @@
-Gets information related to wallet
+Returns wallet helpful wallet information
 
-### Request
-
+URL: ```http:://127.0.0.1:11211/json_rpc```
+### Request: 
 ```json
 {
-	"jsonrpc": "2.0",
-	"id": 0,
-	"method": "get_wallet_info"
+  "id": 0,
+  "jsonrpc": "2.0",
+  "method": "get_wallet_info",
+  "params": {
+  }
 }
 ```
+### Request description: 
+```
 
----
-
-### Response
-
+```
+### Response: 
 ```json
 {
-	"id": 0,
-	"jsonrpc": "2.0",
-	"result": {
-		"address": "ZxDbSpgDzyaMecaMUi6orsLimz3M8ptCzYzEuboTdYmwai8xhyATWnkHCt26Ts2kT75ajPGgmDAWR6xdpVBto8Vz1dmQJp8AJ",
-		"current_height": 2116310,
-		"is_whatch_only": false,
-		"path": "docs.wallet",
-		"transfer_entries_count": 0,
-		"transfers_count": 0
-	}
+  "id": 0,
+  "jsonrpc": "2.0",
+  "result": {
+    "address": "ZxDNaMeZjwCjnHuU5gUNyrP1pM3U5vckbakzzV6dEHyDYeCpW8XGLBFTshcaY8LkG9RQn7FsQx8w2JeJzJwPwuDm2NfixPAXf",
+    "current_height": 112132,
+    "has_bare_unspent_outputs": false,
+    "is_whatch_only": false,
+    "path": "\/some\/path\/to\/wallet\/file.zan",
+    "transfer_entries_count": 24,
+    "transfers_count": 11,
+    "utxo_distribution": ["1"]
+  }
 }
 ```
+### Response description: 
+```
+    "address": string; standard public address of the wallet.
+    "current_height": Current wallet/daemon height
+    "has_bare_unspent_outputs": Shows if the wallet still has UTXO from pre-zarcanum era
+    "is_whatch_only": Shows if the wallet is watch-only
+    "path": Path to wallet file location
+    "transfer_entries_count": Represent number of internal entries count(each entry represent tx output that have been addressed to this wallet)
+    "transfers_count": Represent number of transactions that happened to this wallet(basically tx history)
+    "utxo_distribution": UTXO distribution for this particular wallet: disabled right now
 
-### Response information
-
-- address - string; address associated with wallet
-- current_height - current block height
-- is_whatch_only
-- path - string; path to wallet file
-- transfer_entries_count - the number of transfers conducted by the wallet
+```

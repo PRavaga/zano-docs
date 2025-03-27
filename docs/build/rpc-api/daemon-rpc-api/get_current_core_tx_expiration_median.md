@@ -1,32 +1,34 @@
-Returns the median for timestamps of the last 20 blocks
+Retrieves the current core transaction expiration median.
 
-Displayed as returned median value plus 600 seconds, this is used to check the expiration time of parameters.
-
-### Request
-
+URL: ```http:://127.0.0.1:11211/json_rpc```
+### Request: 
 ```json
 {
-	"jsonrpc": "2.0",
-	"id": 0,
-	"method": "get_current_core_tx_expiration_median"
+  "id": 0,
+  "jsonrpc": "2.0",
+  "method": "get_current_core_tx_expiration_median",
+  "params": {
+  }
 }
 ```
+### Request description: 
+```
 
----
-
-### Response
-
+```
+### Response: 
 ```json
 {
-	"id": 0,
-	"jsonrpc": "2.0",
-	"result": {
-		"expiration_median": 1684416559,
-		"status": "OK"
-	}
+  "id": 0,
+  "jsonrpc": "2.0",
+  "result": {
+    "expiration_median": 1719591540,
+    "status": "OK"
+  }
 }
 ```
+### Response description: 
+```
+    "expiration_median": The median timestamp from the last N blocks, used to determine if transactions are expired based on their timestamp.
+    "status": Status of the call.
 
-### Response information
-
-- expiration_median - unsigned int; median value.
+```

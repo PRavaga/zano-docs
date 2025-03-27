@@ -1,41 +1,38 @@
-Looks up multi-sig output by specified identifier.
+Retrieve basic information about a multisig output using its unique identifier (hash).
 
-### Request
-
+URL: ```http:://127.0.0.1:11211/json_rpc```
+### Request: 
 ```json
 {
-	"jsonrpc": "2.0",
-	"id": 0,
-	"method": "get_multisig_info",
-	"params": {
-		"ms_id": ""
-	}
-}
-```
-
-### Request parameters
-
-- ms_id - hash identifier of a multisig output
-
----
-
-### Response
-
-```json
-{
-  "id": "0",
+  "id": 0,
   "jsonrpc": "2.0",
-  "result": {
-    "out_no": 3,
-    "status": "OK",
-    "tx_id": "2df88a09b2d8b73a45824526c26e7f21836bbe0b111e1e8a6896c1a7fc8e03eb"
+  "method": "get_multisig_info",
+  "params": {
+    "ms_id": "a6e8da986858e6825fce7a192097e6afae4e889cabe853a9c29b964985b23da8"
   }
 }
 ```
+### Request description: 
+```
+    "ms_id": The multisig output's unique identifier (hash).
 
-### Response information
+```
+### Response: 
+```json
+{
+  "id": 0,
+  "jsonrpc": "2.0",
+  "result": {
+    "out_no": 11,
+    "status": "OK",
+    "tx_id": "a88541e38d64f87c41b9153412d1d7667f6e4337fe429ed1374722355fa7b423"
+  }
+}
+```
+### Response description: 
+```
+    "out_no": Local output index within the transaction.
+    "status": Status of the call.
+    "tx_id": Transaction ID where the multisig output is present, if found.
 
-- out_no - string; hash identifier of transaction, containing the given multisig output.
-- status - string; "OK" if the output was found, "NOT FOUND" if the requested output was not found.
-- tx_id - string; hash identifier of output's source transaction.
-  out_no — unsigned int; output local index in its source transaction.
+```

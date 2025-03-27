@@ -4,8 +4,41 @@ sidebar_position: 1
 
 # Building with Zano
 
-Welcome to the "Build with Zano" page — your key resource to initiate and develop projects on the Zano platform. As we relentlessly advance the frontiers of digital privacy, we're here to provide you with the tools and insights necessary to ensure your project not only stands out but also integrates seamlessly with the Zano ecosystem.
+## Starting Your Development Journey
 
-Kickstart your journey with our RPC API Guide. Here, you'll gain a comprehensive understanding from the [Overview](rpc-api/overview.md), and delve deeper into the specifics of [How to call the API](rpc-api/how-to-call-api.md). Whether your focus is on the [Daemon RPC API](rpc-api/daemon-rpc-api/get_alias_by_address.md) or the [Wallet RPC API](rpc-api/wallet-rpc-api/atomics_check_htlc_redeemed.md), our guide ensures clarity at every step.
+### RPC API Guide
 
-If launching your own project centered around private transactions is your goal, our Confidential Assets section provides a clear [Overview](confidential-assets/overview) along with detailed Methods to give your initiative a solid foundation.
+Kickstart your journey with our RPC API Guide [Overview](rpc-api/overview.md). Here, you'll gain a comprehensive understanding from the Overview, and delve deeper into the specifics of [How to call the API](rpc-api/how-to-call-api.md). Whether your focus is on the [Daemon RPC API](rpc-api/daemon-rpc-api/get_alias_by_address.md) or the [Wallet RPC API](rpc-api/wallet-rpc-api/get_bulk_payments.md), our guide ensures clarity at every step.
+
+### Confidential Assets
+
+If launching your own project centered around private transactions is your goal, our [Confidential Assets](confidential-assets/overview.md) section provides detailed methods to give your initiative a solid foundation.
+
+## Exchange Listing Guidelines
+
+If you're looking to list your project or Zano assets on exchanges, it's crucial to follow specific guidelines to ensure compliance and success in your listings. We provide a [detailed set of guidelines](exchange-guidelines/multi-assets-custody-guide) that cover everything from technical requirements to compliance with financial regulations.
+
+## Tools and Resources
+
+We provide a variety of tools and [libraries](libraries/overview.md) to assist you in building robust applications:
+
+- **Zano Web3 TS**: This TypeScript library now includes a server component for RPC interactions, simplifying the connection to Zano wallets and handling transactions directly from web applications.
+- **Mobile Libraries** (Flutter/Android & iOS): These have been updated to offer more robust features for mobile developers, enabling seamless integration into a wider range of applications.
+- **Native Crypto Library** for iOS/Android (C++): Updated to provide essential cryptographic functionalities needed for secure and reliable app development.
+
+## Community and Support
+
+Join our vibrant community of developers and privacy enthusiasts:
+
+- **Discussions**: Engage with other developers, share your projects, and get feedback in community dev channels in [discord](https://discord.gg/wE3rmYY) and [telegram](https://t.me/zanocoin).
+- **Technical Support**: Our technical team is ready to assist you with any questions or challenges you may encounter.
+
+## Contributing to Zano
+
+We encourage contributions from developers of all skill levels. If you're interested in contributing to the Zano project, check out our guidelines on how to contribute effectively. Your innovations and contributions help us continue to enhance the security and functionality of the Zano platform.
+
+## Stay Updated
+
+Keep up with the latest updates and enhancements by visiting our official [blog](https://blog.zano.org) and subscribing to our newsletter. As Zano continues to evolve, we remain committed to providing the community with cutting-edge tools and support to build secure and private digital solutions.
+
+Embark on your development journey with Zano and leverage our comprehensive resources to build something truly impactful in the realm of digital privacy.
