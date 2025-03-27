@@ -44,4 +44,3 @@ window.zano.request('GET_WALLET_DATA');
         }]
     }
 }
-```
