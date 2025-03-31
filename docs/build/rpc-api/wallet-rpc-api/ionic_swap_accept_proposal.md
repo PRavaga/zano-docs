@@ -32,3 +32,4 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     "result_tx_id": Result transaction id
 
 ```
+<sub>Auto-doc built with: 2.1.5.397[bd05907]</sub

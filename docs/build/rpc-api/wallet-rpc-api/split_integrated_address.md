@@ -34,3 +34,4 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     "standard_address": Standart address.
 
 ```
+<sub>Auto-doc built with: 2.1.5.397[bd05907]</sub
