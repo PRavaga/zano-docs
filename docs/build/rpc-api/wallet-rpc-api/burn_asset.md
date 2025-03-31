@@ -51,4 +51,4 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     "tx_id": Id of transaction that carries asset burn operation
 
 ```
-<sub>Auto-doc built with: 2.1.5.397[bd05907]</sub
+<sub>Auto-doc built with: 2.1.5.397[2872515]</sub>

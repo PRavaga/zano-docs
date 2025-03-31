@@ -97,4 +97,4 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "total_max_supply": Maximum possible supply for a given asset, cannot be changed after deployment.
 
 ```
-<sub>Auto-doc built with: 2.1.5.397[bd05907]</sub
+<sub>Auto-doc built with: 2.1.5.397[2872515]</sub>

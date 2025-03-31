@@ -44,4 +44,4 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     "utxo_distribution": UTXO distribution for this particular wallet: disabled right now
 
 ```
-<sub>Auto-doc built with: 2.1.5.397[bd05907]</sub
+<sub>Auto-doc built with: 2.1.5.397[2872515]</sub>
