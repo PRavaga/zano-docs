@@ -28,7 +28,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
       "decimal_point": 12,
       "full_name": "Zano wrapped ABC",
       "hidden_supply": false,
-      "meta_info": "{ \"logo_url\": \"https:\/\/some.nice.logo.png\"}",
+      "meta_info": "{ \"some_arbitrary_field_name\": \"some arbitrary value\"}",
       "owner": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8",
       "owner_eth_pub_key": "",
       "ticker": "ZABC",
@@ -53,3 +53,4 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
     "status": Status of the asset
 
 ```
+<sub>Auto-doc built with: 2.1.5.397[2872515]</sub>

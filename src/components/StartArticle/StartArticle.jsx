@@ -5,7 +5,6 @@ import BannerBackground from "../../assets/UI/banner_background.svg";
 import ContinueIcon from "../../assets/icons/continue.svg";
 
 function StartArticle({ content }) {
-
   const contentAfterBanner = content.slice(1);
 
   return (
@@ -27,8 +26,12 @@ function StartArticle({ content }) {
         <div className={styles.banner_wrapper}>
           <BannerBackground className={styles.banner_wrapper__bg} />
 
-          <a href="/" className={styles.banner_wrapper__content}>
-            <h4 className={styles.title}>Exchange integration full guide</h4> <ContinueIcon className={styles.continueIcon} />
+          <a
+            href="/docs/build/exchange-guidelines/multi-assets-custody-guide"
+            className={styles.banner_wrapper__content}
+          >
+            <h4 className={styles.title}>Exchange integration full guide</h4>{" "}
+            <ContinueIcon className={styles.continueIcon} />
           </a>
         </div>
 
