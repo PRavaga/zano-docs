@@ -8,6 +8,7 @@
    token: string;
    pairId: number;
 }
+```
 #### Response:
 ```typescript
    success: boolean;

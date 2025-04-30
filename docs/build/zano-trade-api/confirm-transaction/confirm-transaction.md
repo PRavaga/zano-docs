@@ -14,6 +14,8 @@
 ```
 #### Response:
 ```typescript
-   success: boolean;
-   data?: string // error message 
+   {
+      success: boolean;
+      data?: string // error message 
+   }
 ```

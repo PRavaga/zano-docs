@@ -23,6 +23,8 @@
 >- hex_raw_proposal - Hex-encoded proposal raw data(encrypted with common shared key). Includes half-created transaction template and some extra information that would be needed counterparty to finialize and sign transaction
 #### Response:
 ```typescript
+{
    success: boolean;
    data?: string // error message 
+}
 ```
