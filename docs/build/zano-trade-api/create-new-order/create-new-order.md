@@ -21,6 +21,22 @@
 ```typescript
    {
       success: boolean;
-      data?: string // error message 
+      data?: string | 
+      {
+         hasNotification: boolean;
+         id: number;
+         type: string;
+         timestamp: string;
+         side: string;
+         price: string;
+         amount: string;
+         total: string;
+         pair_id: number;
+         user_id: number;
+         status: string;
+         left: string;
+         updatedAt: string;
+         createdAt: string;
+      }
    }
 ```
