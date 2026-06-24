@@ -1,4 +1,8 @@
-# Message Sign
+---
+sidebar_position: 1
+---
+
+# Message Sign Companion Guide
 
 Usage of Zano Extension message sign.
 
