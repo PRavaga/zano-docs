@@ -10,7 +10,7 @@ updated: 2026-06-18
 
 # Namespace for Zano Ecosystem
 
-This document serves as the formal specification of the Zano Ecosystem implementations of the CAIP standards. If you are looking for a practical integration guide, please refer to the [integration guide section].
+This document serves as the formal specification of the Zano Ecosystem implementations of the CAIP standards. If you are looking for a practical integration guide, please refer to the [Server-Side Auth Integration Guide](https://docs.zano.org/docs/build/zano-companion/message-sign/server-side-authentication-integration-guide).
 
 ## Rationale
 

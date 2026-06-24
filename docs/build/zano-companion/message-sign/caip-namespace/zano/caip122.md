@@ -11,7 +11,7 @@ requires: ["CAIP-122", "CAIP-2", "CAIP-10"]
 
 ## CAIP-122
 
-This is a technical standard written at a low level of abstraction. If you only need to know how to build an integration with our service, please refer to the [integration guide section] instead.
+This is a technical standard written at a low level of abstraction. If you only need to know how to build an integration with our service, please refer to the [Server-Side Auth Integration Guide](https://docs.zano.org/docs/build/zano-companion/message-sign/server-side-authentication-integration-guide) instead.
 
 For context, see the [CAIP-122](CAIP-122) specification.
 

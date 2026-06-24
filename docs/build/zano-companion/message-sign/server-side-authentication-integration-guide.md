@@ -91,7 +91,7 @@ Message Generation step to the wallet, which returns the signature and the pkey
 Sign Validation endpoint.
 
 For the client-side signing API, see the Zano Companion documentation:
-[Zano Companion — message signing](http://localhost:3000/docs/build/zano-companion/message-sign/message-sign-companion-guide).
+[Zano Companion — message signing](https://docs.zano.org/docs/build/zano-companion/message-sign/message-sign-companion-guide).
 
 ## Signature Validation
 
