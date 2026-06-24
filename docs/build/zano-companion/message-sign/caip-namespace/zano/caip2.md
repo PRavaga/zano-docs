@@ -19,7 +19,7 @@ This namespace, which specifies the Zano Ecosystem CAIP Chain ID, is established
 
 ## Syntax
 
-At the time of this document's creation, the Zano Ecosystem does not provide the ability to create any L2 or internal chains. Therefore, only one blockchain exists within the Zano Ecosystem. 
+At the time of this document's creation, the Zano Ecosystem does not provide the ability to create any L2 or internal chains. Therefore, only two blockchains exist within the Zano Ecosystem - Zano Mainnet and Zano Testnet. 
 
 For `mainnet` and `testnet` respectively they Chain IDs are declared as the following strings:
 
