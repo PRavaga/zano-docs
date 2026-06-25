@@ -18,6 +18,3 @@ This namespace is established to provide a formal implementation of the CAIP sta
 
 ## References
 [CAIP Website](https://standards.chainagnostic.org/): Chain Agnostic Standards List.
-
-## Copyright
-Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).

@@ -36,7 +36,3 @@ zano:testnet
 - [CAIP-2](https://standards.chainagnostic.org/CAIPs/caip-2): CAIP Blockchain ID Specification.
 
 [CAIP-2]: https://standards.chainagnostic.org/CAIPs/caip-2
-
-## Rights
-
-Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).

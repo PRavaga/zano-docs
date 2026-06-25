@@ -169,7 +169,3 @@ Verifiers MUST treat the message as valid only when `status` reports success. Fo
 - [CAIP-122](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-122.md): Sign in With X Specification
 - [Zano Documentation](https://docs.zano.org/docs/build/rpc-api): Zano RPC API Reference
 - [Zano Repository](https://github.com/hyle-team/zano): Zano Repository
-
-## Rights
-
-Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).

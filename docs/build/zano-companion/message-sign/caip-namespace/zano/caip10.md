@@ -42,7 +42,3 @@ account_address: (Zx|aZx)[1-9A-HJ-NP-Za-km-z]{95}
 - [CAIP-10](https://standards.chainagnostic.org/CAIPs/caip-10): CAIP Account ID Specification.
 
 [CAIP-10]: https://standards.chainagnostic.org/CAIPs/caip-10
-
-## Rights
-
-Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
