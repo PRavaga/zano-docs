@@ -1,6 +1,6 @@
 ---
 namespace-identifier: zano-caip10
-title: Zano Ecosystem - Account ID Specification
+title: Account ID
 author: Zano Team
 status: Draft
 type: Standard

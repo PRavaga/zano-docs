@@ -1,6 +1,6 @@
 ---
 namespace-identifier: zano
-title: Zano Ecosystem - Root Namespace
+title: Root Namespace
 author: Zano Team
 status: Draft
 type: Informational

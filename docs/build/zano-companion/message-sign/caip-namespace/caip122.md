@@ -1,6 +1,6 @@
 ---
 namespace-identifier: zano-caip122
-title: Zano Ecosystem - SIWx
+title: SIWx
 author: Zano Team
 status: Draft
 type: Standard

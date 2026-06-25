@@ -1,6 +1,6 @@
 ---
 namespace-identifier: zano-caip2
-title: Zano Ecosystem - Blockchain ID Specification
+title: Blockchain ID
 author: Zano Team
 status: Draft
 type: Standard
