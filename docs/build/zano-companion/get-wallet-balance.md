@@ -2,21 +2,26 @@
 
 Gets balance of current wallet
 
-In your web app, call extension Get Wallet Balance method, while extension is on.
+In your web app, call extension Get Wallet Balance method, while extension is on. You need to have "Balance" permissions granted for this wallet for current website to run this method successfully.
+
+Use `zano_web3` lib SDK to make a request.
 
 ### Request
 
 ```jsx
-window.zano.request('GET_WALLET_BALANCE');
+import { ZanoWallet } from 'zano_web3/web';
+
+const zanoWallet = new ZanoWallet();
+
+const response = await zanoWallet.getWalletBalance({ timeoutMs: 60_000 });
 ```
 
 ### Response
 
 ```json
 {
-    "id": 0,
-    "jsonrpc": "2.0",
-    "result": {
+    "success": true,
+    "data": {
         "balance": 10000000000,
         "balances": [{
             "asset_info": {

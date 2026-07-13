@@ -2,18 +2,25 @@
 
 Gets common info of this wallet
 
-In your web app, call extension Get Wallet Data method, while extension is on.
+In your web app, call extension Get Wallet Data method, while extension is on. The response won't be complete if some permissions are not granted.
+
+Use `zano_web3` lib SDK to make a request.
 
 ### Request
 
 ```jsx
-window.zano.request('GET_WALLET_DATA');
+import { ZanoWallet } from 'zano_web3/web';
+
+const zanoWallet = new ZanoWallet();
+
+const response = await zanoWallet.getWallet({ timeoutMs: 60_000 });
 ```
 
 ### Response
 
 ```json
 {
+    "success": true,
     "data": {
         "address": "",
         "alias": "",

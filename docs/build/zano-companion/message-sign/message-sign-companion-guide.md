@@ -8,24 +8,36 @@ Usage of Zano Extension message sign.
 
 1.  In your web app, call extension sign method, while extension is on.
 
+Use `zano_web3` lib SDK to make a request.
+
 ### Request
 
 ```jsx
-window.zano.request('REQUEST_MESSAGE_SIGN', {message}, timeout);
+import { ZanoWallet } from 'zano_web3/web';
+
+const zanoWallet = new ZanoWallet();
+
+const message = "";
+
+const response = await zanoWallet.requestMessageSign(
+	message, 
+	{
+		timeoutMs: 60_000
+	}
+);
 ```
 
 where:
 
 - message - Any message you want to sign (it could be one-time text (nonce) that is used for wallet sign)
-- timeout - Timeout of request in ms (set to null to disable)
+- timeoutMs - Timeout of request in ms (no timeout if not set)
 
 ### Response
 
 ```json
 {
-	"id": 0,
-	"jsonrpc": "2.0",
-	"result": {
+	"success": true,
+	"data": {
 		"pkey": "",
 		"sig": ""
 	}
