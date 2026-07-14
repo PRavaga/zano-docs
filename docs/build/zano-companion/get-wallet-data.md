@@ -24,7 +24,7 @@ const response = await zanoWallet.getWallet({ timeoutMs: 60_000 });
     "data": {
         "address": "",
         "alias": "",
-        "balance": 0,
+        "balance": "0",
         "transactions": [{
             "isConfirmed": true,
             "txHash": "",
@@ -34,7 +34,7 @@ const response = await zanoWallet.getWallet({ timeoutMs: 60_000 });
             "paymentId": "",
             "comment": "",
             "fee": "0.01",
-            "addresses": [""],
+            "isInitiator": true,
             "transfers": [{
                 "amount": "",
                 "assetId": "",
@@ -51,3 +51,4 @@ const response = await zanoWallet.getWallet({ timeoutMs: 60_000 });
         }]
     }
 }
+```

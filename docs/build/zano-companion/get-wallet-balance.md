@@ -28,15 +28,19 @@ const response = await zanoWallet.getWalletBalance({ timeoutMs: 60_000 });
                 "asset_id": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8",
                 "current_supply": 500000000000000000,
                 "decimal_point": 12,
-                "full_name": "Zano wrapped USD",
+                "full_name": "Zano wrapped ABC",
                 "hidden_supply": false,
-                "meta_info": "Stable and private",
+                "meta_info": "{ \"some_arbitrary_field_name\": \"some arbitrary value\"}",
                 "owner": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8",
-                "ticker": "ZUSD",
+                "owner_eth_pub_key": "",
+                "ticker": "ZABC",
                 "total_max_supply": 1000000000000000000
             },
             "awaiting_in": 1000000000000,
             "awaiting_out": 2000000000000,
+            "outs_amount_max": 2000000000000,
+            "outs_amount_min": 2000000000000,
+            "outs_count": 7,
             "total": 100000000000000,
             "unlocked": 50000000000000
         }],
@@ -57,10 +61,14 @@ where:
 - "hidden_supply": This one reserved for future use, will be documented later
 - "meta_info": Any other information assetiaded with asset in a free form
 - "owner": Owner's key, used to validate any operations on the asset altering, could be changed in case of transfer ownership
+- "owner_eth_pub_key": [Optional] Owner's key in the case when ETH signature is used.
 - "ticker": Ticker associated with asset
 - "total_max_supply": Maximum possible supply for given asset, can't be changed after deployment
 - "awaiting_in": Unconfirmed amount for receive
 - "awaiting_out": Unconfirmed amount for send
+- "outs_amount_max": Output's maximum amount
+- "outs_amount_min": Output's minimum amount
+- "outs_count": Number of total unspent outputs (including locked)
 - "total": Total coins available(including locked)
 - "unlocked": Unlocked coins available(the ones that could be used right now)
 - "unlocked_balance": Native coins total unlocked amount
