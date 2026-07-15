@@ -52,3 +52,53 @@ const response = await zanoWallet.getWallet({ timeoutMs: 60_000 });
     }
 }
 ```
+
+<hr />
+
+<b>NOTE</b>: You can opt out of the `zano_web3` SDK and call Zano Companion directly via `window.zano.request`.
+
+### Request
+
+```jsx
+window.zano.request('GET_WALLET_DATA', {}, timeout);
+```
+
+where:
+
+- timeout - Timeout of request in ms (set to null to disable)
+
+### Response
+
+```json
+{
+    "data": {
+        "address": "",
+        "alias": "",
+        "balance": "0",
+        "transactions": [{
+            "isConfirmed": true,
+            "txHash": "",
+            "blobSize": 0,
+            "timestamp": 1700000000,
+            "height": 0,
+            "paymentId": "",
+            "comment": "",
+            "fee": "0.01",
+            "isInitiator": true,
+            "transfers": [{
+                "amount": "",
+                "assetId": "",
+                "incoming": false
+            }]
+        }],
+        "assets": [{
+            "name": "",
+            "ticker": "",
+            "assetId": "",
+            "decimalPoint": 12,
+            "balance": "",
+            "unlockedBalance": ""
+        }]
+    }
+}
+```

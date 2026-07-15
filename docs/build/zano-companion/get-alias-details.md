@@ -41,3 +41,42 @@ where:
 - "address": Address of the alias.
 - "comment": Arbitrary comment (optional).
 - "tracking_key": View secret key of the corresponding address (optional).
+
+<hr />
+
+<b>NOTE</b>: You can opt out of the `zano_web3` SDK and call Zano Companion directly via `window.zano.request`.
+
+### Request
+
+```jsx
+window.zano.request(
+    'GET_ALIAS_DETAILS', 
+    {
+        alias: ""
+    }, 
+    timeout
+);
+```
+
+where:
+
+- alias - alias of the request
+- timeout - Timeout of request in ms (set to null to disable)
+
+### Response
+
+```json
+{
+    "address": "",
+    "comment": "",
+    "tracking_key": ""
+}
+```
+
+where:
+
+- "address": Address of the alias.
+- "comment": Arbitrary comment (optional).
+- "tracking_key": View secret key of the corresponding address (optional).
+
+If the alias is not found, an empty string is returned instead.

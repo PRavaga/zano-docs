@@ -34,3 +34,29 @@ where:
 where:
 
 - permissions - List of permissions granted for current website. Each permission is one of: "general" (common wallet info), "balance" (wallet balance), "history" (wallet transactions history)
+
+<hr />
+
+<b>NOTE</b>: You can opt out of the `zano_web3` SDK and call Zano Companion directly via `window.zano.request`.
+
+### Request
+
+```jsx
+window.zano.request('GET_PERMISSIONS', {}, timeout);
+```
+
+where:
+
+- timeout - Timeout of request in ms (set to null to disable)
+
+### Response
+
+```json
+{
+    "data": ["general", "balance", "history"]
+}
+```
+
+where:
+
+- data - List of permissions granted for current website. Each permission is one of: "general" (common wallet info), "balance" (wallet balance), "history" (wallet transactions history)

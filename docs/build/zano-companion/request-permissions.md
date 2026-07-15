@@ -42,3 +42,41 @@ where:
 where:
 
 - success - Whether the requested permissions were granted
+
+<hr />
+
+<b>NOTE</b>: You can opt out of the `zano_web3` SDK and call Zano Companion directly via `window.zano.request`.
+
+### Request
+
+```jsx
+window.zano.request(
+    'REQUEST_ACCESS', 
+    {
+        permissions: [
+            { type: "general" },
+            { type: "balance" },
+            { type: "history" }
+        ]
+    }, 
+    timeout
+);
+```
+
+where:
+
+- permissions - List of permissions to request
+- type - Type of the permission. One of: "general" (common wallet info), "balance" (wallet balance), "history" (wallet transactions history)
+- timeout - Timeout of request in ms (set to null to disable)
+
+### Response
+
+```json
+{
+    "success": true
+}
+```
+
+where:
+
+- success - Whether the requested permissions were granted

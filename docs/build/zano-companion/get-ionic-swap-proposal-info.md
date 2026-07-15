@@ -52,3 +52,55 @@ where:
 - to_initiator - Assets sent to the initiator
 - amount - Amount of the asset
 - asset_id - ID of the asset
+
+<hr />
+
+<b>NOTE</b>: You can opt out of the `zano_web3` SDK and call Zano Companion directly via `window.zano.request`.
+
+### Request
+
+```jsx
+window.zano.request(
+    'GET_IONIC_SWAP_PROPOSAL_INFO', 
+    {
+        hex_raw_proposal: ""
+    }, 
+    timeout
+);
+```
+
+where:
+
+- hex_raw_proposal - Hex-encoded proposal raw data(encrypted with common shared key). Includes half-created transaction template and some extra information that would be needed counterparty to finalize and sign transaction
+- timeout - Timeout of request in ms (set to null to disable)
+
+### Response
+
+```json
+{
+    "data": {
+        "result": {
+            "proposal": {
+                "fee_paid_by_a": 10000000000,
+                "to_finalizer": [{
+                    "amount": 1000000000000,
+                    "asset_id": "97d91442f8f3c22683585eaa60b53757d49bf046a96269cef45c1bc9ff7300cc"
+                }],
+                "to_initiator": [{
+                    "amount": 10000000000,
+                    "asset_id": "d6329b5b1f7c0805b5c345f4957554002a2f557845f64d7645dae0e051a6498a"
+                }]
+            }
+        }
+    }
+}
+```
+
+where:
+
+- proposal - Proposal details
+- fee_paid_by_a - Fee paid by party A(initiator)
+- to_finalizer - Assets sent to the finalizer
+- to_initiator - Assets sent to the initiator
+- amount - Amount of the asset
+- asset_id - ID of the asset

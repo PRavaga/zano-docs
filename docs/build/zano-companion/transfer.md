@@ -79,3 +79,72 @@ where:
 - tx_size - Transaction size in bytes
 - tx_unsigned_hex - Unsigned transaction hex-encoded blob
 - used_out_ids - IDs of the wallet outputs used in the generated transaction
+
+<hr />
+
+<b>NOTE</b>: You can opt out of the `zano_web3` SDK and call Zano Companion directly via `window.zano.request`.
+
+### Request
+
+Transfer to a single destination:
+
+```jsx
+window.zano.request(
+    'TRANSFER', 
+    {
+        assetId: "d6329b5b1f7c0805b5c345f4957554002a2f557845f64d7645dae0e051a6498a",
+        amount: "10.5",
+        destination: "ZxBvJDuQjMG9R2j4WnYUhBYNrwZPwuyXrC7FHdVmWqaESgowDvgfWtiXeNGu8Px9B24pkmjsA39fzSSiEQG1ekB225ZnrMTBp"
+    }, 
+    timeout
+);
+```
+
+Transfer to multiple destinations:
+
+```jsx
+window.zano.request(
+    'TRANSFER', 
+    {
+        assetId: "d6329b5b1f7c0805b5c345f4957554002a2f557845f64d7645dae0e051a6498a",
+        destinations: [
+            {
+                address: "ZxBvJDuQjMG9R2j4WnYUhBYNrwZPwuyXrC7FHdVmWqaESgowDvgfWtiXeNGu8Px9B24pkmjsA39fzSSiEQG1ekB225ZnrMTBp",
+                amount: 10.5
+            }
+        ]
+    }, 
+    timeout
+);
+```
+
+where:
+
+- assetId - Asset id to transfer
+- amount - Amount to transfer to destination
+- destination - Destination address
+- destinations - List of destinations
+- address - Destination address
+- timeout - Timeout of request in ms (set to null to disable)
+
+### Response
+
+```json
+{
+    "data": {
+        "result": {
+            "tx_hash": "01220e8304d46b940a86e383d55ca5887b34f158a7365bbcdd17c5a305814a93",
+            "tx_size": 1234,
+            "tx_unsigned_hex": "",
+            "used_out_ids": []
+        }
+    }
+}
+```
+
+where:
+
+- tx_hash - Has of the generated transaction(if succeded)
+- tx_size - Transaction size in bytes
+- tx_unsigned_hex - Unsigned transaction hex-encoded blob
+- used_out_ids - IDs of the wallet outputs used in the generated transaction

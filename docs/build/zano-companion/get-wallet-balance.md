@@ -72,3 +72,53 @@ where:
 - "total": Total coins available(including locked)
 - "unlocked": Unlocked coins available(the ones that could be used right now)
 - "unlocked_balance": Native coins total unlocked amount
+
+<hr />
+
+<b>NOTE</b>: You can opt out of the `zano_web3` SDK and call Zano Companion directly via `window.zano.request`.
+
+### Request
+
+```jsx
+window.zano.request('GET_WALLET_BALANCE', {}, timeout);
+```
+
+where:
+
+- timeout - Timeout of request in ms (set to null to disable)
+
+### Response
+
+```json
+{
+    "data": {
+        "result": {
+            "balance": 10000000000,
+            "balances": [{
+                "asset_info": {
+                    "asset_id": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8",
+                    "current_supply": 500000000000000000,
+                    "decimal_point": 12,
+                    "full_name": "Zano wrapped ABC",
+                    "hidden_supply": false,
+                    "meta_info": "{ \"some_arbitrary_field_name\": \"some arbitrary value\"}",
+                    "owner": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8",
+                    "owner_eth_pub_key": "",
+                    "ticker": "ZABC",
+                    "total_max_supply": 1000000000000000000
+                },
+                "awaiting_in": 1000000000000,
+                "awaiting_out": 2000000000000,
+                "outs_amount_max": 2000000000000,
+                "outs_amount_min": 2000000000000,
+                "outs_count": 7,
+                "total": 100000000000000,
+                "unlocked": 50000000000000
+            }],
+            "unlocked_balance": 11000000000
+        }
+    }
+}
+```
+
+Response fields are the same as in the SDK response above.

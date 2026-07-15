@@ -54,3 +54,52 @@ where:
 - owner_eth_pub_key - [Optional] Owner's key in the case when ETH signature is used
 - ticker - Ticker associated with the asset
 - total_max_supply - Maximum possible supply for a given asset, cannot be changed after deployment
+
+<hr />
+
+<b>NOTE</b>: You can opt out of the `zano_web3` SDK and call Zano Companion directly via `window.zano.request`.
+
+### Request
+
+```jsx
+window.zano.request(
+    'ADD_WHITELIST_ASSET', 
+    {
+        asset_id: "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8"
+    }, 
+    timeout
+);
+```
+
+where:
+
+- asset_id - Asset id that needed to be added to local whitelist, asset_id must exist in the network
+- timeout - Timeout of request in ms (set to null to disable)
+
+### Response
+
+```json
+{
+    "data": {
+        "result": {
+            "asset_descriptor": {
+                "current_supply": 500000000000000000,
+                "decimal_point": 12,
+                "full_name": "Zano wrapped ABC",
+                "hidden_supply": false,
+                "meta_info": "{ \"some_arbitrary_field_name\": \"some arbitrary value\"}",
+                "owner": "f74bb56a5b4fa562e679ccaadd697463498a66de4f1760b2cd40f11c3a00a7a8",
+                "owner_eth_pub_key": "",
+                "ticker": "ZABC",
+                "total_max_supply": 1000000000000000000
+            },
+            "status": "OK"
+        }
+    }
+}
+```
+
+where:
+
+- asset_descriptor - Details of the asset, received from node (fields are described in the SDK response above)
+- status - Status of the call

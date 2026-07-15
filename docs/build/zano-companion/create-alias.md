@@ -37,3 +37,40 @@ where:
 where:
 
 - tx_id - If success - transactions that performs registration(alias becomes available after few confirmations)
+
+<hr />
+
+<b>NOTE</b>: You can opt out of the `zano_web3` SDK and call Zano Companion directly via `window.zano.request`.
+
+### Request
+
+```jsx
+window.zano.request(
+    'CREATE_ALIAS', 
+    {
+        alias: ""
+    }, 
+    timeout
+);
+```
+
+where:
+
+- alias - Alias itself, a brief shortcut for an address
+- timeout - Timeout of request in ms (set to null to disable)
+
+### Response
+
+```json
+{
+    "data": {
+        "result": {
+            "tx_id": "97d91442f8f3c22683585eaa60b53757d49bf046a96269cef45c1bc9ff7300cc"
+        }
+    }
+}
+```
+
+where:
+
+- tx_id - If success - transactions that performs registration(alias becomes available after few confirmations)
