@@ -65,7 +65,7 @@ URL: ```http:://127.0.0.1:11211/json_rpc```
 ```
 ### Response description: 
 ```
-    "tx_hash": Has of the generated transaction(if succeded)
+    "tx_hash": Has of the generated transaction (if succeeded)
     "tx_size": Transaction size in bytes
 
 ```

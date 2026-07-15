@@ -75,7 +75,7 @@ where:
 
 where:
 
-- tx_hash - Has of the generated transaction(if succeded)
+- tx_hash - Has of the generated transaction (if succeeded)
 - tx_size - Transaction size in bytes
 - tx_unsigned_hex - Unsigned transaction hex-encoded blob
 - used_out_ids - IDs of the wallet outputs used in the generated transaction
@@ -144,7 +144,7 @@ where:
 
 where:
 
-- tx_hash - Has of the generated transaction(if succeded)
+- tx_hash - Has of the generated transaction (if succeeded)
 - tx_size - Transaction size in bytes
 - tx_unsigned_hex - Unsigned transaction hex-encoded blob
 - used_out_ids - IDs of the wallet outputs used in the generated transaction

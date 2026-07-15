@@ -56,7 +56,7 @@ window.zano.request(
 
 where:
 
-- hex_raw_proposal - Hex-encoded proposal raw data(encrypted with common shared key). Includes half-created transaction template and some extra information that would be needed counterparty to finialize and sign transaction
+- hex_raw_proposal - Hex-encoded proposal raw data(encrypted with common shared key). Includes half-created transaction template and some extra information that would be needed counterparty to finalize and sign transaction
 - timeout - Timeout of request in ms (set to null to disable)
 
 ### Response
