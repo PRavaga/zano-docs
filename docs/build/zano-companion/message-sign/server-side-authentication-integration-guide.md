@@ -24,7 +24,7 @@ Platform: `Node.js >= 18`
 Libraries:
 
 ```text
-zano_web3: ^9.8.0
+zano_web3: ^10.1.0
 ```
 
 The integration uses two `zano_web3` submodules:
