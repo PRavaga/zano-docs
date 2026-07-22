@@ -1,5 +1,10 @@
 # Zano Documentation
 
+> **This repository is archived and no longer maintained.**
+>
+> docs.zano.org is built and deployed from **[hyle-team/zano-docs](https://github.com/hyle-team/zano-docs)**.
+> Open all pull requests and issues there. Changes merged here do not go live.
+
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
